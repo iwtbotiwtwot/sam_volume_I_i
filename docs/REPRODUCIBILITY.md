@@ -1,9 +1,10 @@
 # Reproducing Chapter I
 
 The repository contains the Chapter I manuscript, executable finite-source and
-clock-bound calculations, and retained GEN6 Duck evidence. It provides two
-complementary offline routes: a compact independent reconstruction and a replay
-of the original independent checker against preserved native outputs.
+clock-bound calculations, and retained GEN6 Duck evidence. Its offline checks
+cover placement generation, compact independent reconstruction, the
+second-order diagnostic, and replay of the original independent checker against
+preserved native outputs.
 
 ## Install and run
 
@@ -16,6 +17,8 @@ python3 -m venv .venv
 python -m pip install -e .
 python -m unittest discover -s tests -v
 python scripts/reproduce.py --precision 150 --output build
+python scripts/generate_source.py
+python scripts/second_order.py
 python scripts/verify_native.py --output build/native_verification.json --precision 160
 ```
 
@@ -29,6 +32,8 @@ Duck job.
 |---|---|---|
 | `python -m unittest discover -s tests -v` | Terminal test report | Exercise exact source identities, preparation/calibration distinctions, bound calculations, and deliberate failure cases |
 | `python scripts/reproduce.py --precision 150 --output build` | `build/reproduction.json`, `build/rates.csv` | Reconstruct source and scalar quantities independently; replay conservative rational interval bounds |
+| `python scripts/generate_source.py` | `build/source_generation.json` | Generate B, T and K from placement codes, the original source action table and selected signed connector ledger |
+| `python scripts/second_order.py` | `build/second_order.json` | Check the second-order hard-gap coefficient in all six lanes and fourth-order residual scaling in a separate finite-mode model |
 | `python scripts/verify_native.py --output build/native_verification.json --precision 160` | `build/native_verification.json` | Resolve retained paths, verify evidence hashes, and replay the original independent checker over native outputs |
 
 Run commands from the repository root. The `build/` directory contains generated
@@ -42,12 +47,15 @@ nonzero status; a successful command prints its summary and output location.
 The implementation in [`src/sam_chapter1`](../src/sam_chapter1) consumes the
 compact exact packet [`data/chapter1_certificate.json`](../data/chapter1_certificate.json).
 That packet identifies its retained native sources by SHA-256 and JSON location.
-It receives the same exact source matrices, rational source brackets, radius,
-and hard-branch input enclosures used by the Chapter I calculation.
+It generates the source matrices from the [original placement operands](PLACEMENTS.md)
+and receives the rational source brackets, radius and hard-branch input
+enclosures used by the Chapter I calculation.
 
 The reconstruction has separate arithmetic roles:
 
-1. Exact integer and rational arithmetic checks the finite source, source
+1. Exact integer and rational arithmetic generates the 4 by 78 signed boundary
+   matrix B, contracts T, transports the original signed connector actions,
+   and contracts all three response channels into K. It checks the finite source, source
    moments, calibration denominator, signed lane identities, and retained
    interval relationships.
 2. Conservative rational square-root, exponential, and pi bounds propagate
@@ -68,6 +76,13 @@ The important distinctions are exercised in the code and explained in
 declared hard-field coherent preparation is a different state, the signed
 coupling is negative in every ordered lane, and all phase-action coefficients
 use the same actual rate.
+
+The [second-order test](SECOND_ORDER.md) independently derives the weak-coupling
+hard-gap shift with both polarizations and both counterterms. Its continuum
+coefficient enclosures agree with the retained hard-gap intervals in every
+lane. A separately declared finite-mode model checks fourth-order residual
+scaling as the coupling halves. The generated report keeps these two checks
+distinct from the exact hard preparation and full-field clock certificate.
 
 ### Preserved native-output replay
 

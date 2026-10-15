@@ -52,6 +52,14 @@ class ExactFiniteSourceTests(unittest.TestCase):
             value = matadd(matmul(value, shifted), matscale(identity(4), coefficient))
         self.assertEqual(value, [[F(0)] * 4 for _ in range(4)])
 
+    def test_strength_family_shifted_polynomial_matches_analytic_source(self):
+        for strength in (F(0), F(1, 2), F(1), F(3, 2)):
+            with self.subTest(strength=strength):
+                a, b, h = 8 + 96 * strength, 8 + 32 * strength, 1344 * strength
+                self.assertEqual(shifted_source_polynomial(strength),
+                                 [1, -h, -(a * a + 2 * b * b),
+                                  2 * h * b * b, a * a * b * b])
+
     def test_full_source_signed_commutators(self):
         ops = pair_operators()
         s, d, c = (ops[key] for key in ("Swap", "D", "C"))

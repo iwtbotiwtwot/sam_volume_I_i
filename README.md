@@ -44,6 +44,8 @@ source .venv/bin/activate
 python -m pip install -e .
 python -m unittest discover -s tests -v
 python scripts/reproduce.py
+python scripts/generate_source.py
+python scripts/second_order.py
 python scripts/verify_native.py --output build/native_verification.json --precision 160
 ```
 
@@ -52,11 +54,13 @@ reproduction and evidence checks operate offline and use repository-relative
 paths. Run them from the repository root. The native-evidence command checks
 retained results; it starts no GEN6 worker.
 
-## Three distinct forms of reproduction
+## Reproduction routes
 
 | Route | What runs | Output |
 |---|---|---|
 | Scalar and source reconstruction | Exact rational certificate consequences and a separate high-precision finite-source reconstruction | `build/reproduction.json`, `build/rates.csv` |
+| Placement construction | Single-address Write boundary and signed response construction | `build/source_generation.json`; [inputs and scope](docs/PLACEMENTS.md) |
+| Second-order diagnostic | Hard-gap coefficient in all six lanes and an independent finite-mode convergence test | `build/second_order.json`; [derivation and interpretation](docs/SECOND_ORDER.md) |
 | Original independent verification | Original checker over all bundled native trace inputs/outputs | `build/native_verification.json`; expected 23,804 passing checks, 300 outputs, 134 matrix readouts |
 | Manuscript typesetting | Portable renderer, editable text/TeX equations and bundled fonts | `build/Chapter_I.pdf` |
 
@@ -119,5 +123,8 @@ The source lineage is H002628 (original source/capacity/hard clocks), H002630
 (weighted propagation and six uniform actual clocks), and H002631 (final draft).
 The weighted-form/reference/Duhamel construction is the Codex contribution within
 this collaboration. Citation metadata is in [CITATION.cff](CITATION.cff).
-Third-party font notices apply to `assets/fonts/`; no additional software or
-manuscript license has been selected in this repository.
+Third-party font notices apply to `assets/fonts/`. Software is licensed
+under [MIT](LICENSE); the manuscript, documentation and original research
+material are licensed under [CC BY 4.0](LICENSES/CC-BY-4.0.txt).
+See [licensing and attribution](docs/LICENSING.md) and [author roles](AUTHORS.md)
+for the scope and credit statement.

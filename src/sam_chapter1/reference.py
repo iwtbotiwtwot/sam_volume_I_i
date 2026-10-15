@@ -12,18 +12,19 @@ from itertools import combinations
 import mpmath as mp
 
 from .intervals import rational
+from .placements import chapter_source
 
 
 PAIRS = tuple(combinations(range(4), 2))
-EPSILON = F(1, 573049)
 KAPPA = F(4, 5)
-T = ((84, 8, 8, 0), (8, 84, 0, 0), (8, 0, 84, 8), (0, 0, 8, 84))
-K = ((672, 96, 32, 0), (96, 2016, 0, 0),
-     (32, 0, 672, 32), (0, 0, 32, 672))
+_SOURCE = chapter_source()
+T = _SOURCE.boundary.T
+K = _SOURCE.K
+EPSILON = 1 / (1 + F(T[0][0]) + K[0][0]) ** 2
 
 
 def source_matrix(strength=1):
-    """Inherited signed receiving family Q(g_H)=T+g_H K."""
+    """Placement-generated signed receiving family Q(g_H)=T+g_H K."""
     strength = rational(strength)
     return [[F(T[i][j]) + strength * K[i][j] for j in range(4)] for i in range(4)]
 
@@ -64,7 +65,7 @@ def characteristic_polynomial(matrix):
 
 def shifted_source_polynomial(strength=1):
     q = source_matrix(strength)
-    return characteristic_polynomial(matadd(q, matscale(identity(4), -756)))
+    return characteristic_polynomial(matadd(q, matscale(identity(4), -q[0][0])))
 
 
 def _polytrim(coefficients):

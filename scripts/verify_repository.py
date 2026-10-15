@@ -37,7 +37,7 @@ def verify_assets(root: Path = ROOT, manifest_path: Path | None = None) -> dict:
             raise ValueError(f'Asset content mismatch: {name}')
         total += len(data)
     return {'status': 'PASS', 'files': len(entries), 'bytes': total,
-            'scope': 'Portable chapter, compact exact data, source references and font assets'}
+            'scope': manifest.get('scope', 'Portable assets')}
 
 
 def main() -> int:

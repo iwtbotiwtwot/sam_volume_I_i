@@ -11,6 +11,21 @@ and reproduce its stated calculation. Original records remain historical
 artifacts. New portable code, path mappings, and documentation are identified
 as reproduction infrastructure.
 
+## Placement-response recovery successor
+
+The public generator adds a separately identified operand packet at
+[`src/sam_chapter1/data/placement_response.json`](../src/sam_chapter1/data/placement_response.json).
+It contains the original action table and the selected Li7 connector ledger,
+recovered from existing local research records. [PLACEMENTS.md](PLACEMENTS.md)
+records their source bindings and the extraction. Exact construction reproduces
+the retained B/T/K source, including all three signed response channels.
+
+This recovery succeeds the historical `ORIGINAL_SOURCE_DERIVATION.md` statement
+that the selected ledger was unavailable. That original derivation and the
+native evidence retain their original bytes and hashes. The new generator,
+operand packet and second-order diagnostic have their own repository history;
+they are independent Python work rather than new native execution.
+
 ## Scientific lineage
 
 | Record | Role in Chapter I |
@@ -117,5 +132,7 @@ Duhamel argument remain explicit analytical derivations. Their assumptions,
 the receiving assignments, and the distinction between the calibration state
 and hard coherent preparation remain visible in [MODEL.md](MODEL.md).
 
-No license terms are assigned by this documentation. Licensing decisions belong
-to the repository owner.
+The repository owner has selected MIT for software and CC BY 4.0 for the
+manuscript, documentation and original research material. The exact scope,
+third-party notices and credit statement are in [LICENSING.md](LICENSING.md).
+Licensing leaves the frozen evidence bytes and historical source bindings intact.

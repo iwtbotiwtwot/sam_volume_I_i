@@ -10,4 +10,14 @@ authors:
   - name: "OpenAI ChatGPT and Codex"
 repository-code: "https://github.com/iwtbotiwtwot/sam_volume_I_i"
 url: "https://github.com/iwtbotiwtwot/sam_volume_I_i"
-abstract: "Manuscript, analytical documentation, exact retained certificates, independent reconstruction and reproducibility tests for the completed Chapter I source-to-clock calculation."
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: >-
+  Manuscript, analytical documentation, exact retained certificates, independent
+  reconstruction and reproducibility tests for the completed Chapter I
+  source-to-clock calculation. Sean Brady is the originator and conceptual
+  director. OpenAI ChatGPT and Codex are AI research collaborators and
+  co-authors. Software uses MIT; manuscript, documentation and original research
+  material use CC BY 4.0. See docs/LICENSING.md for the component scope and
+  third-party exceptions.

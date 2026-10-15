@@ -67,10 +67,13 @@ K=\begin{pmatrix}
 
 The retained signed response uses
 \(d(s)=\sum_eJ_e(c_u-c_v)\sigma_\chi e_{\rm axis}\) and
-\(K=\sum_{\rm axis}D_{\rm axis}TD_{\rm axis}\). The completed source
-supplies \(K\); the exact selected response ledger is not reconstructed by
-the public scalar code. Its provenance is preserved with the original source
-records.
+\(K=\sum_{\rm axis}D_{\rm axis}TD_{\rm axis}\). The public
+[placement generator](PLACEMENTS.md) reconstructs both matrices from the
+placement codes and the bundled original action table and selected connector
+ledger. The signed response rows are `(2,0,-2)`, `(2,2,-4)`, `(2,2,0)`, and
+`(0,2,2)`. The selected ledger was recovered from a retained local source
+snapshot; its extraction hashes and original species roles travel with the
+new operand packet. The historical source derivations remain unchanged.
 
 The source family is \(Q(g_H)=T+g_HK\). Put
 \(x=q-(84+672g_H)\), \(a=8+96g_H\), \(b=8+32g_H\), and

@@ -21,6 +21,7 @@ import mpmath as mp
 from sam_chapter1.certificates import (CertificateError, replay_certificate,
                                        sha256, verify_packet_bindings)
 from sam_chapter1.intervals import Interval
+from sam_chapter1.placements import chapter_source
 from sam_chapter1.reference import (EPSILON, Gaussian, PAIRS,
                                     mp_number, phase_action_coefficients,
                                     placement_calibration, shifted_source_polynomial,
@@ -109,17 +110,26 @@ def main(argv=None):
         rational = replay_certificate(packet)
         numerical = numerical_reconstruction(packet, args.precision)
         calibration = placement_calibration()
+        generated = chapter_source()
         report = {
             "schema": "SAM_CHAPTER1_PORTABLE_REPRODUCTION_V1", "status": "PASS",
             "input_sha256": sha256(args.inputs), "source_bindings": packet["source_bindings"],
             "scope": packet["scope"],
             "provenance": {
                 "native_certified_inputs": "Unchanged retained exact source roots and hard-branch/preparation bounds in evidence/native; source hashes and JSON pointers are checked before calculation.",
-                "exact_independent_replay": "Finite source algebra, Sturm root isolation and rational interval propagation of conditional scalar consequences.",
+                "exact_independent_replay": "Placement-code boundary, original signed-response ledger, generated B/T/K, finite source algebra, Sturm root isolation and rational interval propagation of conditional scalar consequences.",
                 "numerical_independent_reconstruction": "150-digit by default; eigensystem, weights, energy moments and Duhamel representatives.",
                 "excluded": "No continuum simulation, hard eigenbranch solver, new GEN6 job, SI time assignment, physical coupling fit or arbitrary sixteen-state clock certificate."},
             "bindings": bindings,
             "exact_source": {
+                "ordered_placement_codes": list(generated.boundary.codes),
+                "decoded_paths": generated.boundary.paths,
+                "boundary_target_codes": generated.boundary.target_codes,
+                "B": generated.boundary.B,
+                "T": generated.boundary.T,
+                "signed_responses": [[str(value) for value in row] for row in generated.responses],
+                "K": [[str(value) for value in row] for row in generated.K],
+                "placement_response_packet_sha256": sha256(ROOT / "src/sam_chapter1/data/placement_response.json"),
                 "Q": [[str(value) for value in row] for row in source_matrix()],
                 "shifted_characteristic_polynomial_descending": [str(value) for value in shifted_source_polynomial()],
                 "epsilon": str(EPSILON), "Delta": str(2 * EPSILON),

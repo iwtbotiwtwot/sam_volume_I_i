@@ -1,7 +1,7 @@
 {
   "schema": "SAM_CHAPTER_I_PORTABLE_ASSETS_V1",
   "date": "2026-10-15",
-  "scope": "Chapter I reviewed manuscript, source-bound compact packet, original mathematical sources, fonts and retained evidence inventory",
+  "scope": "Chapter I reviewed manuscript, source-bound input packets, original mathematical sources, license notices, construction documentation, fonts and retained evidence inventory",
   "files": [
     {
       "path": "manuscript/Chapter_I.pdf",
@@ -164,6 +164,48 @@
       "bytes": 312206,
       "sha256": "c7e388a15d91393b5ce440c99ef32aa92ec5507e832ba2692d596860cd4c6b8c",
       "role": "retained_evidence_inventory"
+    },
+    {
+      "path": "src/sam_chapter1/data/placement_response.json",
+      "bytes": 65327,
+      "sha256": "9e44bdc8373f88c5348e81b056265bb7dcb1e191772aa1c44772ea0757e40c67",
+      "role": "recovered_original_placement_response_operand"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "3b3b0b0088e5e3176bd2228c75d144a04fc0ac33bf7e54bada72c786aab3eea7",
+      "role": "license_or_attribution"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "role": "license_or_attribution"
+    },
+    {
+      "path": "AUTHORS.md",
+      "bytes": 606,
+      "sha256": "b1f41aeae0bce1c7bc03baf734018597fdbeb6b5b55ae422980cbb91daccd796",
+      "role": "license_or_attribution"
+    },
+    {
+      "path": "docs/LICENSING.md",
+      "bytes": 3313,
+      "sha256": "abba74aa08ffcfce937f43de64e286644b4c7fbb2d259e28cbcc1444e53645d8",
+      "role": "license_or_attribution"
+    },
+    {
+      "path": "docs/PLACEMENTS.md",
+      "bytes": 7193,
+      "sha256": "d8393a54361a4fefa6b7b7cf755a619c6d80072dfa3304cdaccbd88987950050",
+      "role": "source_reconstruction_documentation"
+    },
+    {
+      "path": "docs/SECOND_ORDER.md",
+      "bytes": 5170,
+      "sha256": "9df821b98ff41c8318c6a5135908b9eecf12fe1912df734366762c4550b36bf3",
+      "role": "second_order_derivation_and_validation"
     }
   ]
 }

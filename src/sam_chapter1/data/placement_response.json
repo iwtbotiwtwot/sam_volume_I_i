@@ -1,0 +1,2802 @@
+{
+  "ledger": {
+    "N": 4,
+    "Z": 3,
+    "cycles": [
+      {
+        "edge": 0,
+        "forward": 0,
+        "origin": "A2H3_CYCLE_000",
+        "reverse": 2,
+        "source_event_ids": [
+          "A2H3_CYCLE_000_PRIMARY",
+          "A2H3_CYCLE_000_RECIPROCAL"
+        ],
+        "u": 0,
+        "v": 1
+      },
+      {
+        "edge": 8,
+        "forward": 12,
+        "origin": "A2H3_CYCLE_001",
+        "reverse": 14,
+        "source_event_ids": [
+          "A2H3_CYCLE_001_PRIMARY",
+          "A2H3_CYCLE_001_RECIPROCAL"
+        ],
+        "u": 1,
+        "v": 2
+      },
+      {
+        "edge": 218,
+        "forward": 23,
+        "origin": "371774c459e41d000e77db5e18715caa6a5e9b2b5fa1b12239fbab48c910b280",
+        "parent_terminal": "A2H3_CYCLE_001_RECIPROCAL",
+        "reverse": 21,
+        "u": 2,
+        "v": 3
+      },
+      {
+        "edge": 239,
+        "forward": 25,
+        "origin": "55b67dfd1aef629df962cbf61bd50195b5598cd05227f9fff541c4f32bf1832b",
+        "parent_terminal": "371774c459e41d000e77db5e18715caa6a5e9b2b5fa1b12239fbab48c910b280:reciprocal",
+        "reverse": 27,
+        "u": 3,
+        "v": 4
+      },
+      {
+        "edge": 255,
+        "forward": 38,
+        "origin": "a1e51791bc4a77fde25b95935f94412a5a4f2d084227c0cb87998f9552f74a17",
+        "parent_terminal": "55b67dfd1aef629df962cbf61bd50195b5598cd05227f9fff541c4f32bf1832b:reciprocal",
+        "reverse": 36,
+        "u": 4,
+        "v": 5
+      },
+      {
+        "edge": 173,
+        "forward": 32,
+        "origin": "81810bb2c1a7224b6b4ad722445e1c37a35490334cd2d681900db9710ee725de",
+        "parent_terminal": "a1e51791bc4a77fde25b95935f94412a5a4f2d084227c0cb87998f9552f74a17:reciprocal",
+        "reverse": 34,
+        "u": 5,
+        "v": 6
+      }
+    ],
+    "electrons": 3,
+    "objects": [
+      {
+        "kind": "proton",
+        "role": 0,
+        "site": 0
+      },
+      {
+        "kind": "neutron",
+        "role": 1,
+        "site": 1
+      },
+      {
+        "kind": "neutron",
+        "role": 61,
+        "site": 3
+      },
+      {
+        "kind": "neutron",
+        "role": 75,
+        "site": 2
+      },
+      {
+        "kind": "proton",
+        "role": 91,
+        "site": 6
+      },
+      {
+        "kind": "neutron",
+        "role": 90,
+        "site": 4
+      },
+      {
+        "kind": "proton",
+        "role": 45,
+        "site": 5
+      }
+    ],
+    "parent": "b447702960d1e4bfde865c2adaca9ece2efb2753194be40787ed3a18364e4b9b",
+    "schema": "SAM_GENERATED_SOURCE_LEDGER_V1",
+    "seed_source": {
+      "path": "ATOM3D/campaigns/ATOM3D_A2_HYDROGEN_LADDER/stages/A2H3_A2HE3/release/H3_ATOMIC_LEDGER.json",
+      "sha256": "0a8c402a99b4ed4412c075f875db72ba197c667b6fd9a0b40152402360e1fe7d"
+    },
+    "terminal": "81810bb2c1a7224b6b4ad722445e1c37a35490334cd2d681900db9710ee725de:reciprocal"
+  },
+  "provenance": {
+    "extraction": "Source action table copied as parsed JSON, selected ledger copied verbatim as parsed JSON from the retained local shared-source record. No response vector or K entry supplied or fitted.",
+    "retained_snapshot": {
+      "path": "GEN4/gen6_duck_research_modes1/source_inputs/WEB_EXPORT.json",
+      "record_body_sha256": "fe9fc9262f003b47df1d372842d8ebf4be660a13c9d1ebf2f669a8ca6d0e07bc",
+      "record_key": "4bafb8ab550253229973a8acb150f7a7e08a472fe04ef4f26517c7b550731569",
+      "sha256": "eb5d82222d864d50c035646017c36914bd652b1e296e55c0efa1ae6079e9ad9d"
+    },
+    "selected_ledger": {
+      "json_pointer": "/rows/5/source_construction/generated_alternative/construction/instances/0/transported_ledger",
+      "path": "SAM_REVIEW/campaigns/VOLII_PATTERN_SYNTHESIS1/ROSTER.json",
+      "sha256": "fe9fc9262f003b47df1d372842d8ebf4be660a13c9d1ebf2f669a8ca6d0e07bc",
+      "template_id": "00828cbc571003430a27ec44758e76bb6c3bb02344a73dec72a0a783a2da567f"
+    },
+    "source_action_table": {
+      "json_pointer": "",
+      "path": "SAM_REVIEW/campaigns/GEN3_TEMPLATE_GENERATOR4/INPUT.json",
+      "sha256": "e0ed4de59c5ba930cf379fa63cb61d0ec4cf094b7bd8326c0bd8a1b98daf61c9"
+    }
+  },
+  "schema": "SAM_CHAPTER1_ORIGINAL_PLACEMENT_RESPONSE_V1",
+  "selection": {
+    "cell": 0,
+    "instance": 0,
+    "inverse_site_map": [
+      {
+        "kind": "proton",
+        "role": 0,
+        "site": 0
+      },
+      {
+        "kind": "neutron",
+        "role": 1,
+        "site": 4
+      },
+      {
+        "kind": "neutron",
+        "role": 61,
+        "site": 6
+      },
+      {
+        "kind": "neutron",
+        "role": 75,
+        "site": 2
+      },
+      {
+        "kind": "proton",
+        "role": 91,
+        "site": 3
+      },
+      {
+        "kind": "neutron",
+        "role": 90,
+        "site": 7
+      },
+      {
+        "kind": "proton",
+        "role": 45,
+        "site": 5
+      }
+    ],
+    "placement": [
+      0,
+      1,
+      3,
+      2,
+      6,
+      4,
+      5
+    ],
+    "rho": 1,
+    "side": 0,
+    "source_anchor": "58518aec584a81ceabe7d739db35751623dc03a261b64b7a4487e6e4998040b9",
+    "source_root": "aefde149983e8dc113ffb6a3a6b9c3d053aaaf32d0469d039adb7669ea60b6c8",
+    "source_terminal": "81810bb2c1a7224b6b4ad722445e1c37a35490334cd2d681900db9710ee725de:reciprocal",
+    "template_id": "00828cbc571003430a27ec44758e76bb6c3bb02344a73dec72a0a783a2da567f"
+  },
+  "source": {
+    "actions": [
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "X-",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 1,
+        "source_site": 0,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 2,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 1
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Y-",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 1,
+        "source_site": 0,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 0,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 1
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "X-",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 2,
+        "source_site": 1,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 1,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 0
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Y-",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 0,
+        "source_site": 1,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 1,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 0
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "X-",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 1,
+        "source_site": 0,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 0,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 2
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Z-",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 1,
+        "source_site": 0,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 2,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 2
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "X-",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 0,
+        "source_site": 2,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 1,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 0
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Z-",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 2,
+        "source_site": 2,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 1,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 0
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Y-",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 1,
+        "source_site": 0,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 2,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 4
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Z-",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 1,
+        "source_site": 0,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 0,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 4
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Y-",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 2,
+        "source_site": 4,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 1,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 0
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Z-",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 0,
+        "source_site": 4,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 1,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 0
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "X-",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 2,
+        "source_site": 1,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 3,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 3
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Z+",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 2,
+        "source_site": 1,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 1,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 3
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "X-",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 3,
+        "source_site": 3,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 2,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 1
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Z+",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 1,
+        "source_site": 3,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 2,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 1
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Y-",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 0,
+        "source_site": 1,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 3,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 5
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Z+",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 2,
+        "source_site": 1,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 3,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 5
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Y-",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 3,
+        "source_site": 5,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 0,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 1
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Z+",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 3,
+        "source_site": 5,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 2,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 1
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "X-",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 0,
+        "source_site": 2,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 3,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 3
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Y+",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 2,
+        "source_site": 2,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 3,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 3
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "X-",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 3,
+        "source_site": 3,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 0,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 2
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Y+",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 3,
+        "source_site": 3,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 2,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 2
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Y+",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 2,
+        "source_site": 2,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 1,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 6
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Z-",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 2,
+        "source_site": 2,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 3,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 6
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Y+",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 1,
+        "source_site": 6,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 2,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 2
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Z-",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 3,
+        "source_site": 6,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 2,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 2
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Y+",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 3,
+        "source_site": 3,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 0,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 7
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Z+",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 1,
+        "source_site": 3,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 0,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 7
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Y+",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 0,
+        "source_site": 7,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 3,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 3
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Z+",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 0,
+        "source_site": 7,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 1,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 3
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "X+",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 2,
+        "source_site": 4,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 1,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 5
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Y-",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 2,
+        "source_site": 4,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 3,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 5
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "X+",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 1,
+        "source_site": 5,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 2,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 4
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Y-",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 3,
+        "source_site": 5,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 2,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 4
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "X+",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 2,
+        "source_site": 4,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 3,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 6
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Z-",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 0,
+        "source_site": 4,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 3,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 6
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "X+",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 3,
+        "source_site": 6,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 2,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 4
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Z-",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 3,
+        "source_site": 6,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 0,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 4
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "X+",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 1,
+        "source_site": 5,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 0,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 7
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Z+",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 3,
+        "source_site": 5,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 0,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 7
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "X+",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 0,
+        "source_site": 7,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 1,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 5
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Z+",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 0,
+        "source_site": 7,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 3,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 5
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "X+",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 3,
+        "source_site": 6,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 0,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 7
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "Y+",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 1,
+        "source_site": 6,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 0,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 7
+      },
+      {
+        "action": "REVERSE",
+        "local_displacement": -1,
+        "octahedral_vertex": "X+",
+        "q_out_rule": "q_in-1 mod 4",
+        "sigma_chi": 1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 0,
+        "source_site": 7,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 3,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 6
+      },
+      {
+        "action": "FORWARD",
+        "local_displacement": 1,
+        "octahedral_vertex": "Y+",
+        "q_out_rule": "q_in+1 mod 4",
+        "sigma_chi": -1,
+        "source_endpoint": "Q_minus",
+        "source_frame_q": 0,
+        "source_site": 7,
+        "target_endpoint": "Q_plus",
+        "target_frame_q": 1,
+        "target_local_x1": "PLUS_PROJECTION",
+        "target_site": 6
+      }
+    ],
+    "edges": [
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 0,
+        "v": 1
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 0,
+        "v": 2
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 0,
+        "v": 21
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 0,
+        "v": 60
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 0,
+        "v": 61
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 1,
+        "v": 2
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 1,
+        "v": 22
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 1,
+        "v": 60
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 1,
+        "v": 61
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 2,
+        "v": 23
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 2,
+        "v": 60
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 2,
+        "v": 61
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 3,
+        "v": 4
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 3,
+        "v": 5
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 3,
+        "v": 24
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 3,
+        "v": 62
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 3,
+        "v": 63
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 4,
+        "v": 5
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 4,
+        "v": 25
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 4,
+        "v": 62
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 4,
+        "v": 63
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 5,
+        "v": 26
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 5,
+        "v": 62
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 5,
+        "v": 63
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 6,
+        "v": 7
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 6,
+        "v": 8
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 6,
+        "v": 27
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 6,
+        "v": 64
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 6,
+        "v": 65
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 7,
+        "v": 8
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 7,
+        "v": 28
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 7,
+        "v": 64
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 7,
+        "v": 65
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 8,
+        "v": 29
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 8,
+        "v": 64
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 8,
+        "v": 65
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 9,
+        "v": 10
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 9,
+        "v": 11
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 9,
+        "v": 30
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 9,
+        "v": 66
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 9,
+        "v": 67
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 10,
+        "v": 11
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 10,
+        "v": 31
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 10,
+        "v": 66
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 10,
+        "v": 67
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 11,
+        "v": 32
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 11,
+        "v": 66
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 11,
+        "v": 67
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 12,
+        "v": 13
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 12,
+        "v": 14
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 12,
+        "v": 33
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 12,
+        "v": 68
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 12,
+        "v": 69
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 13,
+        "v": 14
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 13,
+        "v": 34
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 13,
+        "v": 68
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 13,
+        "v": 69
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 14,
+        "v": 35
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 14,
+        "v": 68
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 14,
+        "v": 69
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 15,
+        "v": 16
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 15,
+        "v": 17
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 15,
+        "v": 36
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 15,
+        "v": 70
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 15,
+        "v": 71
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 16,
+        "v": 17
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 16,
+        "v": 37
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 16,
+        "v": 70
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 16,
+        "v": 71
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 17,
+        "v": 38
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 17,
+        "v": 70
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 17,
+        "v": 71
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 18,
+        "v": 19
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 18,
+        "v": 20
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 18,
+        "v": 42
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 18,
+        "v": 72
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 18,
+        "v": 73
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 19,
+        "v": 20
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 19,
+        "v": 43
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 19,
+        "v": 72
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 19,
+        "v": 73
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 20,
+        "v": 44
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 20,
+        "v": 72
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 20,
+        "v": 73
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 21,
+        "v": 22
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 21,
+        "v": 23
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 21,
+        "v": 45
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 21,
+        "v": 74
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 21,
+        "v": 75
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 22,
+        "v": 23
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 22,
+        "v": 46
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 22,
+        "v": 74
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 22,
+        "v": 75
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 23,
+        "v": 47
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 23,
+        "v": 74
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 23,
+        "v": 75
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 24,
+        "v": 25
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 24,
+        "v": 26
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 24,
+        "v": 48
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 24,
+        "v": 76
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 24,
+        "v": 77
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 25,
+        "v": 26
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 25,
+        "v": 49
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 25,
+        "v": 76
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 25,
+        "v": 77
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 26,
+        "v": 50
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 26,
+        "v": 76
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 26,
+        "v": 77
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 27,
+        "v": 28
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 27,
+        "v": 29
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 27,
+        "v": 51
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 27,
+        "v": 78
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 27,
+        "v": 79
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 28,
+        "v": 29
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 28,
+        "v": 52
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 28,
+        "v": 78
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 28,
+        "v": 79
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 29,
+        "v": 53
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 29,
+        "v": 78
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 29,
+        "v": 79
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 30,
+        "v": 31
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 30,
+        "v": 32
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 30,
+        "v": 54
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 30,
+        "v": 80
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 30,
+        "v": 81
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 31,
+        "v": 32
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 31,
+        "v": 55
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 31,
+        "v": 80
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 31,
+        "v": 81
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 32,
+        "v": 56
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 32,
+        "v": 80
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 32,
+        "v": 81
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 33,
+        "v": 34
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 33,
+        "v": 35
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 33,
+        "v": 57
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 33,
+        "v": 82
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 33,
+        "v": 83
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 34,
+        "v": 35
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 34,
+        "v": 58
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 34,
+        "v": 82
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 34,
+        "v": 83
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 35,
+        "v": 59
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 35,
+        "v": 82
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 35,
+        "v": 83
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 36,
+        "v": 37
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 36,
+        "v": 38
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 36,
+        "v": 84
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 36,
+        "v": 85
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 37,
+        "v": 38
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 37,
+        "v": 84
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 37,
+        "v": 85
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 38,
+        "v": 84
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 38,
+        "v": 85
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 39,
+        "v": 40
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 39,
+        "v": 41
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 39,
+        "v": 86
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 39,
+        "v": 87
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 40,
+        "v": 41
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 40,
+        "v": 86
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 40,
+        "v": 87
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 41,
+        "v": 86
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 41,
+        "v": 87
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 42,
+        "v": 43
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 42,
+        "v": 44
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 42,
+        "v": 88
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 42,
+        "v": 89
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 43,
+        "v": 44
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 43,
+        "v": 88
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 43,
+        "v": 89
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 44,
+        "v": 88
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 44,
+        "v": 89
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 45,
+        "v": 46
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 45,
+        "v": 47
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 45,
+        "v": 90
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 45,
+        "v": 91
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 46,
+        "v": 47
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 46,
+        "v": 90
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 46,
+        "v": 91
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 47,
+        "v": 90
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 47,
+        "v": 91
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 48,
+        "v": 49
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 48,
+        "v": 50
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 48,
+        "v": 92
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 48,
+        "v": 93
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 49,
+        "v": 50
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 49,
+        "v": 92
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 49,
+        "v": 93
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 50,
+        "v": 92
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 50,
+        "v": 93
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 51,
+        "v": 52
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 51,
+        "v": 53
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 51,
+        "v": 94
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 51,
+        "v": 95
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 52,
+        "v": 53
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 52,
+        "v": 94
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 52,
+        "v": 95
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 53,
+        "v": 94
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 53,
+        "v": 95
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 54,
+        "v": 55
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 54,
+        "v": 56
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 54,
+        "v": 96
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 54,
+        "v": 97
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 55,
+        "v": 56
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 55,
+        "v": 96
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 55,
+        "v": 97
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 56,
+        "v": 96
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 56,
+        "v": 97
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 57,
+        "v": 58
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 57,
+        "v": 59
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 57,
+        "v": 98
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 57,
+        "v": 99
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 58,
+        "v": 59
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 58,
+        "v": 98
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 58,
+        "v": 99
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 59,
+        "v": 98
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 59,
+        "v": 99
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 60,
+        "v": 61
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 60,
+        "v": 74
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 61,
+        "v": 75
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 62,
+        "v": 63
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 62,
+        "v": 76
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 63,
+        "v": 77
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 64,
+        "v": 65
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 64,
+        "v": 78
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 65,
+        "v": 79
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 66,
+        "v": 67
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 66,
+        "v": 80
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 67,
+        "v": 81
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 68,
+        "v": 69
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 68,
+        "v": 82
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 69,
+        "v": 83
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 70,
+        "v": 71
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 70,
+        "v": 84
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 71,
+        "v": 85
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 72,
+        "v": 73
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 72,
+        "v": 88
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 73,
+        "v": 89
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 74,
+        "v": 75
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 74,
+        "v": 90
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 75,
+        "v": 91
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 76,
+        "v": 77
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 76,
+        "v": 92
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 77,
+        "v": 93
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 78,
+        "v": 79
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 78,
+        "v": 94
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 79,
+        "v": 95
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 80,
+        "v": 81
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 80,
+        "v": 96
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 81,
+        "v": 97
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 82,
+        "v": 83
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 82,
+        "v": 98
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "SAME_ROLE_ADJACENT_DEPTH",
+        "u": 83,
+        "v": 99
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 84,
+        "v": 85
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 86,
+        "v": 87
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 88,
+        "v": 89
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 90,
+        "v": 91
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 92,
+        "v": 93
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 94,
+        "v": 95
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 96,
+        "v": 97
+      },
+      {
+        "J": 1,
+        "observable_tags": [],
+        "relation": "ADDRESS_PACKET_2SECTION",
+        "u": 98,
+        "v": 99
+      }
+    ],
+    "seeds": [
+      {
+        "N": 2,
+        "Z": 1,
+        "cycles": [
+          {
+            "edge": 0,
+            "forward": 8,
+            "origin": "A2H3_CYCLE_000",
+            "reverse": 10,
+            "source_event_ids": [
+              "A2H3_CYCLE_000_PRIMARY",
+              "A2H3_CYCLE_000_RECIPROCAL"
+            ],
+            "u": 0,
+            "v": 1
+          },
+          {
+            "edge": 8,
+            "forward": 36,
+            "origin": "A2H3_CYCLE_001",
+            "reverse": 38,
+            "source_event_ids": [
+              "A2H3_CYCLE_001_PRIMARY",
+              "A2H3_CYCLE_001_RECIPROCAL"
+            ],
+            "u": 1,
+            "v": 2
+          }
+        ],
+        "electrons": 1,
+        "id": "d189f9a7deb7afd7d5f4217898255d8b9c4eb8c76b89424a29bfdb747ed9e57c",
+        "objects": [
+          {
+            "kind": "proton",
+            "role": 0,
+            "site": 0
+          },
+          {
+            "kind": "neutron",
+            "role": 1,
+            "site": 4
+          },
+          {
+            "kind": "neutron",
+            "role": 61,
+            "site": 6
+          }
+        ],
+        "parent": null,
+        "schema": "SAM_GENERATED_SOURCE_LEDGER_V1",
+        "seed_source": {
+          "path": "ATOM3D/campaigns/ATOM3D_A2_HYDROGEN_LADDER/stages/A2H3_A2HE3/release/H3_ATOMIC_LEDGER.json",
+          "sha256": "0a8c402a99b4ed4412c075f875db72ba197c667b6fd9a0b40152402360e1fe7d"
+        },
+        "terminal": "A2H3_CYCLE_001_RECIPROCAL"
+      },
+      {
+        "N": 1,
+        "Z": 2,
+        "cycles": [
+          {
+            "edge": 0,
+            "forward": 38,
+            "origin": "A2HE3_CYCLE_000",
+            "reverse": 36,
+            "source_event_ids": [
+              "A2HE3_CYCLE_000_PRIMARY",
+              "A2HE3_CYCLE_000_RECIPROCAL"
+            ],
+            "u": 2,
+            "v": 1
+          },
+          {
+            "edge": 3,
+            "forward": 10,
+            "origin": "A2HE3_CYCLE_001",
+            "reverse": 8,
+            "source_event_ids": [
+              "A2HE3_CYCLE_001_PRIMARY",
+              "A2HE3_CYCLE_001_RECIPROCAL"
+            ],
+            "u": 1,
+            "v": 0
+          }
+        ],
+        "electrons": 2,
+        "id": "26f83619213352386d55d0d8237dc573f900987874dc38a5aecf89c091683647",
+        "objects": [
+          {
+            "kind": "proton",
+            "role": 60,
+            "site": 0
+          },
+          {
+            "kind": "proton",
+            "role": 0,
+            "site": 4
+          },
+          {
+            "kind": "neutron",
+            "role": 1,
+            "site": 6
+          }
+        ],
+        "parent": null,
+        "schema": "SAM_GENERATED_SOURCE_LEDGER_V1",
+        "seed_source": {
+          "path": "ATOM3D/campaigns/ATOM3D_A2_HYDROGEN_LADDER/stages/A2H3_A2HE3/release/HE3_ATOMIC_LEDGER.json",
+          "sha256": "6161fee2ccd6f5fd0e86a714c0374c721df42aaaf1776ba34ed3b84c750e31ed"
+        },
+        "terminal": "A2HE3_CYCLE_001_RECIPROCAL"
+      }
+    ]
+  }
+}

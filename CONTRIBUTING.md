@@ -1,5 +1,14 @@
 # Contributing
 
+Sean Brady is the originator and conceptual director. OpenAI ChatGPT and Codex
+are AI research collaborators and co-authors.
+
+Original software contributions use MIT; original manuscript, documentation and
+research-material contributions use CC BY 4.0. See [the license scope](docs/LICENSING.md).
+Keep third-party notices and identify any separately licensed contribution.
+Use the authorship wording in [AUTHORS.md](AUTHORS.md), and preserve the
+distinction between collaboration credit and copyright ownership.
+
 Keep original rules, receiving assignments, mathematical deductions, native
 certification and independent verification identifiable in each change.
 

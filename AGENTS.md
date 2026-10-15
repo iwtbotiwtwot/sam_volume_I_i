@@ -14,7 +14,9 @@ Chapter I. Work in the requested scope and preserve existing user changes.
 - Run the scientific tests, reproduction, evidence checker and manifests for
   relevant changes. Rebuild and visually check manuscript changes.
 - Do not introduce a replacement Duck runtime or unrelated scientific campaign.
-- Do not invent a software/manuscript license, DOI, empirical scale or new result.
+- Preserve the selected MIT software and CC BY 4.0 manuscript, documentation and
+  original research-material licenses in `docs/LICENSING.md`, including the
+  third-party exceptions. Do not invent a DOI, empirical scale or new result.
 
-Sean Brady is the originator and conceptual director; OpenAI ChatGPT and Codex
+Sean Brady is the originator and conceptual director. OpenAI ChatGPT and Codex
 are AI research collaborators and co-authors.
