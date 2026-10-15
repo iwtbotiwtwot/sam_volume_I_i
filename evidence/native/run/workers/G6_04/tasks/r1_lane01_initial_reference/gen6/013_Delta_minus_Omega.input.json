@@ -1,0 +1,81 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0",
+        "1"
+      ],
+      "entries": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "row_basis": [
+        "0"
+      ],
+      "structure": "GENERAL"
+    },
+    "right": {
+      "column_basis": [
+        "0"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "36049271571358241122918552123856938926056316898962895149708445267900617532069211458421815283232503069523243868817461/10328999512347634358623676688012047497318823171316894051322637426162590488067364778518581413120551325743612687890989973504",
+              "upper": "36049271571358241122918552123856938926056316898962895149708445267900617532069211458421815283232503069523243868817469/10328999512347634358623676688012047497318823171316894051322637426162590488067364778518581413120551325743612687890989973504"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "36049271481515904382455985956053454186136934948886776278059316537780804673957392424110860461119499808834841528995941/10328999512347634358623676688012047497318823171316894051322637426162590488067364778518581413120551325743612687890989973504",
+              "upper": "36049271484301579609007915237105431561199789244610549382406263526486803979186976243188602370268847312652913903898725/10328999512347634358623676688012047497318823171316894051322637426162590488067364778518581413120551325743612687890989973504"
+            }
+          }
+        ]
+      ],
+      "row_basis": [
+        "0",
+        "1"
+      ],
+      "structure": "GENERAL"
+    }
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_04/tasks/r1_lane01_initial_reference/gen6/JOB.json",
+      "sha256": "31cb24a89b2c5b4e83d8c8a4801671904b8cd3a5bd721f66d38ed747eb7ffc0c"
+    },
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r1_lane01_initial_reference",
+    "question": "Use actual R1 lane01 source/coupling to receive the signed initial hard-reference clock correlation and the concrete weighted field-form constant",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ]
+  }
+}

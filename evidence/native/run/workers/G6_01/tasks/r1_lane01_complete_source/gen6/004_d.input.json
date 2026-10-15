@@ -1,0 +1,81 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0",
+        "1"
+      ],
+      "entries": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "row_basis": [
+        "0"
+      ],
+      "structure": "GENERAL"
+    },
+    "right": {
+      "column_basis": [
+        "0"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "104813462791502103173526396596994676736659301675535304933233051080293861455284205916465309575010080643950754545431/150306725297525326584926758194517569752043683130132471725266622178061377607334940381676735896625196994043838464",
+              "upper": "13416123237312269206211378764415318622292390614468519031453830538277614266276378357307559625601290322425696581821807/19239260838083241802870625048898248928261591440656956380834127638791856333738872368854622194768025215237611323392"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "3617020399440709629795832531817432516602767994313719227284799097692625181512111428295487749709251730279628647998615/4809815209520810450717656262224562232065397860164239095208531909697964083434718092213655548692006303809402830848",
+              "upper": "14468081597762838519183330127269730066411071977254876909139196390770500726048445713181950998837006921118514592008293/19239260838083241802870625048898248928261591440656956380834127638791856333738872368854622194768025215237611323392"
+            }
+          }
+        ]
+      ],
+      "row_basis": [
+        "0",
+        "1"
+      ],
+      "structure": "GENERAL"
+    }
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_01/tasks/r1_lane01_complete_source/gen6/JOB.json",
+      "sha256": "48ace0909870d506e6d8fc8e69b2efc623a27fa64da4915cece2d21df5b06266"
+    },
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r1_lane01_complete_source",
+    "question": "Receive exact source roots and construct the chapter lane01 Hamiltonian, even energy, signed currents and both counterterms; distinguish placement calibration from the clock preparation",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ]
+  }
+}

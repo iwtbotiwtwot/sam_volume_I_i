@@ -1,0 +1,228 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "13416123237312269206211378764415318622292390614468519031453830538277614266276378357307559625601290322425696581815169/19239260838083241802870625048898248928261591440656956380834127638791856333738872368854622194768025215237611323392",
+              "upper": "6708061618656134603105689382207659311146195307234259515726915269138807133138189178653779812800645161212848290910903/9619630419041620901435312524449124464130795720328478190417063819395928166869436184427311097384012607618805661696"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "14468081597762838519183330127269730066411071977254876909139196390770500726048445713181950998837006921118514591994461/19239260838083241802870625048898248928261591440656956380834127638791856333738872368854622194768025215237611323392",
+              "upper": "3617020399440709629795832531817432516602767994313719227284799097692625181512111428295487749709251730279628648002073/4809815209520810450717656262224562232065397860164239095208531909697964083434718092213655548692006303809402830848"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "15596390494684491075109929935178590273110126009766218676952750977964313618632060884579417340061259684893083265696017/19239260838083241802870625048898248928261591440656956380834127638791856333738872368854622194768025215237611323392",
+              "upper": "1949548811835561384388741241897323784138765751220777334619093872245539202329007610572427167507657460611635408212921/2404907604760405225358828131112281116032698930082119547604265954848982041717359046106827774346003151904701415424"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "2534781000686750087152140711670244522302065175706248178371105726201899990925906847005503861390448575732536988816039/1202453802380202612679414065556140558016349465041059773802132977424491020858679523053413887173001575952350707712",
+              "upper": "158423812542921880447008794479390282643879073481640511148194107887618749432869177937843991336903035983283561801003/75153362648762663292463379097258784876021841565066235862633311089030688803667470190838367948312598497021919232"
+            }
+          }
+        ]
+      ],
+      "precision_bits": 384,
+      "row_basis": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+      "structure": "GENERAL"
+    }
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "actual_R1_finding": "All four original-placement spectral weights are strictly positive; norm, first moment756 and second moment583952 close in native arithmetic",
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_05/tasks/r2_placement_population_energy/gen6/JOB.json",
+      "sha256": "63169f20c5048fbf6c0cec385e6da6550a882d5b5950ea33aabef6efb0370079"
+    },
+    "coefficients_fitted": false,
+    "coherences": "The pure placement state and all its spectral coherences remain; the weight table is only the diagonal account sufficient for this block-diagonal source energy",
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "consumed_native_receipts": [
+      {
+        "key": "r1_placement_spectral_weights",
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_02/tasks/r1_placement_spectral_weights/RESULT.json",
+        "sha256": "6c787dc8acc5ab187d679514fc21696ac9aa2bfa1206077da32cec7556feba27"
+      }
+    ],
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "original_placement_current_scope": "D00=C00=0 are expectation values, not claims that the currents annihilate the placement ket",
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "population_scope": "For the identical product placement |e0> tensor |e0>: four p_a squared diagonal populations and six2p_a p_b symmetric-pair populations; antisymmetric pair population zero",
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r2_placement_population_energy",
+    "question": "Receive actual R1 placement spectral weights and reconstruct all four diagonal and six symmetric-pair populations, complete reference energy and original-basis calibration variance",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ],
+    "source_receiving": "Actual current-run weights receipt plus authenticated exact original-placement Hpair/D/C and source-root inputs"
+  }
+}

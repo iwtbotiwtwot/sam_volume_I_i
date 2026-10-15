@@ -1,0 +1,544 @@
+{
+  "classification": "The test result suggests strong contact with the concept.",
+  "failed_native_checks": [],
+  "independent_summary": {
+    "checks": 23804,
+    "status": "PASS"
+  },
+  "independent_verification": {
+    "bytes": 2720914,
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_chapter1_lane1_20261015/verification/independent1/VERIFICATION.json",
+    "sha256": "32a8a74ef1f40b286b96cffc151c9ad014f3f7d240140ffb850cd221d129272a"
+  },
+  "lanes": [
+    {
+      "W_upper_display": "0.000000000012297135615670",
+      "actual_uniform_rate": {
+        "lower": "10201582291956545986982117503825878614923643/2923003274661805836407369665432566039311865085952",
+        "upper": "10201582306463523266059398495440242432137595/2923003274661805836407369665432566039311865085952"
+      },
+      "centered_positive_margin": {
+        "lower": "20403164558488611735866958107922383418424671/5846006549323611672814739330865132078623730171904",
+        "upper": "20403164558488611735866958107922385480352767/5846006549323611672814739330865132078623730171904"
+      },
+      "instantaneous_inverse": {
+        "lower": "315037019941670867/1099511627776",
+        "upper": "39379627548708807/137438953472"
+      },
+      "pair": [
+        0,
+        1
+      ],
+      "previous_centered_budget": {
+        "lower": "23059938504718089670284159024114219348595073821669263475647377601934271961912837404148632220737645175529829061250407/1260864198284623334792929283204595641762551656654894293374345388935863096687910739565256520156317300505812095689818112",
+        "upper": "23059938504718089670284159024114219348595073821669263475647377601934271961912837404148632220737645175529829061250417/1260864198284623334792929283204595641762551656654894293374345388935863096687910739565256520156317300505812095689818112"
+      },
+      "rate_display_times_1e6": {
+        "lower": "3.490102929541",
+        "upper": "3.490102934505"
+      },
+      "strict_delay_margin": {
+        "lower": "9543864323912858409689949647039407239998759/1569275433846670190958947355801916604025588861116008628224",
+        "upper": "9543864323912858409689950200542472719576359/1569275433846670190958947355801916604025588861116008628224"
+      },
+      "uniform_correlator_error": {
+        "lower": "8775529217178135557907497442892939/713623846352979940529142984724747568191373312",
+        "upper": "8775529217178135557907498761863671/713623846352979940529142984724747568191373312"
+      }
+    },
+    {
+      "W_upper_display": "0.000000000025486792642877",
+      "actual_uniform_rate": {
+        "lower": "318799443298827762759621157574628203932729/91343852333181432387730302044767688728495783936",
+        "upper": "318799445246201806051448530256553124146233/91343852333181432387730302044767688728495783936"
+      },
+      "centered_positive_margin": {
+        "lower": "318799441592374205868203508441769631647557/91343852333181432387730302044767688728495783936",
+        "upper": "318799441592374205868203508441770394089403/91343852333181432387730302044767688728495783936"
+      },
+      "instantaneous_inverse": {
+        "lower": "157518510875418123/549755813888",
+        "upper": "157518511837628533/549755813888"
+      },
+      "pair": [
+        0,
+        2
+      ],
+      "previous_centered_budget": {
+        "lower": "22252404810127041333419048871491674932917326556066354954945875715273060580913679866934787648879026683394484279523869/2521728396569246669585858566409191283525103313309788586748690777871726193375821479130513040312634601011624191379636224",
+        "upper": "22252404810127041333419048871491674932917326556066354954945875715273060580913679866934787648879026683394484279523879/2521728396569246669585858566409191283525103313309788586748690777871726193375821479130513040312634601011624191379636224"
+      },
+      "rate_display_times_1e6": {
+        "lower": "3.490102893142",
+        "upper": "3.490102914462"
+      },
+      "strict_delay_margin": {
+        "lower": "160142507339294915212936414765779779816493/6129982163463555433433388108601236734474956488734408704",
+        "upper": "160142507339294915212936465933168286075949/6129982163463555433433388108601236734474956488734408704"
+      },
+      "uniform_correlator_error": {
+        "lower": "2273497874626269216585572036334199/89202980794122492566142873090593446023921664",
+        "upper": "2273497874626269216585573918887015/89202980794122492566142873090593446023921664"
+      }
+    },
+    {
+      "W_upper_display": "0.000000000317270187178313",
+      "actual_uniform_rate": {
+        "lower": "38003775607842990170441625643259147/10889035741470030830827987437816582766592",
+        "upper": "38003811581392822290388761773610251/10889035741470030830827987437816582766592"
+      },
+      "centered_positive_margin": {
+        "lower": "2432239621482763449168783945410079833/696898287454081973172991196020261297061888",
+        "upper": "2432239621482763449168783946641907793/696898287454081973172991196020261297061888"
+      },
+      "instantaneous_inverse": {
+        "lower": "76913424022741/268435456",
+        "upper": "615307974627457/2147483648"
+      },
+      "pair": [
+        0,
+        3
+      ],
+      "previous_centered_budget": {
+        "lower": "28601564209381808804207234056575738927122668621930983846552826953054891624400827855991224214367468775710742642022171/40347654345107946713373737062547060536401653012956617387979052445947619094013143666088208645002153616185987062074179584",
+        "upper": "28601564209381808804207234056575738927122668621930983846552826953054891624400827855991224214367468775710742642022183/40347654345107946713373737062547060536401653012956617387979052445947619094013143666088208645002153616185987062074179584"
+      },
+      "rate_display_times_1e6": {
+        "lower": "3.490095588823",
+        "upper": "3.490098892473"
+      },
+      "strict_delay_margin": {
+        "lower": "1479081387437455717620204110885717145/365375409332725729550921208179070754913983135744",
+        "upper": "1479081387437455717620849953915569305/365375409332725729550921208179070754913983135744"
+      },
+      "uniform_correlator_error": {
+        "lower": "1727383203943764172911030027609/5444517870735015415413993718908291383296",
+        "upper": "1727383203943764172912984701949/5444517870735015415413993718908291383296"
+      }
+    },
+    {
+      "W_upper_display": "0.000000000013189654744475",
+      "actual_uniform_rate": {
+        "lower": "10201582287100201233327736896188818292474679/2923003274661805836407369665432566039311865085952",
+        "upper": "10201582303789414319925568436376459081155383/2923003274661805836407369665432566039311865085952"
+      },
+      "centered_positive_margin": {
+        "lower": "1275197784059462709459525538940635620111907/365375409332725729550921208179070754913983135744",
+        "upper": "1275197784059462709459525538940635793152829/365375409332725729550921208179070754913983135744"
+      },
+      "instantaneous_inverse": {
+        "lower": "39379627503031253/137438953472",
+        "upper": "78759255134910171/274877906944"
+      },
+      "pair": [
+        1,
+        2
+      ],
+      "previous_centered_budget": {
+        "lower": "21499515916302555381383928562258344627004129900871904672497420722090027230463148606664136560919527072207235753019073/1260864198284623334792929283204595641762551656654894293374345388935863096687910739565256520156317300505812095689818112",
+        "upper": "21499515916302555381383928562258344627004129900871904672497420722090027230463148606664136560919527072207235753019083/1260864198284623334792929283204595641762551656654894293374345388935863096687910739565256520156317300505812095689818112"
+      },
+      "rate_display_times_1e6": {
+        "lower": "3.490102927880",
+        "upper": "3.490102933590"
+      },
+      "strict_delay_margin": {
+        "lower": "10979515633929622876794187023597053460360487/1569275433846670190958947355801916604025588861116008628224",
+        "upper": "10979515633929622876794187766813516656028967/1569275433846670190958947355801916604025588861116008628224"
+      },
+      "uniform_correlator_error": {
+        "lower": "2353113037704856717787914754201621/178405961588244985132285746181186892047843328",
+        "upper": "1176556518852428358893957583501429/89202980794122492566142873090593446023921664"
+      }
+    },
+    {
+      "W_upper_display": "0.000000000304972393547122",
+      "actual_uniform_rate": {
+        "lower": "4864484056747093968551381193857678087/1393796574908163946345982392040522594123776",
+        "upper": "4864488311321515992846360463193651975/1393796574908163946345982392040522594123776"
+      },
+      "centered_positive_margin": {
+        "lower": "4864480328626627663885520610035666277/1393796574908163946345982392040522594123776",
+        "upper": "4864480328626627663885520612058537861/1393796574908163946345982392040522594123776"
+      },
+      "instantaneous_inverse": {
+        "lower": "1230614675860939/4294967296",
+        "upper": "1230615752197425/4294967296"
+      },
+      "pair": [
+        1,
+        3
+      ],
+      "previous_centered_budget": {
+        "lower": "29754865477543387063819033725419705309760953828953677383027084289727607971834780322690426952512995300964883217275435/40347654345107946713373737062547060536401653012956617387979052445947619094013143666088208645002153616185987062074179584",
+        "upper": "29754865477543387063819033725419705309760953828953677383027084289727607971834780322690426952512995300964883217275447/40347654345107946713373737062547060536401653012956617387979052445947619094013143666088208645002153616185987062074179584"
+      },
+      "rate_display_times_1e6": {
+        "lower": "3.490096147687",
+        "upper": "3.490099200196"
+      },
+      "strict_delay_margin": {
+        "lower": "2733293956192071352312910129872308531/730750818665451459101842416358141509827966271488",
+        "upper": "2733293956192071352313970714185632051/730750818665451459101842416358141509827966271488"
+      },
+      "uniform_correlator_error": {
+        "lower": "1660427646748137529340013502817/5444517870735015415413993718908291383296",
+        "upper": "1660427646748137529341683173417/5444517870735015415413993718908291383296"
+      }
+    },
+    {
+      "W_upper_display": "0.000000000291782089769468",
+      "actual_uniform_rate": {
+        "lower": "4864484858003660391070321114336778959/1393796574908163946345982392040522594123776",
+        "upper": "4864488752512291599751197348450851535/1393796574908163946345982392040522594123776"
+      },
+      "centered_positive_margin": {
+        "lower": "4864481445387481347128003302041799109/1393796574908163946345982392040522594123776",
+        "upper": "4864481445387481347128003303664464133/1393796574908163946345982392040522594123776"
+      },
+      "instantaneous_inverse": {
+        "lower": "615307282124783/2147483648",
+        "upper": "307653887373787/1073741824"
+      },
+      "pair": [
+        2,
+        3
+      ],
+      "previous_centered_budget": {
+        "lower": "15549962557695293921128521503707499627474041016252495527499124016946572081940597797951653084839362240475181518051167/20173827172553973356686868531273530268200826506478308693989526222973809547006571833044104322501076808092993531037089792",
+        "upper": "15549962557695293921128521503707499627474041016252495527499124016946572081940597797951653084839362240475181518051173/20173827172553973356686868531273530268200826506478308693989526222973809547006571833044104322501076808092993531037089792"
+      },
+      "rate_display_times_1e6": {
+        "lower": "3.490096722560",
+        "upper": "3.490099516734"
+      },
+      "strict_delay_margin": {
+        "lower": "5003965852191244643439844886028882535/1461501637330902918203684832716283019655932542976",
+        "upper": "5003965852191244643441546400824955495/1461501637330902918203684832716283019655932542976"
+      },
+      "uniform_correlator_error": {
+        "lower": "1588612802110273257756911851713/5444517870735015415413993718908291383296",
+        "upper": "1588612802110273257758311737573/5444517870735015415413993718908291383296"
+      }
+    }
+  ],
+  "native_checks": 1122,
+  "native_jobs": 9,
+  "native_operations": 300,
+  "operation_counts": {
+    "GEN3_COMPLEX_ADJOINT": 1,
+    "GEN3_COMPLEX_ADMIT": 103,
+    "GEN3_COMPLEX_EXP": 7,
+    "GEN3_COMPLEX_LOG": 7,
+    "GEN3_COMPLEX_PRODUCT": 169,
+    "GEN3_COMPLEX_SOLVE": 13
+  },
+  "outcomes": [
+    {
+      "causal_dependencies": [],
+      "key": "r1_lane01_complete_source",
+      "operations": 28,
+      "receipt": {
+        "bytes": 52933,
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_01/tasks/r1_lane01_complete_source/RESULT.json",
+        "sha256": "92c18711ef6498c9569fca59ccbf60a090c243bb43e8b86270c79de6c6e551be"
+      },
+      "returned_names": [
+        "C",
+        "C2",
+        "C_incidence_closure",
+        "D",
+        "D2",
+        "Hsource",
+        "R",
+        "S",
+        "both_counterterms",
+        "current_square_closure",
+        "d",
+        "even_energy",
+        "even_unscaled",
+        "g",
+        "lower_energy",
+        "one_counterterm",
+        "q0",
+        "q1",
+        "upper_energy"
+      ],
+      "round": "ROUND1",
+      "target_id": "PARENT"
+    },
+    {
+      "causal_dependencies": [],
+      "key": "r1_placement_spectral_weights",
+      "operations": 23,
+      "receipt": {
+        "bytes": 31883,
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_02/tasks/r1_placement_spectral_weights/RESULT.json",
+        "sha256": "6c787dc8acc5ab187d679514fc21696ac9aa2bfa1206077da32cec7556feba27"
+      },
+      "returned_names": [
+        "pq2_residual",
+        "pq2_sum",
+        "pq_residual",
+        "pq_sum",
+        "sum_residual",
+        "sum_weights",
+        "weights"
+      ],
+      "round": "ROUND1",
+      "target_id": "PARENT"
+    },
+    {
+      "causal_dependencies": [],
+      "key": "r1_uniform_whole_cycle_clocks",
+      "operations": 37,
+      "receipt": {
+        "bytes": 197702,
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_03/tasks/r1_uniform_whole_cycle_clocks/RESULT.json",
+        "sha256": "882752419f91f3643f1ce4dba5cd32a81e8ce974ebf534f848db77d12ff827a4"
+      },
+      "returned_names": [
+        "Ef_T",
+        "Kt_T",
+        "alpha",
+        "amplitude_min_T",
+        "source_error_T",
+        "theorem_scope",
+        "uniform_rate_error",
+        "uniform_rate_lower",
+        "uniform_rate_upper"
+      ],
+      "round": "ROUND1",
+      "target_id": "PARENT"
+    },
+    {
+      "causal_dependencies": [
+        18
+      ],
+      "key": "r1_lane01_initial_reference",
+      "operations": 27,
+      "receipt": {
+        "bytes": 34974,
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_04/tasks/r1_lane01_initial_reference/RESULT.json",
+        "sha256": "95d1627cf8fedf6c7a86045f5f8a327b282d16c70765840986ea61931d1c1897"
+      },
+      "returned_names": [
+        "CB",
+        "CB_squared",
+        "Delta",
+        "M",
+        "Omega",
+        "correlation_rate_shift",
+        "form_constant_residual",
+        "initial_rate",
+        "initial_rate_reference_residual",
+        "phi_cross",
+        "phi_plus",
+        "reference_correlator_residual",
+        "reference_phi_plus"
+      ],
+      "round": "ROUND1",
+      "target_id": "PARENT"
+    },
+    {
+      "causal_dependencies": [
+        21
+      ],
+      "key": "r2_placement_population_energy",
+      "operations": 49,
+      "receipt": {
+        "bytes": 370719,
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_05/tasks/r2_placement_population_energy/RESULT.json",
+        "sha256": "e5399c2f64674e6960bc28ba090362dfdc4b49c54415f059a82dcddc0d8eaa25"
+      },
+      "returned_names": [
+        "C",
+        "C_placement_expectation",
+        "D",
+        "D_placement_expectation",
+        "Eref",
+        "Eref_squared",
+        "Hpair",
+        "Hpair_placement_expectation",
+        "diagonal_energies",
+        "diagonal_energy_contributions",
+        "diagonal_energy_sum",
+        "diagonal_population_sum",
+        "diagonal_populations",
+        "epsilon",
+        "normalized_energy_residual",
+        "normalized_total_energy",
+        "pair_energies",
+        "pair_energy_contributions",
+        "pair_energy_sum",
+        "pair_population_sum",
+        "pair_populations",
+        "placement_bra",
+        "placement_density",
+        "placement_energy_residual",
+        "placement_energy_second_moment",
+        "placement_energy_variance",
+        "placement_ket",
+        "population_normalization_residual",
+        "preparation_account",
+        "q",
+        "spectral_energy_residual",
+        "spectral_placement_energy_closure",
+        "total_population",
+        "total_spectral_energy",
+        "weights"
+      ],
+      "round": "ROUND2",
+      "target_id": "PLACEMENT_PREPARATION"
+    },
+    {
+      "causal_dependencies": [
+        24
+      ],
+      "key": "r2_uniform_inverse_action",
+      "operations": 20,
+      "receipt": {
+        "bytes": 50974,
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_06/tasks/r2_uniform_inverse_action/RESULT.json",
+        "sha256": "5f5df3fc36ac1780b0664155e66d307f9dd7d4477dd3b34b528c6ab75af68458"
+      },
+      "returned_names": [
+        "both_counterterms",
+        "boundary_interaction",
+        "coefficient_contract",
+        "field_angular",
+        "field_gradient",
+        "field_kinetic",
+        "inverse_rate",
+        "inverse_residual",
+        "nu",
+        "source_even",
+        "source_exchange"
+      ],
+      "round": "ROUND2",
+      "target_id": "UNIFORM_CLOCK"
+    },
+    {
+      "causal_dependencies": [
+        24
+      ],
+      "key": "r2_centered_uniform_budgets",
+      "operations": 42,
+      "receipt": {
+        "bytes": 302617,
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_07/tasks/r2_centered_uniform_budgets/RESULT.json",
+        "sha256": "973777077642cad893011bf83fc667d084b4c7f7921a3722635e6196e027d102"
+      },
+      "returned_names": [
+        "CB",
+        "E_up",
+        "G_lo",
+        "G_up",
+        "M_lo",
+        "Omega_lo",
+        "W_budget",
+        "W_coarse",
+        "actual_w_bound",
+        "centered_contract",
+        "centered_margin",
+        "coarse_to_budget",
+        "free_margin",
+        "reference_w_bound",
+        "weighted_trace_budget"
+      ],
+      "round": "ROUND2",
+      "target_id": "CENTERED_REFINEMENT"
+    },
+    {
+      "causal_dependencies": [
+        24,
+        40
+      ],
+      "key": "r2_weighted_soft_duhamel",
+      "operations": 51,
+      "receipt": {
+        "bytes": 343980,
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_08/tasks/r2_weighted_soft_duhamel/RESULT.json",
+        "sha256": "56a78c3c664d69afae1c02b08c4daf59483f5d4a90ac26bae1233b4a65ba2739"
+      },
+      "returned_names": [
+        "A_energy",
+        "E_up",
+        "M_lo",
+        "Omega_hi",
+        "Omega_lo",
+        "W_duhamel",
+        "amplitude_lower",
+        "centered_margin",
+        "centered_rate_error",
+        "creation_energy",
+        "field_angular",
+        "field_gradient",
+        "field_kinetic",
+        "inverse_rate",
+        "norm_comparison_margin",
+        "propagation_contract",
+        "rate_interval",
+        "rate_lower",
+        "rate_upper"
+      ],
+      "round": "ROUND2",
+      "target_id": "CENTERED_REFINEMENT"
+    },
+    {
+      "causal_dependencies": [
+        44
+      ],
+      "key": "r2_all_lane_action_coefficients",
+      "operations": 23,
+      "receipt": {
+        "bytes": 162972,
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_09/tasks/r2_all_lane_action_coefficients/RESULT.json",
+        "sha256": "ab24191bba888d43e436eb9fe9d339396301dd5408c49bacf2973ffe2945aa81"
+      },
+      "returned_names": [
+        "both_counterterms",
+        "boundary_interaction",
+        "dependent_family",
+        "field_angular",
+        "field_gradient",
+        "field_kinetic",
+        "inverse_rate",
+        "inverse_residual",
+        "nu",
+        "slower_margin",
+        "source_even",
+        "source_exchange"
+      ],
+      "round": "ROUND2",
+      "target_id": "UNIFORM_CLOCK"
+    }
+  ],
+  "round_starts": [
+    {
+      "deadline_monotonic_ns": 1367894441971,
+      "round": 1,
+      "seconds": 300,
+      "start_monotonic_ns": 1067894441971,
+      "time_utc": "2026-10-15T19:39:07.549652+00:00"
+    },
+    {
+      "deadline_monotonic_ns": 1728484447172,
+      "round": 2,
+      "seconds": 300,
+      "start_monotonic_ns": 1428484447172,
+      "time_utc": "2026-10-15T19:45:08.139660+00:00"
+    }
+  ],
+  "run": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01",
+  "runtime_status": "SCIENCE_COMPLETE_AWAITING_OPERATOR_ORGANIZATION",
+  "schema": "SAM_CHAPTER1_LANE01_AND_UNIFORM_CLOCK_RESULT_V1",
+  "scope": {
+    "field": "Full two-polarization weighted form; no photon cutoff or rotating-wave approximation",
+    "model_time": "epsilon=1/573049;Delta=2epsilon;lambda=64Delta;T=573049*pi",
+    "new_method": "Weighted soft Duhamel propagation with continuous form constant sqrt(2mu)",
+    "physical_assignments": "Original physical exchange/role capacity/source-radius incidence remain explicit; no SI value assigned",
+    "preparation": "Equal coherent exact hard charge0/1 branches times common soft vacuum in each fixed spectral lane"
+  },
+  "status": "COMPLETE_NATIVE_AND_INDEPENDENT_RESULTS"
+}

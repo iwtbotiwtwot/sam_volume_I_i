@@ -1,0 +1,261 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "1",
+              "upper": "1"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ]
+      ],
+      "precision_bits": 384,
+      "row_basis": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+      "structure": "GENERAL"
+    }
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "actual_R1_finding": "All four original-placement spectral weights are strictly positive; norm, first moment756 and second moment583952 close in native arithmetic",
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_05/tasks/r2_placement_population_energy/gen6/JOB.json",
+      "sha256": "63169f20c5048fbf6c0cec385e6da6550a882d5b5950ea33aabef6efb0370079"
+    },
+    "coefficients_fitted": false,
+    "coherences": "The pure placement state and all its spectral coherences remain; the weight table is only the diagonal account sufficient for this block-diagonal source energy",
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "consumed_native_receipts": [
+      {
+        "key": "r1_placement_spectral_weights",
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_02/tasks/r1_placement_spectral_weights/RESULT.json",
+        "sha256": "6c787dc8acc5ab187d679514fc21696ac9aa2bfa1206077da32cec7556feba27"
+      }
+    ],
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "original_placement_current_scope": "D00=C00=0 are expectation values, not claims that the currents annihilate the placement ket",
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "population_scope": "For the identical product placement |e0> tensor |e0>: four p_a squared diagonal populations and six2p_a p_b symmetric-pair populations; antisymmetric pair population zero",
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r2_placement_population_energy",
+    "question": "Receive actual R1 placement spectral weights and reconstruct all four diagonal and six symmetric-pair populations, complete reference energy and original-basis calibration variance",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ],
+    "source_receiving": "Actual current-run weights receipt plus authenticated exact original-placement Hpair/D/C and source-root inputs"
+  }
+}

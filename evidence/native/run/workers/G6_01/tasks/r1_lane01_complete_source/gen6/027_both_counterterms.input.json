@@ -1,0 +1,68 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0"
+      ],
+      "entries": [
+        [
+          2
+        ]
+      ],
+      "row_basis": [
+        "0"
+      ],
+      "structure": "GENERAL"
+    },
+    "right": {
+      "column_basis": [
+        "0"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "36799335459600496709444318148916264110198068912839610598490482850347770405448202155967160759546094058093930643554977/2644223875160994395807661232131084159313618731857124877138595181097623164945245383300756841758861139390364848100093433217024",
+              "upper": "36799335459600496709444318148916264110198068912839610598490482850347770405448202155967160759546094058093930644987335/2644223875160994395807661232131084159313618731857124877138595181097623164945245383300756841758861139390364848100093433217024"
+            }
+          }
+        ]
+      ],
+      "precision_bits": 384,
+      "row_basis": [
+        "0"
+      ],
+      "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+      "structure": "GENERAL"
+    }
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_01/tasks/r1_lane01_complete_source/gen6/JOB.json",
+      "sha256": "48ace0909870d506e6d8fc8e69b2efc623a27fa64da4915cece2d21df5b06266"
+    },
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r1_lane01_complete_source",
+    "question": "Receive exact source roots and construct the chapter lane01 Hamiltonian, even energy, signed currents and both counterterms; distinguish placement calibration from the clock preparation",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ]
+  }
+}

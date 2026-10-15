@@ -1,0 +1,520 @@
+{
+  "recomputed": true,
+  "result": {
+    "implementation": {
+      "files": {
+        "__init__.py": "4084396c52a28e511b1d14388a022761b76e3d35a97333005cc6c71d24b3ecd0",
+        "complex_core.py": "6a4e8d0fb6d794cc2deec9c21a4b861a0cbcf7a204a749d85d64c1ada3d35260",
+        "data/CATALOG.json": "2a53cd91ea89ba5a7ce9ac67234f5859e49008367e5a2e8c76d95300272d30b9",
+        "data/SI29_CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+        "data/vol_ii_modular_emission1__CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+        "data/vol_ii_modular_emission1__INTERPRETATION.json": "656c9fb9ef804033698b3b10dbcc7b3acd467aa291cc6720d3f2fc06371be204",
+        "data/vol_ii_modular_emission1__RECEIVER.json": "9239df8b43e16daea0faffdfaa8f6a098268b03874e5ea894da74872df19fd0c",
+        "data/vol_ii_modular_flow1__AL27_EXACT.json": "1a4cd00afbad0b0c8b211c24f149ed55c43e608eaba73dc4e5aea2a8afc14742",
+        "data/vol_ii_modular_flow1__Al27.json": "8d7079ad1ce63842127335f7516f1955f738faa81c3bc8df25232f08f6de6a00",
+        "data/vol_ii_modular_flow1__Mg25.json": "45f0be2a6040612ba4f9e1b4efe803918fbf36cc2dac63c5c9ec2f525a58f3d8",
+        "data/vol_ii_modular_flow1__Mg26.json": "f96cb7f6e0dab7402345ae08dcdc2649c9903a606e0db3e3a274cb4fa9c877bc",
+        "data/vol_ii_modular_flow1__STATUS.json": "2682ea93316dfe1092d32c86b79da0f7b3be47a2b14bf6770cb0b8de8abc8ae7",
+        "data/vol_ii_modular_flow1__Si28.json": "689340466b0e55d07db928df49b17a822b3e29acedefb55f644750f98e5bbcf0",
+        "data/vol_ii_modular_flow1__Si29.json": "08a853f372370eb302edcc715f3bbde7647d1949f547ef66e84ff1295e02804f",
+        "data/vol_ii_modular_flow1__Si30.json": "32b44bf8967a7680eeac21867a29f94b258eaa8b2a95dd6690c6682ece384aee",
+        "data/vol_ii_modular_geometry1__FINAL_STATUS.json": "b258a0c802b94d071375c7309a724a2d0d82e43836ad7cd68042748ac1f3af4a",
+        "data/vol_ii_modular_geometry1__GEOMETRY.json": "680e5991ae68b029448a54780e7d83c3d5baea90b3d156dab7301c772d730702",
+        "data/vol_ii_modular_geometry1__INTRINSIC.json": "d91a1465bdec2f8a9dc80715041d2ff8359cf98f540e21e95e1eb27fd349c6c8",
+        "data/vol_ii_modular_geometry1__MODULAR.json": "0bfaf7cbedb55cd61b2552d64217cae61775d35ccbf653955010eaaf780ea7c1",
+        "data/vol_ii_modular_geometry1__SECTORS.json": "1ab3f62a8b608687d305e2f15b320975e1e455e57f85b6b96b0ff44bedb6c7e2",
+        "data/vol_ii_modular_geometry1__STATUS.json": "f5bbf791c75e59700c137859f9bbe795636fae2a67564cb270f23bb0df7cc145",
+        "data/vol_ii_modular_radius1__COMPATIBILITY.json": "92c4d85cb52f3a4adfd9213a9aa39f419376b6086765c360a6800e7ceb3d85fa",
+        "data/vol_ii_modular_radius1__FIELD.json": "817bdee4e172f42777ef69026c5497d220779df3cfa95af4b7aca806a71bc84a",
+        "data/vol_ii_modular_radius1__FINAL_STATUS.json": "6c2581d18efe3646adf302569f10d4a69e363e0bdb034f7c33e2d168f759ac92",
+        "data/vol_ii_modular_radius1__FIXED_AREA.json": "0e7e1c80163f663e07a2e2577e1b98af5b6e5af865a3f197c944a4eebc32d133",
+        "data/vol_ii_modular_radius1__FIXED_SOURCE.json": "bbe984d277c0d9e74bccb645adc7b48ba261d47c189e8c547b02ee8d660d6a6b",
+        "data/vol_ii_modular_radius1__MODULAR.json": "0e2e04050cfe702ca2cc7d5f76ec7cd254637f7a7e0428c94eab2847ac34d950",
+        "data/vol_ii_modular_radius1__STATUS.json": "2e79c31639b893a166d175210dab9842ba7ed3fbc818ea2966114a1102529221",
+        "data/vol_ii_modular_receiver1__FOOTPRINT.json": "dcf64c55b21dd1dc0a0fc81575612624cdd3382b20c42b47f72dfac1e5dbef85",
+        "data/vol_ii_modular_receiver1__GREEN.json": "7c3da629710b7189e3350fe9970c77759588fc31cc18e327e1ee07b2e1a0473f",
+        "data/vol_ii_modular_receiver1__MODULAR.json": "fdbc5c3fee1ee9b720692144b66e88603fdb66d3f809c357c48322997c207c2b",
+        "data/vol_ii_modular_receiver1__NETWORK_3.json": "609cb4305825986605134834b3514c310adc6f61da0932fe152e3c85611f4c53",
+        "data/vol_ii_modular_receiver1__NETWORK_5.json": "4a3346dcd9227ba960c82e3f9ac21f21a1f1172a52245516df6aef6859ea57f4",
+        "data/vol_ii_modular_receiver1__SPECIES.json": "4904825dabb9f90cd29fd39ea2a0f7daeae2b43cd76649d515ae07270fa0260a",
+        "data/vol_ii_modular_receiver1__STATUS.json": "2254bcf106cf9ede4be4a466346179b17c55b42ebfe66330cac677d8014e5b18",
+        "data/vol_ii_modular_receiver1__TRANSPORT.json": "6771c059dbd24e06790af465add71f3650d8c127dc40e0a9cba927472520bfb3",
+        "data/vol_ii_modular_si29_1__CERTIFICATE.json": "e64485314e70741bd0c3440c1fe7c70a68e3a745e72271722e5f6e23142e73a8",
+        "data/vol_ii_modular_si29_1__STATUS.json": "7366a65087a37fa4f0962de80989611e39a501b9f3e38bc4e6ef9db5186672b0",
+        "data/vol_ii_modular_si29_1__SURVEY.json": "2d57625fb0b37631480d08a31e9723ea097d442c00aadc5815b5ea84341b7f51",
+        "dynamics.py": "b25e701e110d63a56cd5f88ec6464d1db4683f38a670ff938e11f97c39ba7d77",
+        "full_source/SOURCE_BINDINGS.json": "063a9cb8afc01f812a311bc2024b391e4decc406948924a95e2e46b19a20a1d4",
+        "full_source/__init__.py": "6b19dd7585530ff7dbc717c8573329599b75a92dd197f207820eb7be95123749",
+        "full_source/clock.py": "4d5f305ee7a5638ee314a289e4ec468f9c022e40b21dc0028c0e211a532adecc",
+        "full_source/common.py": "f68ad7717d9f349dd482b38f1e7461f1c44b777bb3ad1e7d0bb0ec2f41f132a3",
+        "full_source/gibbs.py": "cf81302494797edadf863a6db7163c308a2d8ec4458c3933851cb0e9f6267353",
+        "full_source/gibbs_core.py": "c2799a4a3b637c122b7d15a730309cf45b22528b919652b90a7e3981d11bce3d",
+        "full_source/green.py": "0a52fc32bbe88727d37beb584828698dfef8bcbb8680eea7cc7a243fc7bf490a",
+        "full_source/history.py": "1db9286c503a215fed8ac04e87fbdb9a50a2e915a82af3f1f030a2181b6309d6",
+        "full_source/jets_core.py": "c8b3be41afb69ec7837da6d40b5c4353a1363a728633dee7193f9c79d8cf7a26",
+        "full_source/kinetic.py": "467c630bfdecdfda3baaa70e7c432c526926e03ba1b1f6c28ef0af620d361473",
+        "full_source/orbit.py": "69ffdfe0a1c761787c46fe5c6344686a4a620f11c9ca50be0f4d159f7f8339c2",
+        "full_source/projection.py": "93aa8a9b17d7f37f82a846b903c0b2d0673208dd80517eecefb5c405551a2804",
+        "full_source/response.py": "3582b612d9649d4a1c319fcc1ca1b2e6f97813ed464ed917b96af49d417fe02a",
+        "full_source/spherical.py": "5c3924e6beeaf25d010ddd0197d994dde955c618f9b18df1aea35f5db38acc5b",
+        "full_source/wave.py": "0fd87c863e8e35806191fb890a339e67e0db04c44b84c5a11cec1eadec18cd5c",
+        "full_source/wave_core.py": "f0c190acbff640e962eac14cdeec0ee74db7d5c52f66ce46c8d5bc35bb08604e",
+        "hybrid.py": "fd2bd2dd40934be700c09df8ae3a7a0c0a049e3f17dbb5426952815e24d17616",
+        "operations.py": "06042bc028fb62fd8aaec985cd0b2cfb4ca476b9a60d5e4ed2400fbfe7e1150b",
+        "receiver.py": "23a24ef3f12444c02801be66bd5d77d4c6bb44e4c0b22df319899106c5b89ac2",
+        "research_methods.py": "baadef7f93850b4d99e88109932e6dcb293d47d2b682ab72d3e7a67ab0c886a3",
+        "thermal_response/N005000_packet_+1_K_MAJOR.json": "6c62b15b8ef97569b22afe159181548f2d06c457d8a6b2261a2764804dc9c1d8",
+        "thermal_response/N005000_signed_packet_+1_K_MAJOR.json": "659e0515ad89a62597a170b3846b5191de75d41c8d279c70ec20fb84cdfb978d",
+        "thermal_response/N005000_signed_packet_chain_+1_K_MAJOR.json": "bdd6073bad42a81ea5d68facd6f4adf08ac9fb89f24169ac52eaae1c01419e74",
+        "thermal_response/TAIL_SOURCE.json": "8f9137a3b87dac43d8896584550ea75c4f252659454c7eb26b71c1fafe102d66",
+        "thermal_response/__init__.py": "0c38047060847eaec98c8de98f50529cafb94f97fb9657866d4b691e02344a68",
+        "thermal_response/cancel_geometry.py": "cea67073a00e9ab72d8748daeaa4a991c1209194d8f944615eb8345535d7e965",
+        "thermal_response/cancel_math.py": "b69a739423a983cd93aace7aca3a0a25f6dbb1c436ffd65127299115531bdaa7",
+        "thermal_response/complex_core.py": "a20bc4550662f0cf18e1aa3d394c2c71de801099b03fb4139e99236743250fc6",
+        "thermal_response/endpoint.py": "17e41cf1f9460c33a2c36758e601f1d4da113fdd18a7de8d12ddf8a922c73e48",
+        "thermal_response/finite.py": "ae1451a9db30f74be3b23f89acf5484c0cfdb74ebaa1fbbdae86f2b4c7cf88b0",
+        "thermal_response/fixed_thermal.py": "ce72e45fe7af5a9fca182d141204fe9029a56f3880aea5ee1dc8d244b9cd59c9",
+        "thermal_response/geometry.py": "e86f0b91ac5118bf5da655d42c12c9b34fdd8f9c12201a49b3e60651d0927e08",
+        "thermal_response/jets.py": "5e9a0aef9e2a33a53e3378b3e788f49238bc13fd38f6eec227c7eec8faa57de6",
+        "thermal_response/kernel.py": "84cae3a99125f9e985e663b261421ad2e6d984baa357a7e58fa30360d9935da0",
+        "thermal_response/legacy.py": "783f14bf39ba251f6057e5741e17dc247b32923cd952fec0e87bc7f767de1e3d",
+        "thermal_response/model.py": "3039edff30afcf167ad0b9e8a91cf5b38cfc4b34dff646676abf995079c22766",
+        "thermal_response/packet_kernel.py": "37773d9ea42ae5f98a8d7369c9eacd22a72bae03761575dd82adfaf87a472f8e",
+        "thermal_response/protocol.py": "5d19da5a14a43643ac3f8f422b7619ca692e465f9cd950c2fd4889d5df7f0f25",
+        "thermal_response/response.py": "f4b8521eed12ef6db828fd5ed8a8e2dddfe808b373f8f0b5d7a63eaefc1fbba3",
+        "thermal_response/source.py": "85aefc745b1a32b5475383af153d272eb8eaf7adba61342fb78e62df2292d390"
+      },
+      "python_flint": "0.8.0",
+      "version": "SHARED_MODULAR_V4"
+    },
+    "operation": "GEN3_COMPLEX_PRODUCT",
+    "output": {
+      "matrix": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "31240558082394121755138427383494463675843206852960448257065871754351687352589244168166228081319370617709472453074989/390218568789499028922699653724145788218574767833121393857394619953171467352470702515038262882936496394978366390175827861930996959911035663286272",
+                "upper": "31240558082394121755138427383494463675843206852960448257065871754351687352589244168166228081319370617709472453075119/390218568789499028922699653724145788218574767833121393857394619953171467352470702515038262882936496394978366390175827861930996959911035663286272"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "31240558082394121755138427383494463675843206852960448257065871754351687352589244168166228081319370617709472453074989/390218568789499028922699653724145788218574767833121393857394619953171467352470702515038262882936496394978366390175827861930996959911035663286272",
+                "upper": "31240558082394121755138427383494463675843206852960448257065871754351687352589244168166228081319370617709472453075119/390218568789499028922699653724145788218574767833121393857394619953171467352470702515038262882936496394978366390175827861930996959911035663286272"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "31240558082394121755138427383494463675843206852960448257065871754351687352589244168166228081319370617709472453074989/390218568789499028922699653724145788218574767833121393857394619953171467352470702515038262882936496394978366390175827861930996959911035663286272",
+                "upper": "31240558082394121755138427383494463675843206852960448257065871754351687352589244168166228081319370617709472453075119/390218568789499028922699653724145788218574767833121393857394619953171467352470702515038262882936496394978366390175827861930996959911035663286272"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "31240558082394121755138427383494463675843206852960448257065871754351687352589244168166228081319370617709472453074989/390218568789499028922699653724145788218574767833121393857394619953171467352470702515038262882936496394978366390175827861930996959911035663286272",
+                "upper": "31240558082394121755138427383494463675843206852960448257065871754351687352589244168166228081319370617709472453075119/390218568789499028922699653724145788218574767833121393857394619953171467352470702515038262882936496394978366390175827861930996959911035663286272"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "31240558082394121755138427383494463675843206852960448257065871754351687352589244168166228081319370617709472453074989/390218568789499028922699653724145788218574767833121393857394619953171467352470702515038262882936496394978366390175827861930996959911035663286272",
+                "upper": "31240558082394121755138427383494463675843206852960448257065871754351687352589244168166228081319370617709472453075119/390218568789499028922699653724145788218574767833121393857394619953171467352470702515038262882936496394978366390175827861930996959911035663286272"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "31240558082394121755138427383494463675843206852960448257065871754351687352589244168166228081319370617709472453074989/390218568789499028922699653724145788218574767833121393857394619953171467352470702515038262882936496394978366390175827861930996959911035663286272",
+                "upper": "31240558082394121755138427383494463675843206852960448257065871754351687352589244168166228081319370617709472453075119/390218568789499028922699653724145788218574767833121393857394619953171467352470702515038262882936496394978366390175827861930996959911035663286272"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      },
+      "status": "CERTIFIED_ENCLOSURE"
+    },
+    "precision_bits": 384,
+    "schema": "SLC_MODULAR_RESULT_V1",
+    "source_binding": {
+      "both_helicities": true,
+      "campaign": "duck_chapter1_lane1_20261015",
+      "candidate_job": {
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_08/tasks/r2_weighted_soft_duhamel/gen6/JOB.json",
+        "sha256": "33723e5126bd4e4178d330173ea0d924c15af9e473243818a098bc31ef05e16d"
+      },
+      "coefficients_fitted": false,
+      "construction_author": "Codex; installed GEN6 Duck native execution",
+      "counterrotating": true,
+      "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+      "law_namespace": "SAM_land",
+      "new_method": "Energy-weighted Duhamel comparison to exact coherent hard branches times soft vacuum; full-field form dynamics; both helicities and exact soft scalar counterterm",
+      "original_completed_sources_preserved": true,
+      "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+      "photon_cutoff": false,
+      "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+      "profile_id": "r2_weighted_soft_duhamel",
+      "propagation_interval": "0<=t<=T=time_CYCLE",
+      "question": "Evaluate the newly derived energy-weighted soft Duhamel certificate in all six lanes; certify actual centered margins and phase inverses when its explicit form/reference hypotheses hold",
+      "source_heads": [
+        "H002628",
+        "H002625",
+        "H002624"
+      ],
+      "theorem_status": "New analytical construction; numerical intervals pay its explicit scalar bounds; mathematical review retained separately"
+    }
+  },
+  "result_ref": "703e2698326a2fbb2ae23ba5a2aeab87291ffdd11ae0eba57a42fdaddcf90056"
+}

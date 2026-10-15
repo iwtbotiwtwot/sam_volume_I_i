@@ -1,0 +1,1630 @@
+{
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "6ca3acf37a1f882d208dc3ce577ebf6cd443d8df03f66a9b9e61e46aebe4fd55",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "completed_utc": "2026-10-15T19:39:13.770587+00:00",
+  "gen6_core_version": "0.10.2",
+  "gen6_execution": {
+    "continuation": null,
+    "error": null,
+    "execution_stage": "POST_DUCK_ENGINEERING_QUALIFICATION",
+    "history_continuation": null,
+    "host_compilation": "Exact symbolic DAG and reciprocal token transcription; native product identities certify reciprocals",
+    "host_domain_arithmetic": false,
+    "imported_history_session_reused": false,
+    "installed_engine_modified": false,
+    "qualification_scope": "Original substrate source-chart coefficient mapping; all mixed entries retained",
+    "schema": "SAM_ONE_PRINCIPLE_NATIVE_EXECUTION_V1",
+    "session_reused": false,
+    "status": "PASSED",
+    "time_utc": "2026-10-15T19:39:13.334727+00:00",
+    "trace": [
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "q",
+        "input": "000_q.input.json",
+        "input_sha256": "382b2d4c75f0074094c651c5b2ba5d880a5166e062a46ca5cbfb378030123c13",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "000_q.output.json",
+        "output_sha256": "1c79ccfcdf04cfb3e931d58eed35f39783261db54123bdc3097fc128792a3e7d"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "epsilon",
+        "input": "001_epsilon.input.json",
+        "input_sha256": "b71a0e9f51253596765711e9c01b4b26b29b91df2ecf18508782256c14bbe7ba",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "001_epsilon.output.json",
+        "output_sha256": "011d4f5d4a00d5d42537eb48571630acfaedd4488dde20e92badd04db9fb3e4a"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "q0",
+        "input": "002_q0.input.json",
+        "input_sha256": "5740641ca1fc69721dda327ff73f4743104273236186780bc6c32db6a6e61975",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "002_q0.output.json",
+        "output_sha256": "1b3118db6c44636e0b53510b08a0b678fca4769b0819412b71cc2813823d82c2"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "q1",
+        "input": "003_q1.input.json",
+        "input_sha256": "3175600971bd1f5bde89c6b6226674a29e886fb6b19484df8cfaa8daf47c492b",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "003_q1.output.json",
+        "output_sha256": "df87c47ea8dd210da2e3a2445c29c3f698764ddea6d778594cfb52ad141796e6"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "d",
+        "input": "004_d.input.json",
+        "input_sha256": "b0f311fbc1dde64e8e9806bf24748da9def8761e7b92386da28b40c96520072a",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "004_d.output.json",
+        "output_sha256": "cb9b39e29cd9a048025eea39a478c122f2fd317fba43bf699ae4ca8683137a9a"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "minus_d",
+        "input": "005_minus_d.input.json",
+        "input_sha256": "d75d6675a2f482a6e5d329842441ee8916387bc9ee724d5bdc7c85a9b230921c",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "005_minus_d.output.json",
+        "output_sha256": "5af7ee7c7064ff4bfeae480b931fb69637666c1f3ea655a1349ac351037b5941"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "g",
+        "input": "006_g.input.json",
+        "input_sha256": "a09879b4521cc759fc5c491e066f58bcdf147a7dd958cd9a1d6dd7d9ae127631",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "006_g.output.json",
+        "output_sha256": "8b75a2044ab28defef2c817c822670defc10143ab2b2ce20601d1c4518c9fa7f"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "q0q1",
+        "input": "007_q0q1.input.json",
+        "input_sha256": "844d324485b51f01042fce465ad982f862583fca0ba242e8662df7c0a6b6b9fe",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "007_q0q1.output.json",
+        "output_sha256": "7454f685ed9d612d3ca5f94d2728bbbe62984fea2b231d76d3cc9c42a003ee6f"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "even_unscaled",
+        "input": "008_even_unscaled.input.json",
+        "input_sha256": "9cbc2ff135d41c3a7f3b7f1aecfa87b12a5c8fc67ada27487f34b0ee967811b9",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "008_even_unscaled.output.json",
+        "output_sha256": "5e6eece35914d1f5177abef52631b811ceb70c3a771d5bb3611e3e218aebf8c6"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "even_energy",
+        "input": "009_even_energy.input.json",
+        "input_sha256": "3f5360b4af455bcf8d243682052421b431930f14f59414a7075bf48555882a15",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "009_even_energy.output.json",
+        "output_sha256": "7fc7ce3d7e9cbe3112844e4267318baf7b8500f7617bbb4ac5966a61cd4b9b1f"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "S",
+        "input": "010_S.input.json",
+        "input_sha256": "92d010824fdfed63dab1cf4637cb4cf7c760293a26ffa41f199915a89adf818e",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "010_S.output.json",
+        "output_sha256": "189de98d820e75b5ed50b0236fd7626597864b18f8c61f5f7b8078b36b9aba7c"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "D",
+        "input": "011_D.input.json",
+        "input_sha256": "6211c3d209947f65183c58132999bfb1b2d74beb9ff181c3bc30b5991cc95127",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "011_D.output.json",
+        "output_sha256": "a6e1d4814d2d8a5466d01f8204cfb227b4cbb6c94eacedf9ddb935f71e3f0d78"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "sigma_y",
+        "input": "012_sigma_y.input.json",
+        "input_sha256": "f6c2c21c626d6b8c73028cb3d05cb834ef332e0fc22bf0b026a09978e7c128cc",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "012_sigma_y.output.json",
+        "output_sha256": "2549831d2c0d7ece0b9cec17dcae30fce7361e3bd6a00ab54153d8b4652f638d"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "C",
+        "input": "013_C.input.json",
+        "input_sha256": "5787ea06c675cb376c75b00a58e80fd05db643a9c0c23ed5d180ce954c752fc5",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "013_C.output.json",
+        "output_sha256": "5befd33ed97f3230b31e6591dc236ef8cb86ce23b1e59b09fdbb10379c5c6888"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "D2",
+        "input": "014_D2.input.json",
+        "input_sha256": "d35f8cc251c0fe5c8d7d3d1c2320f75a9d190ebf41dd7af4f3abb091c05d71ec",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "014_D2.output.json",
+        "output_sha256": "fd91c88d209d68d46d29f28e0a3859dc226ffd46f9f2b2630d670c9907927d8c"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "C2",
+        "input": "015_C2.input.json",
+        "input_sha256": "8d432defba4410da54f1099ca2173372734fc84bf1f502514378ef567448acb3",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "015_C2.output.json",
+        "output_sha256": "b1c46450b28b21e77b929921ed75407329fe569df01b0de33a4bd233150f5e7f"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              1,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "current_square_closure",
+        "input": "016_current_square_closure.input.json",
+        "input_sha256": "d46f1933533361f7afa1445ba175d940d991b5113a2cdc9a790c0cc44de15bcc",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "016_current_square_closure.output.json",
+        "output_sha256": "8d08a890cca89e6b0a1108051a4fb1ea22a64141d9b4d91e0d12997a3154c5a2"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "SD",
+        "input": "017_SD.input.json",
+        "input_sha256": "3ea7abfffa98b8224bd2f1c7083f3b9efca1e2370b979e56491f8c18b85cfbb6",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "017_SD.output.json",
+        "output_sha256": "2dcfc703944051689aa3e62488c3a29225b87f236c323da0f61f305c676e712f"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "iSD",
+        "input": "018_iSD.input.json",
+        "input_sha256": "8a48bd30eeeb93881e4b697e86969ac4f58cffff29f1531234f7f5f275e49bbe",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "018_iSD.output.json",
+        "output_sha256": "8e45c42b1949cd0fb3f5f19e81ebd09e63d906239ce116b5f6d4b892ef6618f1"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              1,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "C_incidence_closure",
+        "input": "019_C_incidence_closure.input.json",
+        "input_sha256": "614cc42c573cad3bee8f32018ca8cedb75014cf1d8de5af70c0508170f16a602",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "019_C_incidence_closure.output.json",
+        "output_sha256": "b0e4b5b05118c1fd33224aad8ccae45ff57571c3e02cf2017adf6f66aa0868e2"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "Hsource",
+        "input": "020_Hsource.input.json",
+        "input_sha256": "ce94e0741c3e153f4bbb46e46d4e6903e59c00b05b1ef3ae4c77a7eefa01de60",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "020_Hsource.output.json",
+        "output_sha256": "ddc537c409f349d5d761621b7bffea961431dd9dc5c9ac01f59fe66adb378593"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "lower_energy",
+        "input": "021_lower_energy.input.json",
+        "input_sha256": "bd69fb002796b2afc13dd4ce6786eac32e3cce13f93ea86654020f7b8e9384e8",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "021_lower_energy.output.json",
+        "output_sha256": "b0dfd40bb91683462d12af50c67883b364e1d2aac4cb50cb29fa02ab30daa5be"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "upper_energy",
+        "input": "022_upper_energy.input.json",
+        "input_sha256": "fbcaff48cc546ec5ffc8d68110af33ea34c0c11ead40a34f854b2872b6f21862",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "022_upper_energy.output.json",
+        "output_sha256": "22ec11305e96a8c702ebe9fd89a080dcb3412ee34a934b18fd24c37528d18f89"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "R",
+        "input": "023_R.input.json",
+        "input_sha256": "87bc5847b51d6f68f225ac426aa39cf21041c38117daeefb53931d4ba5fe53f9",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "023_R.output.json",
+        "output_sha256": "1c518e5c3805991ef78b0f04f958851f79a667d98f26a68a0d1c8a124f78b859"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "g2",
+        "input": "024_g2.input.json",
+        "input_sha256": "4c6d48b9139e5efb881053f9ae49f8728c0bf834eedbbb540de4834f14702d29",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "024_g2.output.json",
+        "output_sha256": "2a760b23eeca6948d0411ac560b52d234a9d17e54e3fb29195c40d073a088130"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "fourR",
+        "input": "025_fourR.input.json",
+        "input_sha256": "49d84fd563da7c1d2969aa653c1c33b2613067b720d3622f357cf383f269421e",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "025_fourR.output.json",
+        "output_sha256": "92dc87d40ea112333982bf1ef97cd0eae1e685ef42645cb9799fd9b79286d480"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "one_counterterm",
+        "input": "026_one_counterterm.input.json",
+        "input_sha256": "c6ff1ad2bac67124cd3b293a2c668884550ea5c74da8edb70f94f9b9e170751e",
+        "operation": "GEN3_COMPLEX_SOLVE",
+        "output": "026_one_counterterm.output.json",
+        "output_sha256": "4258318428ef6e712ded8435759cb3174ea8764d37b753fcbeafeb86a8541be6"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "both_counterterms",
+        "input": "027_both_counterterms.input.json",
+        "input_sha256": "b7f42dd4d44da7b7df81673255ff53f3658cce2336601b3f0fec34d27b536f61",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "027_both_counterterms.output.json",
+        "output_sha256": "a506f7f50705e31fdfff88f9667e3dd5fccb861e6565912308b869cadead2b2b"
+      }
+    ]
+  },
+  "gen6_execution_path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_01/tasks/r1_lane01_complete_source/gen6",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_01",
+  "imports": [],
+  "key": "r1_lane01_complete_source",
+  "kind": "RESULT",
+  "native_calls": 28,
+  "operation": "GEN6_NATIVE_PROGRAM",
+  "portable_bundle": null,
+  "returned": {
+    "C": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "16831333767209109007551221805670583105898901804581726042965853639886183356353077693990261971771465579085088162762447/307828173409331868845930000782371982852185463050511302093346042220669701339821957901673955116288403443801781174272",
+                "upper": "16831333767209109007551221805670583105898901804581726042965853639886183356353077693990261971771465579085088163090001/307828173409331868845930000782371982852185463050511302093346042220669701339821957901673955116288403443801781174272"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "-16831333767209109007551221805670583105898901804581726042965853639886183356353077693990261971771465579085088163090001/307828173409331868845930000782371982852185463050511302093346042220669701339821957901673955116288403443801781174272",
+                "upper": "-16831333767209109007551221805670583105898901804581726042965853639886183356353077693990261971771465579085088162762447/307828173409331868845930000782371982852185463050511302093346042220669701339821957901673955116288403443801781174272"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "C2": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1797457945232219325642872211038430510959003912945345745106744442927089073715216873186232168491177701527276122322003/601226901190101306339707032778070279008174732520529886901066488712245510429339761526706943586500787976175353856",
+                "upper": "7189831780928877302571488844153722043836015651781382980426977771708356294860867492744928673964710806109104489567855/2404907604760405225358828131112281116032698930082119547604265954848982041717359046106827774346003151904701415424"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1797457945232219325642872211038430510959003912945345745106744442927089073715216873186232168491177701527276122322003/601226901190101306339707032778070279008174732520529886901066488712245510429339761526706943586500787976175353856",
+                "upper": "7189831780928877302571488844153722043836015651781382980426977771708356294860867492744928673964710806109104489567855/2404907604760405225358828131112281116032698930082119547604265954848982041717359046106827774346003151904701415424"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "C_incidence_closure": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "-167708417/157608024785577916849116160400574455220318957081861786671793173616982887085988842445657065019539662563226511961227264",
+                "upper": "167708417/157608024785577916849116160400574455220318957081861786671793173616982887085988842445657065019539662563226511961227264"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "-167708161/157608024785577916849116160400574455220318957081861786671793173616982887085988842445657065019539662563226511961227264",
+                "upper": "167708161/157608024785577916849116160400574455220318957081861786671793173616982887085988842445657065019539662563226511961227264"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "D": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-16831333767209109007551221805670583105898901804581726042965853639886183356353077693990261971771465579085088163090001/307828173409331868845930000782371982852185463050511302093346042220669701339821957901673955116288403443801781174272",
+                "upper": "-16831333767209109007551221805670583105898901804581726042965853639886183356353077693990261971771465579085088162762447/307828173409331868845930000782371982852185463050511302093346042220669701339821957901673955116288403443801781174272"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "33662667534418218015102443611341166211797803609163452085931707279772366712706155387980523943542931158170176325524893/615656346818663737691860001564743965704370926101022604186692084441339402679643915803347910232576806887603562348544",
+                "upper": "33662667534418218015102443611341166211797803609163452085931707279772366712706155387980523943542931158170176326180003/615656346818663737691860001564743965704370926101022604186692084441339402679643915803347910232576806887603562348544"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "D2": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1797457945232219325642872211038430510959003912945345745106744442927089073715216873186232168491177701527276122322003/601226901190101306339707032778070279008174732520529886901066488712245510429339761526706943586500787976175353856",
+                "upper": "7189831780928877302571488844153722043836015651781382980426977771708356294860867492744928673964710806109104489567855/2404907604760405225358828131112281116032698930082119547604265954848982041717359046106827774346003151904701415424"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "28759327123715509210285955376614888175344062607125531921707911086833425179443469970979714695858843224436417957152047/9619630419041620901435312524449124464130795720328478190417063819395928166869436184427311097384012607618805661696",
+                "upper": "28759327123715509210285955376614888175344062607125531921707911086833425179443469970979714695858843224436417958271421/9619630419041620901435312524449124464130795720328478190417063819395928166869436184427311097384012607618805661696"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "Hsource": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "36156505710288727429575437306742752204197675972896048404808950382757956207470822332839230527908934447380392923714379/39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816",
+                "upper": "36156505710288727429575437306742752204197675972896048404808950382757956207470822332839230527908934447380392923766789/39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "36049271571358241122918552123856938926056316898962895149708445267900617532069211458421815283232503069523243868817461/20657999024695268717247353376024094994637646342633788102645274852325180976134729557037162826241102651487225375781979947008",
+                "upper": "36049271571358241122918552123856938926056316898962895149708445267900617532069211458421815283232503069523243868817469/20657999024695268717247353376024094994637646342633788102645274852325180976134729557037162826241102651487225375781979947008"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "36049271571358241122918552123856938926056316898962895149708445267900617532069211458421815283232503069523243868817461/20657999024695268717247353376024094994637646342633788102645274852325180976134729557037162826241102651487225375781979947008",
+                "upper": "36049271571358241122918552123856938926056316898962895149708445267900617532069211458421815283232503069523243868817469/20657999024695268717247353376024094994637646342633788102645274852325180976134729557037162826241102651487225375781979947008"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "36156505710288727429575437306742752204197675972896048404808950382757956207470822332839230527908934447380392923714379/39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816",
+                "upper": "36156505710288727429575437306742752204197675972896048404808950382757956207470822332839230527908934447380392923766789/39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "R": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "25775873807894249297669712616538961448382391153384377609910460201002424204074481565163150024263441708751645753105647/157608024785577916849116160400574455220318957081861786671793173616982887085988842445657065019539662563226511961227264",
+                "upper": "25775873807894249297669712616538961448382391153384377609910460201002424204074481565163150024263441708751645753105653/157608024785577916849116160400574455220318957081861786671793173616982887085988842445657065019539662563226511961227264"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "S": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1",
+                "upper": "1"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1",
+                "upper": "1"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "both_counterterms": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1149979233112515522170134942153633253443689653526237831202827589073367825170256317373973773735815439315435332611093/41315998049390537434494706752048189989275292685267576205290549704650361952269459114074325652482205302974450751563959894016",
+                "upper": "4599916932450062088680539768614533013774758614104951324811310356293471300681025269495895094943261757261741330623417/165263992197562149737978827008192759957101170741070304821162198818601447809077836456297302609928821211897803006255839576064"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "current_square_closure": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-143279617/1231312693637327475383720003129487931408741852202045208373384168882678805359287831606695820465153613775207124697088",
+                "upper": "143279617/1231312693637327475383720003129487931408741852202045208373384168882678805359287831606695820465153613775207124697088"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-143279745/1231312693637327475383720003129487931408741852202045208373384168882678805359287831606695820465153613775207124697088",
+                "upper": "143279745/1231312693637327475383720003129487931408741852202045208373384168882678805359287831606695820465153613775207124697088"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "d": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-33662667534418218015102443611341166211797803609163452085931707279772366712706155387980523943542931158170176326180001/615656346818663737691860001564743965704370926101022604186692084441339402679643915803347910232576806887603562348544",
+                "upper": "-33662667534418218015102443611341166211797803609163452085931707279772366712706155387980523943542931158170176325524895/615656346818663737691860001564743965704370926101022604186692084441339402679643915803347910232576806887603562348544"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "even_energy": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "9039126427572181857393859326685688051049418993224012101202237595689489051867705583209807631977233611845098230928595/9850501549098619803069760025035903451269934817616361666987073351061430442874302652853566563721228910201656997576704",
+                "upper": "9039126427572181857393859326685688051049418993224012101202237595689489051867705583209807631977233611845098230941697/9850501549098619803069760025035903451269934817616361666987073351061430442874302652853566563721228910201656997576704"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "even_unscaled": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "19759606781745190586844229481879832656729959505645854608847965438736976668105075137149036612308203674446951660672765/37576681324381331646231689548629392438010920782533117931316655544515344401833735095419183974156299248510959616",
+                "upper": "19759606781745190586844229481879832656729959505645854608847965438736976668105075137149036612308203674446951660701401/37576681324381331646231689548629392438010920782533117931316655544515344401833735095419183974156299248510959616"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "g": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-962446745189168961047726173727226933847009966569235787822516210780911329085257368700884050562879237369684213615473/10086913586276986678343434265636765134100413253239154346994763111486904773503285916522052161250538404046496765518544896",
+                "upper": "-15399147923026703376763618779635630941552159465107772605160259372494581265364117899214144809006067797914947417547883/161390617380431786853494948250188242145606612051826469551916209783790476376052574664352834580008614464743948248296718336"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "lower_energy": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "9039109237939970478227674463331899743411762754516994697172796854891841623060670104040220295525091262362051926586387/9850501549098619803069760025035903451269934817616361666987073351061430442874302652853566563721228910201656997576704",
+                "upper": "4519554618969985239113837231665949871705881377258497348586398427445920811530335052020110147762545631181025963299745/4925250774549309901534880012517951725634967408808180833493536675530715221437151326426783281860614455100828498788352"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "one_counterterm": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "36799335459600496709444318148916264110198068912839610598490482850347770405448202155967160759546094058093930643554977/2644223875160994395807661232131084159313618731857124877138595181097623164945245383300756841758861139390364848100093433217024",
+                "upper": "36799335459600496709444318148916264110198068912839610598490482850347770405448202155967160759546094058093930644987335/2644223875160994395807661232131084159313618731857124877138595181097623164945245383300756841758861139390364848100093433217024"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "q0": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "104813462791502103173526396596994676736659301675535304933233051080293861455284205916465309575010080643950754545431/150306725297525326584926758194517569752043683130132471725266622178061377607334940381676735896625196994043838464",
+                "upper": "13416123237312269206211378764415318622292390614468519031453830538277614266276378357307559625601290322425696581821807/19239260838083241802870625048898248928261591440656956380834127638791856333738872368854622194768025215237611323392"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "q1": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "3617020399440709629795832531817432516602767994313719227284799097692625181512111428295487749709251730279628647998615/4809815209520810450717656262224562232065397860164239095208531909697964083434718092213655548692006303809402830848",
+                "upper": "14468081597762838519183330127269730066411071977254876909139196390770500726048445713181950998837006921118514592008293/19239260838083241802870625048898248928261591440656956380834127638791856333738872368854622194768025215237611323392"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "upper_energy": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "36156574468817572946240176760157905434748300927724118020926713345948545922698964249517579873717503845312578141083207/39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816",
+                "upper": "36156574468817572946240176760157905434748300927724118020926713345948545922698964249517579873717503845312578141135619/39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    }
+  },
+  "role": "GEN6_CONTROLLER",
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r1_lane01_complete_source",
+    "question": "Receive exact source roots and construct the chapter lane01 Hamiltonian, even energy, signed currents and both counterterms; distinguish placement calibration from the clock preparation",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ]
+  },
+  "started_utc": "2026-10-15T19:39:07.560162+00:00",
+  "status": "COMPLETED",
+  "task_kind": "gen6_job",
+  "worker_cpu": 2,
+  "worker_pid": 6846
+}

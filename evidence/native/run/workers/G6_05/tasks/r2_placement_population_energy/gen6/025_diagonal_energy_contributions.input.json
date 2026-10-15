@@ -1,0 +1,415 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "27544366435407997020505828350801813238478916913557121533345058015062713808578269268082822942033114517187360552617967/315216049571155833698232320801148910440637914163723573343586347233965774171977684891314130039079325126453023922454528",
+              "upper": "27544366435407997020505828350801813238478916913557121533345058015062713808578269268082822942033114517187360555021871/315216049571155833698232320801148910440637914163723573343586347233965774171977684891314130039079325126453023922454528"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "38008511079198290898252607589262200015772932640139106128180194308898338229602203765561544868719600316691470197093849/157608024785577916849116160400574455220318957081861786671793173616982887085988842445657065019539662563226511961227264",
+              "upper": "38008511079198290898252607589262200015772932640139106128180194308898338229602203765561544868719600316691470198169241/157608024785577916849116160400574455220318957081861786671793173616982887085988842445657065019539662563226511961227264"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "27123972904521074332383468079637082342786731220124731956964779421409700521171121592677238547491706440216077721358767/630432099142311667396464641602297820881275828327447146687172694467931548343955369782628260078158650252906047844909056",
+              "upper": "27123972904521074332383468079637082342786731220124731956964779421409700521171121592677238547491706440216077724221801/630432099142311667396464641602297820881275828327447146687172694467931548343955369782628260078158650252906047844909056"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "22415097767853494672069566252674162043966513689700200063171834803009084108235506666101763200310055740699859068730581/645562469521727147413979793000752968582426448207305878207664839135161905504210298657411338320034457858975792993186873344",
+              "upper": "22415097767853494672069566252674162043966513689700200063171834803009084108235506666101763200310055740699859068779477/645562469521727147413979793000752968582426448207305878207664839135161905504210298657411338320034457858975792993186873344"
+            }
+          }
+        ]
+      ],
+      "precision_bits": 384,
+      "row_basis": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+      "structure": "GENERAL"
+    },
+    "right": {
+      "column_basis": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "36649700435450931203611539669953647786289479221731117638875412368389439045988546798509921104293568650183135812321095/75153362648762663292463379097258784876021841565066235862633311089030688803667470190838367948312598497021919232",
+              "upper": "36649700435450931203611539669953647786289479221731117638875412368389439045988546798509921104293568650183135812357319/75153362648762663292463379097258784876021841565066235862633311089030688803667470190838367948312598497021919232"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "10653389810352289021199330552675920293017496583413399786781629427136632955505940798543721510684134971373143597375381/18788340662190665823115844774314696219005460391266558965658327772257672200916867547709591987078149624255479808",
+              "upper": "10653389810352289021199330552675920293017496583413399786781629427136632955505940798543721510684134971373143597395727/18788340662190665823115844774314696219005460391266558965658327772257672200916867547709591987078149624255479808"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "6188717687270339153462377015829143538061449855987969173131986122635710355558332982615838535153343502614141186076023/9394170331095332911557922387157348109502730195633279482829163886128836100458433773854795993539074812127739904",
+              "upper": "1547179421817584788365594253957285884515362463996992293282996530658927588889583245653959633788335875653535296520463/2348542582773833227889480596789337027375682548908319870707290971532209025114608443463698998384768703031934976"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "10446107011931578057525316771718057959267887180589979192132931600615945364645678238463005877534919424093502282098311/2348542582773833227889480596789337027375682548908319870707290971532209025114608443463698998384768703031934976",
+              "upper": "10446107011931578057525316771718057959267887180589979192132931600615945364645678238463005877534919424093502282098391/2348542582773833227889480596789337027375682548908319870707290971532209025114608443463698998384768703031934976"
+            }
+          }
+        ]
+      ],
+      "precision_bits": 384,
+      "row_basis": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+      "structure": "GENERAL"
+    }
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "actual_R1_finding": "All four original-placement spectral weights are strictly positive; norm, first moment756 and second moment583952 close in native arithmetic",
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_05/tasks/r2_placement_population_energy/gen6/JOB.json",
+      "sha256": "63169f20c5048fbf6c0cec385e6da6550a882d5b5950ea33aabef6efb0370079"
+    },
+    "coefficients_fitted": false,
+    "coherences": "The pure placement state and all its spectral coherences remain; the weight table is only the diagonal account sufficient for this block-diagonal source energy",
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "consumed_native_receipts": [
+      {
+        "key": "r1_placement_spectral_weights",
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_02/tasks/r1_placement_spectral_weights/RESULT.json",
+        "sha256": "6c787dc8acc5ab187d679514fc21696ac9aa2bfa1206077da32cec7556feba27"
+      }
+    ],
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "original_placement_current_scope": "D00=C00=0 are expectation values, not claims that the currents annihilate the placement ket",
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "population_scope": "For the identical product placement |e0> tensor |e0>: four p_a squared diagonal populations and six2p_a p_b symmetric-pair populations; antisymmetric pair population zero",
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r2_placement_population_energy",
+    "question": "Receive actual R1 placement spectral weights and reconstruct all four diagonal and six symmetric-pair populations, complete reference energy and original-basis calibration variance",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ],
+    "source_receiving": "Actual current-run weights receipt plus authenticated exact original-placement Hpair/D/C and source-root inputs"
+  }
+}

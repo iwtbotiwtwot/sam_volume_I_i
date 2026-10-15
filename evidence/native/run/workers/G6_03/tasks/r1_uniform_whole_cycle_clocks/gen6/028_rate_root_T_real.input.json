@@ -1,0 +1,134 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "entries": [
+        [
+          {
+            "im": "0",
+            "re": {
+              "lower": "33747429082620939903671167/87112285931760246646623899502532662132736",
+              "upper": "33747429082620940074746263/87112285931760246646623899502532662132736"
+            }
+          },
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          {
+            "im": "0",
+            "re": {
+              "lower": "608133885000338708391773/85070591730234615865843651857942052864",
+              "upper": "38920568640021677590108125/5444517870735015415413993718908291383296"
+            }
+          },
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          {
+            "im": "0",
+            "re": {
+              "lower": "14276249870989155053526347/83076749736557242056487941267521536",
+              "upper": "3569062467747288967783659/20769187434139310514121985316880384"
+            }
+          },
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          {
+            "im": "0",
+            "re": {
+              "lower": "178656675744952301105968221/348449143727040986586495598010130648530944",
+              "upper": "178656675744952302024812835/348449143727040986586495598010130648530944"
+            }
+          },
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          {
+            "im": "0",
+            "re": {
+              "lower": "6093830743169530253247049/41538374868278621028243970633760768",
+              "upper": "12187661486339061177822113/83076749736557242056487941267521536"
+            }
+          },
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          {
+            "im": "0",
+            "re": {
+              "lower": "10211569857953636272287105/83076749736557242056487941267521536",
+              "upper": "10211569857953636810800621/83076749736557242056487941267521536"
+            }
+          }
+        ]
+      ],
+      "row_basis": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "structure": "GENERAL"
+    }
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_03/tasks/r1_uniform_whole_cycle_clocks/gen6/JOB.json",
+      "sha256": "694c463d88f5232906230ea960e65e97b0f931163ec9ea615730648868f279a1"
+    },
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r1_uniform_whole_cycle_clocks",
+    "question": "Use monotonic all-time energy/amplitude envelopes to certify whole-cycle clock eligibility, preserving all six outcomes and unresolved lanes",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ]
+  }
+}

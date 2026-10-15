@@ -1,0 +1,79 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "-15399147923026703376763618779635630941552159465107772605160259372494581265364117899214144809006067797914947417847569/80695308690215893426747474125094121072803306025913234775958104891895238188026287332176417290004307232371974124148359168",
+              "upper": "-7699573961513351688381809389817815470776079732553886302580129686247290632682058949607072404503033898957473708773941/40347654345107946713373737062547060536401653012956617387979052445947619094013143666088208645002153616185987062074179584"
+            }
+          }
+        ]
+      ],
+      "precision_bits": 384,
+      "row_basis": [
+        "0"
+      ],
+      "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+      "structure": "GENERAL"
+    },
+    "rhs": {
+      "column_basis": [
+        "0"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "-12058434304965652529783313560883437305112204574399628200376069961338466213109421134719835006272368854834663726882659/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912",
+              "upper": "-11684547297084722151698593417057224010787815339958696589726525141539412016673013493993730343382370919450207934586723/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912"
+            }
+          }
+        ]
+      ],
+      "precision_bits": 384,
+      "row_basis": [
+        "0"
+      ],
+      "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+      "structure": "GENERAL"
+    }
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_04/tasks/r1_lane01_initial_reference/gen6/JOB.json",
+      "sha256": "31cb24a89b2c5b4e83d8c8a4801671904b8cd3a5bd721f66d38ed747eb7ffc0c"
+    },
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r1_lane01_initial_reference",
+    "question": "Use actual R1 lane01 source/coupling to receive the signed initial hard-reference clock correlation and the concrete weighted field-form constant",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ]
+  }
+}

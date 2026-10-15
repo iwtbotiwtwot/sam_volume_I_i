@@ -1,0 +1,52 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "39402006147295452193840754399753355865262120136444662221584143179581793528857995001871729978272261943437293132686111/39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816",
+              "upper": "39402006148817829714204096634133025338034414760313173316480631001628887286061083515210426165654723863071822987371295/39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816"
+            }
+          }
+        ]
+      ],
+      "row_basis": [
+        "0"
+      ],
+      "structure": "GENERAL"
+    }
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_04/tasks/r1_lane01_initial_reference/gen6/JOB.json",
+      "sha256": "31cb24a89b2c5b4e83d8c8a4801671904b8cd3a5bd721f66d38ed747eb7ffc0c"
+    },
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r1_lane01_initial_reference",
+    "question": "Use actual R1 lane01 source/coupling to receive the signed initial hard-reference clock correlation and the concrete weighted field-form constant",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ]
+  }
+}

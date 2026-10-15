@@ -1,0 +1,54 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "15057860927155327930672934818143832305213010647636591696533337296449512773347800606829279736007887608469334553571447/4925250774549309901534880012517951725634967408808180833493536675530715221437151326426783281860614455100828498788352",
+              "upper": "117639538493400999458382303266748689884476645684660872629166697628511818541779692240853747937561621941166676199777/38478521676166483605741250097796497856523182881313912761668255277583712667477744737709244389536050430475222646784"
+            }
+          }
+        ]
+      ],
+      "row_basis": [
+        "0"
+      ],
+      "structure": "HERMITIAN"
+    },
+    "max_terms": 2048,
+    "tolerance": "1e-100"
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_04/tasks/r1_lane01_initial_reference/gen6/JOB.json",
+      "sha256": "31cb24a89b2c5b4e83d8c8a4801671904b8cd3a5bd721f66d38ed747eb7ffc0c"
+    },
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r1_lane01_initial_reference",
+    "question": "Use actual R1 lane01 source/coupling to receive the signed initial hard-reference clock correlation and the concrete weighted field-form constant",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ]
+  }
+}

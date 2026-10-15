@@ -1,0 +1,1143 @@
+{
+  "because": [
+    18
+  ],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "6ca3acf37a1f882d208dc3ce577ebf6cd443d8df03f66a9b9e61e46aebe4fd55",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "completed_utc": "2026-10-15T19:40:40.031828+00:00",
+  "gen6_core_version": "0.10.2",
+  "gen6_execution": {
+    "continuation": null,
+    "error": null,
+    "execution_stage": "POST_DUCK_ENGINEERING_QUALIFICATION",
+    "history_continuation": null,
+    "host_compilation": "Exact symbolic DAG and reciprocal token transcription; native product identities certify reciprocals",
+    "host_domain_arithmetic": false,
+    "imported_history_session_reused": false,
+    "installed_engine_modified": false,
+    "qualification_scope": "Original substrate source-chart coefficient mapping; all mixed entries retained",
+    "schema": "SAM_ONE_PRINCIPLE_NATIVE_EXECUTION_V1",
+    "session_reused": false,
+    "status": "PASSED",
+    "time_utc": "2026-10-15T19:40:39.597896+00:00",
+    "trace": [
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "g",
+        "input": "000_g.input.json",
+        "input_sha256": "86e285e95721753ef4d3cf167b45ce796bf5077100a50e7fe6c6c8aceae0cd08",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "000_g.output.json",
+        "output_sha256": "c8b5f57cc0715f439c6b614ecbf9554b18c74a04f188d9a00bd242138a6078fd"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "M",
+        "input": "001_M.input.json",
+        "input_sha256": "fa8431bbf6d7e025926776485a58d661393665e7c98408e74f0a249e3cfec09b",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "001_M.output.json",
+        "output_sha256": "795068797820bfe5c1ad4f9a8a7e28b08e55f8a29f37a913f7ffcd73e74cd12b"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "Omega",
+        "input": "002_Omega.input.json",
+        "input_sha256": "87fb313b8ffe127d7c5e856c7d650315f0070545a4d4e0008e7e67ad98a92144",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "002_Omega.output.json",
+        "output_sha256": "1cc075e94b7263d2cc772db15c0ca3a69bfd2ea342e2bb36a2f3cacc651492f7"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "Delta",
+        "input": "003_Delta.input.json",
+        "input_sha256": "5635aaac88b702ddb02b173b820cd295b125a0c1dcf86c5c1ca591c93bd73504",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "003_Delta.output.json",
+        "output_sha256": "99bcd7662ede8c5e6a471a1b1efefedd7a98f7647eb8fd700b3d3ee8338b0d37"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "phi_plus",
+        "input": "004_phi_plus.input.json",
+        "input_sha256": "ff728e8a3288f9d8016e746fa4511a385b148770fbdf739020bc97c5b22d1e2f",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "004_phi_plus.output.json",
+        "output_sha256": "2bd65edaa4877d5f51ee367056e7fe27437b356a54e268c50afabbe733f411cb"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "phi_cross",
+        "input": "005_phi_cross.input.json",
+        "input_sha256": "b01766f2948a737ff2d2269ac2bf19ec8ba9072f6cccc566ecdf3f574d2ff2bf",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "005_phi_cross.output.json",
+        "output_sha256": "2f805a4a84a397bea81d9e3944f56e3f50822443d64834236abcc782e1ba0d70"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "mu",
+        "input": "006_mu.input.json",
+        "input_sha256": "b1188148494a88dd36e345b39115df426d28968b53a4c7bc241bddf7480c5dc8",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "006_mu.output.json",
+        "output_sha256": "aeaa025c2ed0c5934794eed0d4c961e1fe78c142132c9daf6dd720c1fa09a42b"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "R",
+        "input": "007_R.input.json",
+        "input_sha256": "1fc2cf9f5543302b1b91dd5577b669e47bb37cc08e329b360e00c18290cfb9f2",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "007_R.output.json",
+        "output_sha256": "7267717d4eb1afdfde1c1f185dd6aeec895878eac59990fed61a6357029d3a3a"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "two_g",
+        "input": "008_two_g.input.json",
+        "input_sha256": "b284f89b4ae8628c62e6a278bdcf3d53169f269d02eea9bfdbb8aa668a7e63e6",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "008_two_g.output.json",
+        "output_sha256": "c383a82dead4fa40d54b357bcd9923ec35ed728409858a4e96f87f04e7606fba"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "two_g_phi",
+        "input": "009_two_g_phi.input.json",
+        "input_sha256": "10746363e03bcb5d501aa38c14f3749befe37f495c435b12d3a4aec53f5ebf39",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "009_two_g_phi.output.json",
+        "output_sha256": "1aeec214a3c09434aadec5460de83e4f8c8edfdabb215e199792746092ee857d"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "correlation_rate_shift",
+        "input": "010_correlation_rate_shift.input.json",
+        "input_sha256": "2675d82547cd2377181b6efc3bdfc4acbc42cfb12d234b2fb232372449438502",
+        "operation": "GEN3_COMPLEX_SOLVE",
+        "output": "010_correlation_rate_shift.output.json",
+        "output_sha256": "aaffff597a9c8a7b869d09a8c25dae34eb0b37871511475b925ee093ceecfcce"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "initial_rate",
+        "input": "011_initial_rate.input.json",
+        "input_sha256": "4f03a53fb9104268a6d158cf76bf716f315dfeff89ae10f423c0254b38fe8047",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "011_initial_rate.output.json",
+        "output_sha256": "48e4e82e71ca9f9a5ce372f52a24d7450eab8d5147b201d46e4066b835441ea2"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "initial_rate_reference_residual",
+        "input": "012_initial_rate_reference_residual.input.json",
+        "input_sha256": "d901b400bc19fe9009328732c28cda945a37d2a463ab1e1a59717ba8ec2016d7",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "012_initial_rate_reference_residual.output.json",
+        "output_sha256": "9e3bd8f61b85c023ea8251d9d047a33904a7fbb386dc113ad50cc308818cb225"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "Delta_minus_Omega",
+        "input": "013_Delta_minus_Omega.input.json",
+        "input_sha256": "d62801215f46d97ce89674b2b2f204f78017969256121c602f38add3477cdcf4",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "013_Delta_minus_Omega.output.json",
+        "output_sha256": "9662e74fdb52281940a953dc7e0c102d91200f21b767c30dbe66efe7e78c563e"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "reference_numerator",
+        "input": "014_reference_numerator.input.json",
+        "input_sha256": "a8bba5723ee32f40ec0c19eb457ddc534bbf89318b847cb816126771c0a1fabb",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "014_reference_numerator.output.json",
+        "output_sha256": "de08c8adacf027e852e1b43fa5a3aadf2d04256b71ce1c1968c5966bca10c65d"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "reference_minus",
+        "input": "015_reference_minus.input.json",
+        "input_sha256": "1ceee54cea9dc9ba3f942035e1e39119c6d6a05d66369a7b7603fad151e47978",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "015_reference_minus.output.json",
+        "output_sha256": "80d88271c87675385ee9a66dcdf822a3fedb0f7dbb89bf68f9faad0256b46c5a"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "reference_phi_plus",
+        "input": "016_reference_phi_plus.input.json",
+        "input_sha256": "5305f21d0a165e85c63a234e4085ca6b9393614bafe88ec0506ae732bd577938",
+        "operation": "GEN3_COMPLEX_SOLVE",
+        "output": "016_reference_phi_plus.output.json",
+        "output_sha256": "33c6ad1a0f9123ee94abb7188db949a7e3265186e71bf7d5f95335aac254d656"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "reference_correlator_residual",
+        "input": "017_reference_correlator_residual.input.json",
+        "input_sha256": "368190dd780fa15ac53fa1d38ddbeb9d2b1957f7534ba9454b9bf9b5f60a8ff9",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "017_reference_correlator_residual.output.json",
+        "output_sha256": "7132f514c9c0fc01c52f9b983e307100e556ed17379d0d738bcc9c7f20ac9faf"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "CB_squared",
+        "input": "018_CB_squared.input.json",
+        "input_sha256": "b954ff68b3dcc7aed10fee81730d92f5c08fc4e6ca214391f1150f14006854ae",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "018_CB_squared.output.json",
+        "output_sha256": "569cb2b04db9b01ee9162d2b8c0a34ab9ab5735a51247f56d16e2fe1a0b11d58"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "CB_real",
+        "input": "019_CB_real.input.json",
+        "input_sha256": "3f2fb5234dba1f1010ab8bb99144f55756ef6feabab024545a1d4d2bb05b053c",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "019_CB_real.output.json",
+        "output_sha256": "87824ace3a2420332234bd157a6bb7667b064d54b14fc48051d3301556c83d5f"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "CB_negative_log",
+        "input": "020_CB_negative_log.input.json",
+        "input_sha256": "84380ed83c678e901d174ad55b27c50650ffcff9101c1249c6c970f27fa4b0fa",
+        "operation": "GEN3_COMPLEX_LOG",
+        "output": "020_CB_negative_log.output.json",
+        "output_sha256": "1e14fa6b01239a2649258001940e2d541eeddc7577b198c0a2210e0c9f244fab"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "CB_half_log",
+        "input": "021_CB_half_log.input.json",
+        "input_sha256": "a33a23c04e6e9e555dc2df5c47c58541780e67da0a021bc0832a4018ed784eeb",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "021_CB_half_log.output.json",
+        "output_sha256": "7a0b82ca0f970ef7e308941b9218ba77d1d602df9f811c75977685f303d46143"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "CB",
+        "input": "022_CB.input.json",
+        "input_sha256": "1e42f01717ce86ae5080ad4b57f24fb606a8a39a85a98dcb2439b0cf31999825",
+        "operation": "GEN3_COMPLEX_EXP",
+        "output": "022_CB.output.json",
+        "output_sha256": "0105d990c942789557abed1452cc7a1eb1890f137a73fac38282b3d6ba35fa80"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "twoR",
+        "input": "023_twoR.input.json",
+        "input_sha256": "448dd6e1e7bb850bba86ab16802698ae02ed1535a95511bbe09aba10dd3217da",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "023_twoR.output.json",
+        "output_sha256": "1fbff67d08958573b55662f89d6b7ae0d2665368486f5444ee3fca7c1a180b0f"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "one",
+        "input": "024_one.input.json",
+        "input_sha256": "8b10dad96aa8a30070470526af9a185a67715280178d0fe1fa97d30c6988fcde",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "024_one.output.json",
+        "output_sha256": "a9131f2b93d1acb532b131148ac072c389a07123666ae2de39b6c519a1a4f947"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "inverse_twoR",
+        "input": "025_inverse_twoR.input.json",
+        "input_sha256": "6da794b364efc59c9344c6f5296e657a6b4bd349ae1cb75b38a974df3917604c",
+        "operation": "GEN3_COMPLEX_SOLVE",
+        "output": "025_inverse_twoR.output.json",
+        "output_sha256": "bbdc84136d163189d2a89411e2704f39ef88eb6c855b049aef18a899ecb4c4d0"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "form_constant_residual",
+        "input": "026_form_constant_residual.input.json",
+        "input_sha256": "b46bb85d98021f049d8a4965349b8b8db368058b330af215287e995099379015",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "026_form_constant_residual.output.json",
+        "output_sha256": "7c6ce09f3e063b7b726378c4b34b00a4c36a54dc1af1c7b55afa8caf34ece014"
+      }
+    ]
+  },
+  "gen6_execution_path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_04/tasks/r1_lane01_initial_reference/gen6",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_04",
+  "imports": [],
+  "key": "r1_lane01_initial_reference",
+  "kind": "RESULT",
+  "native_calls": 27,
+  "operation": "GEN6_NATIVE_PROGRAM",
+  "portable_bundle": null,
+  "returned": {
+    "CB": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "34447349086866482675431584013569088661693400252533082102932746333437165200687605673892259036035333923634329129692293/19701003098197239606139520050071806902539869635232723333974146702122860885748605305707133127442457820403313995153408",
+                "upper": "34447349086866482675431584013569088661693400252533082102932746333437165200687605673892259036035333923634329129692315/19701003098197239606139520050071806902539869635232723333974146702122860885748605305707133127442457820403313995153408"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "CB_squared": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "30115721854310655861345869636287664610426021295273183393066674592899025546695601213658559472015775216938669107142895/9850501549098619803069760025035903451269934817616361666987073351061430442874302652853566563721228910201656997576704",
+                "upper": "30115721854310655861345869636287664610426021295273183393066674592899025546695601213658559472015775216938669107142911/9850501549098619803069760025035903451269934817616361666987073351061430442874302652853566563721228910201656997576704"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "Delta": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "36049271571358241122918552123856938926056316898962895149708445267900617532069211458421815283232503069523243868817461/10328999512347634358623676688012047497318823171316894051322637426162590488067364778518581413120551325743612687890989973504",
+                "upper": "36049271571358241122918552123856938926056316898962895149708445267900617532069211458421815283232503069523243868817469/10328999512347634358623676688012047497318823171316894051322637426162590488067364778518581413120551325743612687890989973504"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "M": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "39402006147295452192772760881792900824064609283359886164282790918403467143884474197960620115381941668425812089217823/39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816",
+                "upper": "39402006148817829715272090152093480379231925613397949373781983262807213671034604319121536028545044138083304030839583/39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "Omega": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "36049271481515904382455985956053454186136934948886776278059316537780804673957392424110860461119499808834841528995941/10328999512347634358623676688012047497318823171316894051322637426162590488067364778518581413120551325743612687890989973504",
+                "upper": "36049271484301579609007915237105431561199789244610549382406263526486803979186976243188602370268847312652913903898725/10328999512347634358623676688012047497318823171316894051322637426162590488067364778518581413120551325743612687890989973504"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "correlation_rate_shift": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-42061274625/4835703278458516698824704",
+                "upper": "-40757111103/4835703278458516698824704"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "form_constant_residual": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-503316483/330527984395124299475957654016385519914202341482140609642324397637202895618155672912594605219857642423795606012511679152128",
+                "upper": "503316483/330527984395124299475957654016385519914202341482140609642324397637202895618155672912594605219857642423795606012511679152128"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "initial_rate": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "36049271481515903798929478188704002798047620062561306894122298303607889909422071356159001971402441924805985340950585/10328999512347634358623676688012047497318823171316894051322637426162590488067364778518581413120551325743612687890989973504",
+                "upper": "36049271484301580196002303154414705325582369339199638800751323543759607145630456261813153608342810841207281357097017/10328999512347634358623676688012047497318823171316894051322637426162590488067364778518581413120551325743612687890989973504"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "initial_rate_reference_residual": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-696418957859576851902632396775596560936190908577752611611360442308830241312949414168202722019137358078475/2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747493376",
+                "upper": "696418958726546889392587990848912863002095917179763057386332542785869978981122601257429133150515174366709/2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747493376"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "phi_cross": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "phi_plus": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "26071441663/590295810358705651712",
+                "upper": "26905686689/590295810358705651712"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "reference_correlator_residual": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-417122515/295147905179352825856",
+                "upper": "417122515/295147905179352825856"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "reference_phi_plus": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "52142883327/1180591620717411303424",
+                "upper": "53811373377/1180591620717411303424"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    }
+  },
+  "role": "GEN6_CONTROLLER",
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r1_lane01_initial_reference",
+    "question": "Use actual R1 lane01 source/coupling to receive the signed initial hard-reference clock correlation and the concrete weighted field-form constant",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ]
+  },
+  "started_utc": "2026-10-15T19:40:38.013525+00:00",
+  "status": "COMPLETED",
+  "task_kind": "gen6_job",
+  "worker_cpu": 5,
+  "worker_pid": 6852
+}

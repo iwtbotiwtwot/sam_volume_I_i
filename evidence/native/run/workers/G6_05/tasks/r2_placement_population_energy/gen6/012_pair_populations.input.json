@@ -1,0 +1,505 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "entries": [
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "row_basis": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "structure": "GENERAL"
+    },
+    "right": {
+      "column_basis": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "22879252138451798505733161368647814659900524913078196155799429240435994423356269823683814035952656018397841206853941/157608024785577916849116160400574455220318957081861786671793173616982887085988842445657065019539662563226511961227264",
+              "upper": "22879252138451798505733161368647814659900524913078196155799429240435994423356269823683814035952656018397841208175991/157608024785577916849116160400574455220318957081861786671793173616982887085988842445657065019539662563226511961227264"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "1207975327693744356780460874896068242624132517212619087391355911310471207125238027489245194608887687180874943868657/19701003098197239606139520050071806902539869635232723333974146702122860885748605305707133127442457820403313995153408",
+              "upper": "19327605243099909708487373998337091881986120275401905398261694580967539314003808439827923113742202994893999103761961/315216049571155833698232320801148910440637914163723573343586347233965774171977684891314130039079325126453023922454528"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "4392499525481094580123449538087026223153483427791048433650989526085050967060040167579998774032765083719949105143079/2521728396569246669585858566409191283525103313309788586748690777871726193375821479130513040312634601011624191379636224",
+              "upper": "8784999050962189160246899076174052446306966855582096867301979052170101934120080335159997548065530167439898210679091/5043456793138493339171717132818382567050206626619577173497381555743452386751642958261026080625269202023248382759272448"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "32108282804493975303509545431820672730263804919687908811921704333322159830130338252394323115750759255388616602825477/315216049571155833698232320801148910440637914163723573343586347233965774171977684891314130039079325126453023922454528",
+              "upper": "32108282804493975303509545431820672730263804919687908811921704333322159830130338252394323115750759255388616604974281/315216049571155833698232320801148910440637914163723573343586347233965774171977684891314130039079325126453023922454528"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "29188430787741440900152107498190750815057526399302746252845570585497359743863450342334750717489770586075278923573299/10086913586276986678343434265636765134100413253239154346994763111486904773503285916522052161250538404046496765518544896",
+              "upper": "29188430787741440900152107498190750815057526399302746252845570585497359743863450342334750717489770586075278924018059/10086913586276986678343434265636765134100413253239154346994763111486904773503285916522052161250538404046496765518544896"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "3082172794138721010469373304167504390811278144666911427225219738003612627239498239238481472602619418615028225375425/2521728396569246669585858566409191283525103313309788586748690777871726193375821479130513040312634601011624191379636224",
+              "upper": "6164345588277442020938746608335008781622556289333822854450439476007225254478996478476962945205238837230056451082909/5043456793138493339171717132818382567050206626619577173497381555743452386751642958261026080625269202023248382759272448"
+            }
+          }
+        ]
+      ],
+      "precision_bits": 384,
+      "row_basis": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+      "structure": "GENERAL"
+    }
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "actual_R1_finding": "All four original-placement spectral weights are strictly positive; norm, first moment756 and second moment583952 close in native arithmetic",
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_05/tasks/r2_placement_population_energy/gen6/JOB.json",
+      "sha256": "63169f20c5048fbf6c0cec385e6da6550a882d5b5950ea33aabef6efb0370079"
+    },
+    "coefficients_fitted": false,
+    "coherences": "The pure placement state and all its spectral coherences remain; the weight table is only the diagonal account sufficient for this block-diagonal source energy",
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "consumed_native_receipts": [
+      {
+        "key": "r1_placement_spectral_weights",
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_02/tasks/r1_placement_spectral_weights/RESULT.json",
+        "sha256": "6c787dc8acc5ab187d679514fc21696ac9aa2bfa1206077da32cec7556feba27"
+      }
+    ],
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "original_placement_current_scope": "D00=C00=0 are expectation values, not claims that the currents annihilate the placement ket",
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "population_scope": "For the identical product placement |e0> tensor |e0>: four p_a squared diagonal populations and six2p_a p_b symmetric-pair populations; antisymmetric pair population zero",
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r2_placement_population_energy",
+    "question": "Receive actual R1 placement spectral weights and reconstruct all four diagonal and six symmetric-pair populations, complete reference energy and original-basis calibration variance",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ],
+    "source_receiving": "Actual current-run weights receipt plus authenticated exact original-placement Hpair/D/C and source-root inputs"
+  }
+}

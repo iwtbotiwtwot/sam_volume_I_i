@@ -1,0 +1,157 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "4117721624723937186855821883563205/51422017416287688817342786954917203280710495801049370729644032",
+              "upper": "4117721624723937186855823045557801/51422017416287688817342786954917203280710495801049370729644032"
+            }
+          },
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "1029430595044691971984948542924191/12855504354071922204335696738729300820177623950262342682411008",
+              "upper": "1029430595044691971984950143347913/12855504354071922204335696738729300820177623950262342682411008"
+            }
+          },
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "1005340369240487420251196061691/12554203470773361527671578846415332832204710888928069025792",
+              "upper": "1005340369240487420253331937993/12554203470773361527671578846415332832204710888928069025792"
+            }
+          },
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "8235443318411195237341853743639281/102844034832575377634685573909834406561420991602098741459288064",
+              "upper": "8235443318411195237341856456143793/102844034832575377634685573909834406561420991602098741459288064"
+            }
+          },
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "1005337532520343922117380810401/12554203470773361527671578846415332832204710888928069025792",
+              "upper": "1005337532520343922119278832299/12554203470773361527671578846415332832204710888928069025792"
+            }
+          },
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "2010669229530521335449657085855/25108406941546723055343157692830665664409421777856138051584",
+              "upper": "2010669229530521335452983642699/25108406941546723055343157692830665664409421777856138051584"
+            }
+          }
+        ]
+      ],
+      "row_basis": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "structure": "HERMITIAN"
+    },
+    "max_terms": 2048,
+    "tolerance": "1e-100"
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_08/tasks/r2_weighted_soft_duhamel/gen6/JOB.json",
+      "sha256": "33723e5126bd4e4178d330173ea0d924c15af9e473243818a098bc31ef05e16d"
+    },
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "new_method": "Energy-weighted Duhamel comparison to exact coherent hard branches times soft vacuum; full-field form dynamics; both helicities and exact soft scalar counterterm",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r2_weighted_soft_duhamel",
+    "propagation_interval": "0<=t<=T=time_CYCLE",
+    "question": "Evaluate the newly derived energy-weighted soft Duhamel certificate in all six lanes; certify actual centered margins and phase inverses when its explicit form/reference hypotheses hold",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ],
+    "theorem_status": "New analytical construction; numerical intervals pay its explicit scalar bounds; mathematical review retained separately"
+  }
+}

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this repository and its accompanying Chapter I manuscript."
+title: "SAM Volume I, Chapter I: Original Write histories and an interacting source-field action"
+type: software
+version: 0.1.0
+date-released: 2026-10-15
+authors:
+  - family-names: Brady
+    given-names: Sean
+  - name: "OpenAI ChatGPT and Codex"
+repository-code: "https://github.com/iwtbotiwtwot/sam_volume_I_i"
+url: "https://github.com/iwtbotiwtwot/sam_volume_I_i"
+abstract: "Manuscript, analytical documentation, exact retained certificates, independent reconstruction and reproducibility tests for the completed Chapter I source-to-clock calculation."

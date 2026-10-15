@@ -1,0 +1,271 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0",
+        "1",
+        "2"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "4599916932450062088680539768614533013774758614104951324811310356293471300681025269495895094943261757261741330444373/165263992197562149737978827008192759957101170741070304821162198818601447809077836456297302609928821211897803006255839576064",
+              "upper": "18399667729800248354722159074458132055099034456419805299245241425173885202724101077983580379773047029046965322493663/661055968790248598951915308032771039828404682964281219284648795274405791236311345825189210439715284847591212025023358304256"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "19759336415999388338014583583835594293646702827636725459377353664311178750128636779860427927894741514688174622810805/165263992197562149737978827008192759957101170741070304821162198818601447809077836456297302609928821211897803006255839576064",
+              "upper": "19759336415999388338014583583835594293646702827636725459377353664311178750128636779860427927894741514688174623064447/165263992197562149737978827008192759957101170741070304821162198818601447809077836456297302609928821211897803006255839576064"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "21167467742524295110228776027045170599247076763053357177091187832393952747678215405573911107937844603045482244414983/661055968790248598951915308032771039828404682964281219284648795274405791236311345825189210439715284847591212025023358304256",
+              "upper": "21167467742524295110228776027045170599247076763053357177091187832393952747678215405573911107937844603045482245209929/661055968790248598951915308032771039828404682964281219284648795274405791236311345825189210439715284847591212025023358304256"
+            }
+          }
+        ]
+      ],
+      "precision_bits": 384,
+      "row_basis": [
+        "0",
+        "1",
+        "2"
+      ],
+      "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+      "structure": "GENERAL"
+    },
+    "right": {
+      "column_basis": [
+        "0",
+        "1",
+        "2"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "36726851135/131072",
+              "upper": "38422068353/131072"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "8559412559/32768",
+              "upper": "10396249889/32768"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "0",
+              "upper": "0"
+            }
+          },
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "36605376319/131072",
+              "upper": "38555921793/131072"
+            }
+          }
+        ]
+      ],
+      "precision_bits": 384,
+      "row_basis": [
+        "0",
+        "1",
+        "2"
+      ],
+      "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+      "structure": "GENERAL"
+    }
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_06/tasks/r2_uniform_inverse_action/gen6/JOB.json",
+      "sha256": "2e121a04c9f84b9f5fcf89c6aa4c7030232087f2d78e78538bfee17218d0ef2a"
+    },
+    "coefficient_dependency": "Every marginal coefficient uses the SAME underlying actual nu(t); no independent coefficient sampling",
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "phase_scope": "Whole retained cycle; reciprocal is instantaneous dt/dgamma, not a finite-window average",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r2_uniform_inverse_action",
+    "question": "Receive actual uniformly positive R1 lanes into a common instantaneous phase inverse and complete dependent lane-action coefficient family",
+    "selected_lanes": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ]
+  }
+}

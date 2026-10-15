@@ -1,0 +1,13 @@
+# Source-derived coupling received by the complete clock law
+
+This supplemental calculation preserves every completed run. It receives exact local signed source-root differences, derives epsilon=1/Eref at the retained Eref=573049 capacity clock normalization, and recomputes g=epsilon*d through the complete quadrupole continuum. The source construction will independently derive Eref and the source spectrum; this receiving calculation does not assign SI units or replace that source derivation. R1 uses exact retained signed-root intervals and R2 can receive fresh source-chain certificates.
+
+The law and preparation are those in samland_resolved_clock1/DERIVATION.md. Kappa=4/5, |u_R(omega)|²=2omega*j2(omega R)²/(kappa*pi), mu=1/(4R), b=1/(6kappa*pi), b3=R/42. Both helicities, counterrotating words, all field frequencies and all photon sectors remain. Split lambda=64Delta, Delta=2epsilon. Prepare the equal coherent exact hard charge0/1 branches, with the full soft field initially in its relative vacuum. No microscopic finite actuator or SI assignment is inferred from this preparation.
+
+Native arithmetic derives c=2g²mu, A=2g²b/(1-1/64)², nplus=A/(1+A), bh in[b-bsoft,b], where bsoft=R⁴lambda⁴/(450kappa*pi). The complete Gaussian trial functions Z,B,Cf use 24 rational terms c[n,j]=(-1)^n*8^n*n!/(2n+j)! with factor2 for j=2. Their explicit absolute geometric tail is |c[24,j]|a^24/(1-4a/49), a=g²bh. This is exactly the retained trial series, evaluated by installed native arithmetic rather than a host scientific fallback.
+
+Set delta_bar=upper(mu*g²*(1+Cf-2B)), Ku=delta_bar+epsilon*(1-Zlower+2nplus), Ef=(sqrt(c)+sqrt(Ku))², L=Ef/(1-nplus)+c+Delta, DD=2g²*((b-bsoft)-2L*b3), nminus=DD/(1+A+DD). Then Omega in[Delta(1-2nplus),Delta(1-2nminus)] and M in[1-(1+2A)nplus,1-nminus]. Native positivity checks retain the full branch-isolation and strictly slower-gap hypotheses.
+
+For z=<D+iC>/d with z(0)=M>0 and gamma=-arg(z), the actual source equation is dot z=-iDelta*z+2g<S(phi_cross-i phi_plus)>. Initially the soft expectation vanishes and the exact hard branch superposition has dot z=-iOmega*M. Consequently the actual initial rate is nu(0)=Omega, <S phi_cross>_0=0, and <S phi_plus>_0=-(Delta-Omega)*M/(2g). These are joint correlations, not products of source and field means. The initial actual rate must not be substituted for the later instantaneous rate.
+
+All numerical contractions, matrix solves, products, positive roots and Gaussian evaluation run natively. Python assembles rationals, graph dependencies and source hashes only. A real-diagonal admission before LOG retains the mathematical real structure and checks discarded imaginary enclosure contains zero; no rounded displays become inputs.

@@ -1,0 +1,169 @@
+{
+  "schema": "SAM_CHAPTER_I_PORTABLE_ASSETS_V1",
+  "date": "2026-10-15",
+  "scope": "Chapter I reviewed manuscript, source-bound compact packet, original mathematical sources, fonts and retained evidence inventory",
+  "files": [
+    {
+      "path": "manuscript/Chapter_I.pdf",
+      "bytes": 330337,
+      "sha256": "c9a3c916dd85de3951d04564554e1d1aaf966da7be0b9d5fac2715f714127bb5",
+      "role": "reviewed_chapter"
+    },
+    {
+      "path": "manuscript/chapter_I.md",
+      "bytes": 25642,
+      "sha256": "70967ace7f12c862624524ad035a858f2a1399d5946ce96c482e9601b8c371b9",
+      "role": "reviewed_chapter"
+    },
+    {
+      "path": "data/chapter1_certificate.json",
+      "bytes": 72837,
+      "sha256": "30e4e6a942c8b8d25a7d0fcbfdf53456f48ba83f184bd87fb045f2dad7480c1f",
+      "role": "compact_source_bound_certificate"
+    },
+    {
+      "path": "assets/fonts/COPYRIGHT",
+      "bytes": 5208,
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125",
+      "role": "unmodified_font_and_notice"
+    },
+    {
+      "path": "assets/fonts/NotoSans-Bold.ttf",
+      "bytes": 515752,
+      "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5",
+      "role": "unmodified_font_and_notice"
+    },
+    {
+      "path": "assets/fonts/NotoSans-Regular.ttf",
+      "bytes": 512672,
+      "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d",
+      "role": "unmodified_font_and_notice"
+    },
+    {
+      "path": "assets/fonts/NotoSansMath-Regular.ttf",
+      "bytes": 590896,
+      "sha256": "8242bd1e55368b27e32455260754cf9aa58f3ad7ea80664b66c21f1b09910d6c",
+      "role": "unmodified_font_and_notice"
+    },
+    {
+      "path": "assets/fonts/NotoSerif-Bold.ttf",
+      "bytes": 611904,
+      "sha256": "0af0ff2be8f84910fb21ec5fe1b6b7395e3073250502a334baf6ca2f860c88fe",
+      "role": "unmodified_font_and_notice"
+    },
+    {
+      "path": "assets/fonts/NotoSerif-Italic.ttf",
+      "bytes": 637472,
+      "sha256": "bc25600aa27cd409e1e5b3d86340df3a329bb860fcfbe57a03a95070b229e1b0",
+      "role": "unmodified_font_and_notice"
+    },
+    {
+      "path": "assets/fonts/NotoSerif-Regular.ttf",
+      "bytes": 588876,
+      "sha256": "9d7583b7dc9e812afd32a14280c5cac3160012efe50c8d08938f4fea266ff67f",
+      "role": "unmodified_font_and_notice"
+    },
+    {
+      "path": "references/README.md",
+      "bytes": 1814,
+      "sha256": "fa9a65372a991a4235cc6f6f6c0acb748967369e19c1f3f18f023f701088f062",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/clock_refinement_note.pdf",
+      "bytes": 100286,
+      "sha256": "f33c73b01be614aed538642a4e788e267ab8d51620db6ef53731409c8cf12e48",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/derivations/DERIVATION_DRAFT.md",
+      "bytes": 18115,
+      "sha256": "d8d5c406fcf5b49795e6b73160a3638415d8f9a3ac8d63e4e2c3c90802d269d1",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/derivations/DOMAIN_SUPPLEMENT.md",
+      "bytes": 14269,
+      "sha256": "73ce2383c6e4e773a320c7da9ac01aeddf9dd7603b710a0dd51425ceff7acc95",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/derivations/HARD_CLOCK_DERIVATION.md",
+      "bytes": 2736,
+      "sha256": "54b6dd5f71322a0c04b80450276297fb7cfc88487435064cb0aa5b9d0c54c9c5",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/derivations/ORIGINAL_SOURCE_DERIVATION.md",
+      "bytes": 7272,
+      "sha256": "4be7fdf4c407f05fe9fd36b4e73baf957b51907fb5e24281d31bd7c99de3010b",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/derivations/REFERENCE_SUPPLEMENT.md",
+      "bytes": 11988,
+      "sha256": "8038709e8c9567f6fc2645bf649788ecce0fc5cda56008fc739bd947a9212d0f",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/derivations/RESOLVED_CLOCK_DERIVATION.md",
+      "bytes": 14403,
+      "sha256": "eea64fc566bea28edf7b629b5067a5f6616e55e4204595dac8c9044c752501e9",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/derivations/WEIGHTED_DUHAMEL.md",
+      "bytes": 10682,
+      "sha256": "dbd84d69e1bd786050ded5d19f788fd02698d1e2104902121972ba7555de60b5",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/native_jobs/adaptive_initial.py",
+      "bytes": 3754,
+      "sha256": "b1930168116242dc73a14f9625c0456ad56fa1196eb59db533432eca805002ef",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/native_jobs/all_lane_action.py",
+      "bytes": 3401,
+      "sha256": "26026d3ef79f18b4c9f7a6cb62fa990c1081b925404a234a9caa785cc64f3f57",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/native_jobs/build.py",
+      "bytes": 13895,
+      "sha256": "a85e0bb8ef4b26857a5cfff1ea0eb732612b09b804be9fc94a61bb9b76c70668",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/native_jobs/r2_clocks.py",
+      "bytes": 9610,
+      "sha256": "ded3d67785cfa25de9fd88f188e526ab9e68879e0df155572d745f5a1e9e7ae5",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/native_jobs/r2_preparation.py",
+      "bytes": 13172,
+      "sha256": "5e115d9b99ce7f08659a650f0cb7d635c08dbbc138e6d248e420dc113bc60ff1",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/native_jobs/weighted_duhamel.py",
+      "bytes": 7306,
+      "sha256": "af85789825c6f06de2fa5abbc72bbbcb441d576f8afe7c0a9e5db784612d46aa",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "references/original_action_v1_1.pdf",
+      "bytes": 466890,
+      "sha256": "4daab5a5ddde37d42b127e4628220723f37aa51a50d138af8d7824750d65d797",
+      "role": "original_mathematical_source"
+    },
+    {
+      "path": "evidence/MANIFEST.json",
+      "bytes": 312206,
+      "sha256": "c7e388a15d91393b5ce440c99ef32aa92ec5507e832ba2692d596860cd4c6b8c",
+      "role": "retained_evidence_inventory"
+    }
+  ]
+}

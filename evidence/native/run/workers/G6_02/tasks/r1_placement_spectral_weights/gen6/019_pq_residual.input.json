@@ -1,0 +1,81 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0",
+        "1"
+      ],
+      "entries": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "row_basis": [
+        "0"
+      ],
+      "structure": "GENERAL"
+    },
+    "right": {
+      "column_basis": [
+        "0"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "3636220298397732700742548134241769047441440782284164755977650123731660847076646877713523594811156765679908540064329/4809815209520810450717656262224562232065397860164239095208531909697964083434718092213655548692006303809402830848",
+              "upper": "14544881193590930802970192536967076189765763129136659023910600494926643388306587510854094379244627062719634160712165/19239260838083241802870625048898248928261591440656956380834127638791856333738872368854622194768025215237611323392"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "756",
+              "upper": "756"
+            }
+          }
+        ]
+      ],
+      "row_basis": [
+        "0",
+        "1"
+      ],
+      "structure": "GENERAL"
+    }
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_02/tasks/r1_placement_spectral_weights/gen6/JOB.json",
+      "sha256": "ed85a4867ba8fe97388e81eefa154c5a98af43430d590c6602f281819e10ab74"
+    },
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r1_placement_spectral_weights",
+    "question": "Resolve the labelled calibration state into all four source spectral weights without identifying it with a hard-clock preparation",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ]
+  }
+}

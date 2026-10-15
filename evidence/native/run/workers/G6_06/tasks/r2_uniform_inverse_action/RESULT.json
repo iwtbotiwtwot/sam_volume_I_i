@@ -1,0 +1,2046 @@
+{
+  "because": [
+    24
+  ],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "6ca3acf37a1f882d208dc3ce577ebf6cd443d8df03f66a9b9e61e46aebe4fd55",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "completed_utc": "2026-10-15T19:45:13.110451+00:00",
+  "gen6_core_version": "0.10.2",
+  "gen6_execution": {
+    "continuation": null,
+    "error": null,
+    "execution_stage": "POST_DUCK_ENGINEERING_QUALIFICATION",
+    "history_continuation": null,
+    "host_compilation": "Exact symbolic DAG and reciprocal token transcription; native product identities certify reciprocals",
+    "host_domain_arithmetic": false,
+    "imported_history_session_reused": false,
+    "installed_engine_modified": false,
+    "qualification_scope": "Original substrate source-chart coefficient mapping; all mixed entries retained",
+    "schema": "SAM_ONE_PRINCIPLE_NATIVE_EXECUTION_V1",
+    "session_reused": false,
+    "status": "PASSED",
+    "time_utc": "2026-10-15T19:45:12.680788+00:00",
+    "trace": [
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              2,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              2,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "nu",
+        "input": "000_nu.input.json",
+        "input_sha256": "b28043d6ab2526d07bcfdc39e58c70b5f2c618e84aa41b8becb03c32efcd3999",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "000_nu.output.json",
+        "output_sha256": "bd2a5c95f031ae8f42b57fbc84a3810ac109d8623c7498343dfbe2aee3adc6fa"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              2,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              2,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "inverse_rate",
+        "input": "001_inverse_rate.input.json",
+        "input_sha256": "c75134169e9a18964baaad06885ed3ed6364c3ec8da3a043ccf3b137e95e7f3e",
+        "operation": "GEN3_COMPLEX_SOLVE",
+        "output": "001_inverse_rate.output.json",
+        "output_sha256": "127c1ea0aeb3272f41fd47b9482d1e855f10162ad832fc4873bbe8e8b3802af6"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "epsilon",
+        "input": "002_epsilon.input.json",
+        "input_sha256": "64a4962004922f2d7a088d5c3ef5aa52883aee84bcc78c4aae738994b4dae9bc",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "002_epsilon.output.json",
+        "output_sha256": "4d201740f6d79b6c6cf3b4648db1b6adee00eb3da6a26ab4a23142ba674b89b3"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "g",
+        "input": "003_g.input.json",
+        "input_sha256": "435ba81001e656125293ef70c5f5b8f2ee3e0633b7dab8f2ba80e2dc0d6fea31",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "003_g.output.json",
+        "output_sha256": "45657237c22e2a998344067b3bf17045420d7212ee39e80b46c1ed9d0af4e3c0"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "counterterm",
+        "input": "004_counterterm.input.json",
+        "input_sha256": "76bd1daccbaabbe96527bc39eeafb99afbe9f148b97df48191433c8029d5ed8e",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "004_counterterm.output.json",
+        "output_sha256": "7f6b70b97d605e36c76634dada284ab85113952c893e7173d3a2fbd70f83f501"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "even_energy",
+        "input": "005_even_energy.input.json",
+        "input_sha256": "64a62c5c95ff283dfa231269d33dd9bfa5244c2070c5d5f5ae8a4e0593951d7a",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "005_even_energy.output.json",
+        "output_sha256": "dd2e9e146924c17794ef551d2d30d276251057e45cd0b3c3924f1cebd1089470"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "field_kinetic",
+        "input": "006_field_kinetic.input.json",
+        "input_sha256": "5e15a8577dbb96e483cba20c2922ceb6be89a51f041956431bf2db2ffb81822b",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "006_field_kinetic.output.json",
+        "output_sha256": "d5c743de70b728c2203a26f1ed7bbd4a4b8a0add68bd40052c0a38d39bab9725"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "field_gradient",
+        "input": "007_field_gradient.input.json",
+        "input_sha256": "352280e5504f58359b0de0cea915145f0b0df1759b0524846702bb64ca811892",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "007_field_gradient.output.json",
+        "output_sha256": "640f8bd84a01509cdd6d60796fb7f91ad1da97ca91ba19b06f59e4f499487723"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "field_angular",
+        "input": "008_field_angular.input.json",
+        "input_sha256": "c02e54113857dcd00a56fc44682541c2215c452f288f09e2e7089201d34978af",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "008_field_angular.output.json",
+        "output_sha256": "8952c18e7b2d7b1662606f58e239777580cdbcc45e4d53cdda4206ef9b74d4de"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "source_even_raw",
+        "input": "009_source_even_raw.input.json",
+        "input_sha256": "0dad6c5c4b7c04f3e465a7832eb7151e8834e9e972f0f1a749eea3bdcbb7acc2",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "009_source_even_raw.output.json",
+        "output_sha256": "bcddff64ab437cbc0190630e40295895f124e3b41ddb1f401014e4135fed7986"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "source_even",
+        "input": "010_source_even.input.json",
+        "input_sha256": "89feb8f416949e32001e3734d2aa9ff21750785eb82be52f71cec732fce2c95c",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "010_source_even.output.json",
+        "output_sha256": "1546d6f91aa4ff7ca91165f216c0ef5382ec8324d2b88cf93d69ab06d7a5acfe"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "source_exchange_raw",
+        "input": "011_source_exchange_raw.input.json",
+        "input_sha256": "6dd4220459010735c56521ef335d1bed60a3ae3de13387527c3cc187511c8db8",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "011_source_exchange_raw.output.json",
+        "output_sha256": "141953a9ff18e3e2718e77530a8d12a58a8a9077b397bb4ed7945616b2076275"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "source_exchange",
+        "input": "012_source_exchange.input.json",
+        "input_sha256": "7c5ca8bf30abb449c0b70f3e99a2df957576520baed6cb9dfe007d6789932337",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "012_source_exchange.output.json",
+        "output_sha256": "2492c010cca61f629c786255b385dd594a7988d94615f46b8e76568736a3d0b0"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "boundary_interaction_raw",
+        "input": "013_boundary_interaction_raw.input.json",
+        "input_sha256": "b316c7923c2f7ce0a527342ae16f47770eeb5204f2de6c07b56af76d8a3703b1",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "013_boundary_interaction_raw.output.json",
+        "output_sha256": "d43ee11c6b30fd991c18225475524182bb225ba4689b8cd127a4defa556c8446"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "boundary_interaction",
+        "input": "014_boundary_interaction.input.json",
+        "input_sha256": "45471cab4e10bbfb670a9cc7a1d213e2081e0647418a29866c36f4bac07cecf8",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "014_boundary_interaction.output.json",
+        "output_sha256": "dbd827094bf5b0674dea461bc3edd9dc37b2eb99583c7ff68ee7897b2bdbd20a"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "both_counterterms_raw",
+        "input": "015_both_counterterms_raw.input.json",
+        "input_sha256": "88038a7179a7806d0b54af315586148973977edec438ab31200413b5973d3fda",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "015_both_counterterms_raw.output.json",
+        "output_sha256": "d20f56120d520e30a51cf1d9d2b97cf1ebecacea6e080ffc197e94127a2b26ba"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "both_counterterms",
+        "input": "016_both_counterterms.input.json",
+        "input_sha256": "09c047d5946effb771bc9336c6fa9e670de56484226e87309e1393e51d9584a8",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "016_both_counterterms.output.json",
+        "output_sha256": "0178e7384d506438dcd1f7587ef7c651f6c505f15dd2738f2394d00a3dfe3e94"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "inverse_closure",
+        "input": "017_inverse_closure.input.json",
+        "input_sha256": "615d83cc976eaf540babb3396507fab8f4e7cdd4c36da68afce24344ac469606",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "017_inverse_closure.output.json",
+        "output_sha256": "f2294385643f176129a383c4f90a6aca34f72da139d80b1f8fae796257f8363e"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "I",
+        "input": "018_I.input.json",
+        "input_sha256": "3a020f30e22b455f9a2b732fe71d4a950a1e637266e2f1eb29749c0f5d235dde",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "018_I.output.json",
+        "output_sha256": "a2c14c9ff6ace5564af9fc494631518636d29de4dab6e410218cb01e062a1e65"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              1,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              2,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              2,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              2,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              2,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              1,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              2,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              2,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "inverse_residual",
+        "input": "019_inverse_residual.input.json",
+        "input_sha256": "a08bb2beb2d3e1eb2170fd307e35a1518d62d99f95a042ef751b665a008b6f49",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "019_inverse_residual.output.json",
+        "output_sha256": "39f2e5874d2515ac76d32e323d006317df8574be6132709719e07271663b625d"
+      }
+    ]
+  },
+  "gen6_execution_path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_06/tasks/r2_uniform_inverse_action/gen6",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_06",
+  "imports": [],
+  "key": "r2_uniform_inverse_action",
+  "kind": "RESULT",
+  "native_calls": 20,
+  "operation": "GEN6_NATIVE_PROGRAM",
+  "portable_bundle": null,
+  "returned": {
+    "both_counterterms": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-35884126705/4398046511104",
+                "upper": "-34300885801/4398046511104"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-10427032483/274877906944",
+                "upper": "-8584756379/274877906944"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-20712935961/2199023255552",
+                "upper": "-19665067771/2199023255552"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "boundary_interaction": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-30032334459/1073741824",
+                "upper": "-28707280051/1073741824"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-4210525033/67108864",
+                "upper": "-3466598161/67108864"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-32324283373/1073741824",
+                "upper": "-30688996697/1073741824"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "coefficient_contract": {
+      "status": "ANALYTIC_CONTRACT",
+      "value": {
+        "Berry_one_form": "unchanged",
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "retained_velocity": "phi_tau_dot=nu*partial_gamma(phi)",
+        "same_underlying_nu": true,
+        "source_even_operator": "Scalar only within each stated lane; full source complement retained"
+      }
+    },
+    "field_angular": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-2881655127/8192",
+                "upper": "-5509027669/16384"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-3118874969/8192",
+                "upper": "-2567823765/8192"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-46267106161/131072",
+                "upper": "-43926451573/131072"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "field_gradient": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-30737654687/524288",
+                "upper": "-29381480903/524288"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-2079249979/32768",
+                "upper": "-3423765021/65536"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-61689474879/1048576",
+                "upper": "-58568602099/1048576"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "field_kinetic": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "12290765965/18014398509481984",
+                "upper": "12858076119/18014398509481984"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "5677968675/9007199254740992",
+                "upper": "6896452367/9007199254740992"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "3062024119/4503599627370496",
+                "upper": "1612593201/2251799813685248"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "inverse_rate": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "36726851135/131072",
+                "upper": "38422068353/131072"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "8559412559/32768",
+                "upper": "10396249889/32768"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "36605376319/131072",
+                "upper": "38555921793/131072"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "inverse_residual": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-193871287/4294967296",
+                "upper": "24780583/536870912"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-840269995/4294967296",
+                "upper": "921693657/4294967296"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-892286283/17179869184",
+                "upper": "915442453/17179869184"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "nu": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "32219505539591867/9444732965739290427392",
+                "upper": "33706675053964987/9444732965739290427392"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "59537816877358455/18889465931478580854784",
+                "upper": "72314544309755255/18889465931478580854784"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "32107650033823419/9444732965739290427392",
+                "upper": "33818530559733435/9444732965739290427392"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "source_even": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-35257284293/131072",
+                "upper": "-33701700257/131072"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-2570729139/8192",
+                "upper": "-529131453/2048"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-41121546387/131072",
+                "upper": "-39041205847/131072"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "source_exchange": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-35152717093/68719476736",
+                "upper": "-33601746661/68719476736"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-9511628267/17179869184",
+                "upper": "-7831088243/17179869184"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-8818795221/17179869184",
+                "upper": "-523290753/1073741824"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    }
+  },
+  "role": "GEN6_CONTROLLER",
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "coefficient_dependency": "Every marginal coefficient uses the SAME underlying actual nu(t); no independent coefficient sampling",
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "phase_scope": "Whole retained cycle; reciprocal is instantaneous dt/dgamma, not a finite-window average",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r2_uniform_inverse_action",
+    "question": "Receive actual uniformly positive R1 lanes into a common instantaneous phase inverse and complete dependent lane-action coefficient family",
+    "selected_lanes": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ]
+  },
+  "started_utc": "2026-10-15T19:45:11.287188+00:00",
+  "status": "COMPLETED",
+  "task_kind": "gen6_job",
+  "worker_cpu": 7,
+  "worker_pid": 6856
+}

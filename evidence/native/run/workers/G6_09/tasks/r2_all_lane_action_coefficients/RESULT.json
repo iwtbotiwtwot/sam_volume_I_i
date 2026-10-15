@@ -1,0 +1,6074 @@
+{
+  "because": [
+    44
+  ],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "3d1ae25c34e85a80ca247bc51ce17cbd58d055df8bb6abf605eada2e2b00f0b9",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "6ca3acf37a1f882d208dc3ce577ebf6cd443d8df03f66a9b9e61e46aebe4fd55",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "completed_utc": "2026-10-15T19:49:17.099573+00:00",
+  "gen6_core_version": "0.10.2",
+  "gen6_execution": {
+    "continuation": null,
+    "error": null,
+    "execution_stage": "POST_DUCK_ENGINEERING_QUALIFICATION",
+    "history_continuation": null,
+    "host_compilation": "Exact symbolic DAG and reciprocal token transcription; native product identities certify reciprocals",
+    "host_domain_arithmetic": false,
+    "imported_history_session_reused": false,
+    "installed_engine_modified": false,
+    "qualification_scope": "Original substrate source-chart coefficient mapping; all mixed entries retained",
+    "schema": "SAM_ONE_PRINCIPLE_NATIVE_EXECUTION_V1",
+    "session_reused": false,
+    "status": "PASSED",
+    "time_utc": "2026-10-15T19:49:16.651872+00:00",
+    "trace": [
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "nu",
+        "input": "000_nu.input.json",
+        "input_sha256": "ffd79fcd67e0815821dd6a64652d0e2567eb0667a81b54d1c91af802afa5fff1",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "000_nu.output.json",
+        "output_sha256": "c110b57c9726a43d2b76bfd08842a72d692cc1a8cccfaec779336ce526a1ecb2"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "inverse_rate",
+        "input": "001_inverse_rate.input.json",
+        "input_sha256": "784c90bb461526d6728f9694636386b0df7c3ed7e0ecb5cf11ddfd648b0c9886",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "001_inverse_rate.output.json",
+        "output_sha256": "7eec36a25e835f7590ffd4058533f6547e4e04000060401d10415c022f0d037d"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "rate_upper",
+        "input": "002_rate_upper.input.json",
+        "input_sha256": "e499296afa40d9072fe547bfbd483263a2c65349a4bac5f8fbf35ddb5f4adb1e",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "002_rate_upper.output.json",
+        "output_sha256": "49c5984f6f135e35c9fb15dbe844adc98a867ec94da5f0af4bb04add6f87ef58"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "epsilon",
+        "input": "003_epsilon.input.json",
+        "input_sha256": "6448612c6d06d5f25842934fa12171084032f7d3f9b7195da6173ad7ead2ae28",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "003_epsilon.output.json",
+        "output_sha256": "8c64ae0e9d464ee3e991a86acf216a1fc3e7982fb8e322513bcf916e8eb3f78d"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "g",
+        "input": "004_g.input.json",
+        "input_sha256": "3bea55d187a694f521c1ea4dba7f15b589282566e63285ebd32c223c87f2536d",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "004_g.output.json",
+        "output_sha256": "079a4ffe2ae911e8d0d6566ae2e7e1a6398bdf04c1f06ca84c3f854419c42642"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "counterterm",
+        "input": "005_counterterm.input.json",
+        "input_sha256": "3af477655981f951463b07d098f71c74289da72b26502a704ec8270ab6c1a5b6",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "005_counterterm.output.json",
+        "output_sha256": "f30f4ef7e8dc0b56092720d024348529d147519683c2bd30562ded6a5fd2e92b"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "Delta",
+        "input": "006_Delta.input.json",
+        "input_sha256": "5e1145b9995fbe3fdc64a9f8a35b94958ae7f4f9d5df36f2188592428e7c96f1",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "006_Delta.output.json",
+        "output_sha256": "529e3f474a54ee04aa491e09d9b138e9ab8b91794afda9fd180d5afd8434ca6a"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "even_energy",
+        "input": "007_even_energy.input.json",
+        "input_sha256": "01480d10aa96ea97f7a09f29a166afab514d8b902ff2ccf035751839b06807a3",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "007_even_energy.output.json",
+        "output_sha256": "5acd060b78dacc5d2ac477aa38dce2d1cfcb663fa3d5d51a39447819ca07d6fa"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              2,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              2,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              3,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              3,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              4,
+              4,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              4,
+              4,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              5,
+              5,
+              "re"
+            ],
+            "predicate": "interval_positive"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              5,
+              5,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "slower_margin",
+        "input": "008_slower_margin.input.json",
+        "input_sha256": "536a6827a311b2bbad90fef0a00e0c5832b7f505e39e772e1de71633229ed549",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "008_slower_margin.output.json",
+        "output_sha256": "bf31026b70a4eb775fe6a16c723ada36be05ab85b497226eefb7d52f790f71ed"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "field_kinetic",
+        "input": "009_field_kinetic.input.json",
+        "input_sha256": "20dd315c4ed374f9254ccc51a2e4775a9ecefbded110a8928ea4c255a22929f1",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "009_field_kinetic.output.json",
+        "output_sha256": "fcfad71c5f9f6220a4a0f91479c8e8e2f21d9181b032ed834c9e33baac56bb13"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "field_gradient",
+        "input": "010_field_gradient.input.json",
+        "input_sha256": "11596353e9df671c594a0ebec140763e29602078c964a0fa13a3f0c2a3264c26",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "010_field_gradient.output.json",
+        "output_sha256": "b44c167956231819850af3cb94e80ae4cb95fc008a308e1a2a7d6625db85b47f"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "field_angular",
+        "input": "011_field_angular.input.json",
+        "input_sha256": "c96434a36198a69abbbafe63c078511bc69264b3f5fee30387bb1a4ffd414c78",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "011_field_angular.output.json",
+        "output_sha256": "a3c2d4b0da2ecee83256d43a37ae4b14f7034a9992c01046dad37dcbbfb4133c"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "source_even_raw",
+        "input": "012_source_even_raw.input.json",
+        "input_sha256": "4527fe9485110e76b756561819b85bf388dee256ce74ce7b36c07348ba61a342",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "012_source_even_raw.output.json",
+        "output_sha256": "95088bc8f1ef0dfd97ebc30e0a563544344da590ffb721ad0048a2adba4c7fd4"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "source_even",
+        "input": "013_source_even.input.json",
+        "input_sha256": "ee31b4df6fe32cf6248ae347d00aa925036abf037e800ae6b13ef8c683af2861",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "013_source_even.output.json",
+        "output_sha256": "09c0b486a392be79f24d9b9ed45f6eb2a503e84e65379cef1fb7f9f21d9ede25"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "source_exchange_raw",
+        "input": "014_source_exchange_raw.input.json",
+        "input_sha256": "a1629d0ad11465d7c278f0dd8675bdaf8bf684d727c5d7a80198063fb4bb2b29",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "014_source_exchange_raw.output.json",
+        "output_sha256": "1266ef9aa57fb037f887ee02eb386a8c59f62413e7c66023ff777b790f0acc03"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "source_exchange",
+        "input": "015_source_exchange.input.json",
+        "input_sha256": "c412189f11654c18840ece8cc5a1970858f7b4ccb6f2217cfdbd68795aca32ef",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "015_source_exchange.output.json",
+        "output_sha256": "52407fe1845bbee06bb29fa04a7510064cd7e3d9d19ebf10b0707842e91c0373"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "boundary_interaction_raw",
+        "input": "016_boundary_interaction_raw.input.json",
+        "input_sha256": "e45661eb4b9eae325a27368c1c6f3f0c38d63338e2f6aabb398ce92919a67364",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "016_boundary_interaction_raw.output.json",
+        "output_sha256": "09773c97d7f75746e8f70f0f1e7449d278ce0f5611774a6a986c42faddadb659"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "boundary_interaction",
+        "input": "017_boundary_interaction.input.json",
+        "input_sha256": "13c706c4ac3029e03d6eee2817a18c99c4131620b3ed613c175e282ccf4ce8ba",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "017_boundary_interaction.output.json",
+        "output_sha256": "7017fd6ecdacb05789f0df24a764433fb313fcf46283d6df67a6be0cb283d0cf"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "both_counterterms_raw",
+        "input": "018_both_counterterms_raw.input.json",
+        "input_sha256": "e80fa9554ed3fc88bdfbcd16948c542068b66aa8ef374e3acae734b40e18e9f6",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "018_both_counterterms_raw.output.json",
+        "output_sha256": "59e1b2d355bf88b554a652fc4d9ab60591d4cc4834646d18b0f980fa6ca21a9e"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "both_counterterms",
+        "input": "019_both_counterterms.input.json",
+        "input_sha256": "9b9470e97ba6f81a8f9cd097b854d18a6d1b33dd8047e78aae257756d6349ac9",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "019_both_counterterms.output.json",
+        "output_sha256": "ac3400a6dd927df56de9b8819688b74d8344c9751173f66db2951ab92098d04b"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "inverse_closure",
+        "input": "020_inverse_closure.input.json",
+        "input_sha256": "d9760e6e197bd33b2498102638197a92e6332382991c8e488c2eadf83a548147",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "020_inverse_closure.output.json",
+        "output_sha256": "d64882c5ed4082fab9057ef9b94fd6759add5ff3c6875daef41a29fb407832ed"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "I",
+        "input": "021_I.input.json",
+        "input_sha256": "e8ed508487b0cd4fb499054e6209dc684fa76410552f7451448359d797189d4d",
+        "operation": "GEN3_COMPLEX_ADMIT",
+        "output": "021_I.output.json",
+        "output_sha256": "3eada45ff733e799d0fc3f889c3f0267224548e073a76af8f7926647f49e3adc"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              1,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              2,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              2,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              3,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              3,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              4,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              4,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              5,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              0,
+              5,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              2,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              2,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              3,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              3,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              4,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              4,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              5,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              1,
+              5,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              1,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              2,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              2,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              3,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              3,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              4,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              4,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              5,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              2,
+              5,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              1,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              2,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              2,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              3,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              3,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              4,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              4,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              5,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              3,
+              5,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              4,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              4,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              4,
+              1,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              4,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              4,
+              2,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              4,
+              2,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              4,
+              3,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              4,
+              3,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              4,
+              4,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              4,
+              4,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              4,
+              5,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              4,
+              5,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              5,
+              0,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              5,
+              0,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              5,
+              1,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              5,
+              1,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              5,
+              2,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              5,
+              2,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              5,
+              3,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              5,
+              3,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              5,
+              4,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              5,
+              4,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              5,
+              5,
+              "re"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "path": [
+              "result",
+              "output",
+              "matrix",
+              "entries",
+              5,
+              5,
+              "im"
+            ],
+            "predicate": "interval_contains",
+            "value": "0"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "inverse_residual",
+        "input": "022_inverse_residual.input.json",
+        "input_sha256": "5ad4f0efd381299d360435920cff951eafe1de360eb453801e71df8197750c1d",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "022_inverse_residual.output.json",
+        "output_sha256": "714ec8cb1e13a9047417d4b9308ccb3e7d7f88a249bcc92eaad174b108cf59e4"
+      }
+    ]
+  },
+  "gen6_execution_path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_09/tasks/r2_all_lane_action_coefficients/gen6",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_09",
+  "imports": [],
+  "key": "r2_all_lane_action_coefficients",
+  "kind": "RESULT",
+  "native_calls": 23,
+  "operation": "GEN6_NATIVE_PROGRAM",
+  "portable_bundle": null,
+  "returned": {
+    "both_counterterms": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-588454960274247563/73786976294838206464",
+                "upper": "-588454959437432947/73786976294838206464"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-315969826676702901/9223372036854775808",
+                "upper": "-315969824746583977/9223372036854775808"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-747100008943919/140737488355328",
+                "upper": "-747099301745109/140737488355328"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-676974257273632859/73786976294838206464",
+                "upper": "-676974256166124243/73786976294838206464"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-21572101057085/4398046511104",
+                "upper": "-86288328757699/17592186044416"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1263775155319713/281474976710656",
+                "upper": "-1263774143526141/281474976710656"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "boundary_interaction": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-246246429891381437/9007199254740992",
+                "upper": "-61561607385301441/2251799813685248"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-255182645112632197/4503599627370496",
+                "upper": "-255182643553835093/4503599627370496"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1551058461004427/2199023255552",
+                "upper": "-1551056992785067/2199023255552"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-528237710273816765/18014398509481984",
+                "upper": "-528237709409636471/18014398509481984"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-745469669257815/1099511627776",
+                "upper": "-745469017245829/1099511627776"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1426456835918157/2199023255552",
+                "upper": "-1426455693879673/2199023255552"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "dependent_family": {
+      "status": "ANALYTIC_CONTRACT",
+      "value": {
+        "Berry_one_form": "unchanged",
+        "all_time": "0<=t<=T=time_CYCLE",
+        "both_counterterms": true,
+        "even_energy_retained": true,
+        "kinetic_velocity": "phi_tau_dot=nu partial_gamma(phi)",
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "same_actual_nu": true
+      }
+    },
+    "field_angular": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1512177697870418197/4398046511104",
+                "upper": "-1512177695720020153/4398046511104"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-378044428410308489/1099511627776",
+                "upper": "-378044426101003485/1099511627776"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1476739139105905/4294967296",
+                "upper": "-1476737741236617/4294967296"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1512177698590275293/4398046511104",
+                "upper": "-1512177696116400105/4398046511104"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-738369451318459/2147483648",
+                "upper": "-738368805516559/2147483648"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-738369329697091/2147483648",
+                "upper": "-738368738549737/2147483648"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "field_gradient": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-2016236930493890927/35184372088832",
+                "upper": "-2016236927626693539/35184372088832"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-504059237880411315/8796093022208",
+                "upper": "-504059234801337983/8796093022208"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1968985518807871/34359738368",
+                "upper": "-1968983654982159/34359738368"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-2016236931453700387/35184372088832",
+                "upper": "-2016236928155200143/35184372088832"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1968985203515889/34359738368",
+                "upper": "-1968983481377493/34359738368"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-984492439596121/17179869184",
+                "upper": "-492245825699825/8589934592"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "field_kinetic": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "843855108927073565/1208925819614629174706176",
+                "upper": "843855110127062613/1208925819614629174706176"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "210963775031590843/302231454903657293676544",
+                "upper": "210963776320254899/302231454903657293676544"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1648151043066993/2361183241434822606848",
+                "upper": "1648152603171041/2361183241434822606848"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "421927554262683071/604462909807314587353088",
+                "upper": "421927554952932753/604462909807314587353088"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1648151306983211/2361183241434822606848",
+                "upper": "1648152748489109/2361183241434822606848"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1648151578459495/2361183241434822606848",
+                "upper": "1648152897970359/2361183241434822606848"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "inverse_rate": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "315037019941670867/1099511627776",
+                "upper": "39379627548708807/137438953472"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "157518510875418123/549755813888",
+                "upper": "157518511837628533/549755813888"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "76913424022741/268435456",
+                "upper": "615307974627457/2147483648"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "39379627503031253/137438953472",
+                "upper": "78759255134910171/274877906944"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "1230614675860939/4294967296",
+                "upper": "1230615752197425/4294967296"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "615307282124783/2147483648",
+                "upper": "307653887373787/1073741824"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "inverse_residual": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1639503897/1152921504606846976",
+                "upper": "1639503895/1152921504606846976"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-880328769/144115188075855872",
+                "upper": "880328767/144115188075855872"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1065760331/1125899906842624",
+                "upper": "1065760329/1125899906842624"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-943064477/576460752303423488",
+                "upper": "943064475/576460752303423488"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-984741745/1125899906842624",
+                "upper": "984741743/1125899906842624"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-901402651/1125899906842624",
+                "upper": "901402649/1125899906842624"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "nu": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "10201582291956545977310710946908845217274235/2923003274661805836407369665432566039311865085952",
+                "upper": "10201582306463523275730805052357275829787003/2923003274661805836407369665432566039311865085952"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "318799443298827761550695337959999029226553/91343852333181432387730302044767688728495783936",
+                "upper": "318799445246201807260374349871182298852409/91343852333181432387730302044767688728495783936"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "38003775607842971723697551933707531/10889035741470030830827987437816582766592",
+                "upper": "38003811581392840737132835483161867/10889035741470030830827987437816582766592"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "10201582287100201223656330339271784894825271/2923003274661805836407369665432566039311865085952",
+                "upper": "10201582303789414329596974993293492478804791/2923003274661805836407369665432566039311865085952"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "4864484056747091607368139759035071239/1393796574908163946345982392040522594123776",
+                "upper": "4864488311321518354029601898016258823/1393796574908163946345982392040522594123776"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "4864484858003658029887079679514172111/1393796574908163946345982392040522594123776",
+                "upper": "4864488752512293960934438783273458383/1393796574908163946345982392040522594123776"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "slower_margin": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "-85747285/99895953610111751404211111353381321783955140565279076827493022708011895642232499843849795298031743077114461795885011932654335221737225129801285632",
+                "upper": "85747285/99895953610111751404211111353381321783955140565279076827493022708011895642232499843849795298031743077114461795885011932654335221737225129801285632"
+              },
+              "re": {
+                "lower": "9543864323912858409689949647039407239998759/1569275433846670190958947355801916604025588861116008628224",
+                "upper": "9543864323912858409689950200542472719576359/1569275433846670190958947355801916604025588861116008628224"
+              }
+            },
+            {
+              "im": {
+                "lower": "-32857627/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912",
+                "upper": "32857627/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912"
+              },
+              "re": {
+                "lower": "-32857627/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912",
+                "upper": "32857627/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912"
+              }
+            },
+            {
+              "im": {
+                "lower": "-32857929/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912",
+                "upper": "32857929/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912"
+              },
+              "re": {
+                "lower": "-32857929/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912",
+                "upper": "32857929/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912"
+              }
+            },
+            {
+              "im": {
+                "lower": "-262861005/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296",
+                "upper": "262861005/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296"
+              },
+              "re": {
+                "lower": "-262861005/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296",
+                "upper": "262861005/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296"
+              }
+            },
+            {
+              "im": {
+                "lower": "-525726497/22181357552966518876627313473144669627491496603006532601363836644916970462445004984319795248833116624779129687691228574631793262592",
+                "upper": "525726497/22181357552966518876627313473144669627491496603006532601363836644916970462445004984319795248833116624779129687691228574631793262592"
+              },
+              "re": {
+                "lower": "-525726497/22181357552966518876627313473144669627491496603006532601363836644916970462445004984319795248833116624779129687691228574631793262592",
+                "upper": "525726497/22181357552966518876627313473144669627491496603006532601363836644916970462445004984319795248833116624779129687691228574631793262592"
+              }
+            },
+            {
+              "im": {
+                "lower": "-525726115/22181357552966518876627313473144669627491496603006532601363836644916970462445004984319795248833116624779129687691228574631793262592",
+                "upper": "525726115/22181357552966518876627313473144669627491496603006532601363836644916970462445004984319795248833116624779129687691228574631793262592"
+              },
+              "re": {
+                "lower": "-525726115/22181357552966518876627313473144669627491496603006532601363836644916970462445004984319795248833116624779129687691228574631793262592",
+                "upper": "525726115/22181357552966518876627313473144669627491496603006532601363836644916970462445004984319795248833116624779129687691228574631793262592"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "-282285497/2772669694120814859578414184143083703436437075375816575170479580614621307805625623039974406104139578097391210961403571828974157824",
+                "upper": "282285497/2772669694120814859578414184143083703436437075375816575170479580614621307805625623039974406104139578097391210961403571828974157824"
+              },
+              "re": {
+                "lower": "-282285497/2772669694120814859578414184143083703436437075375816575170479580614621307805625623039974406104139578097391210961403571828974157824",
+                "upper": "282285497/2772669694120814859578414184143083703436437075375816575170479580614621307805625623039974406104139578097391210961403571828974157824"
+              }
+            },
+            {
+              "im": {
+                "lower": "-92083707/24973988402527937851052777838345330445988785141319769206873255677002973910558124960962448824507935769278615448971252983163583805434306282450321408",
+                "upper": "92083707/24973988402527937851052777838345330445988785141319769206873255677002973910558124960962448824507935769278615448971252983163583805434306282450321408"
+              },
+              "re": {
+                "lower": "160142507339294915212936414765779779816493/6129982163463555433433388108601236734474956488734408704",
+                "upper": "160142507339294915212936465933168286075949/6129982163463555433433388108601236734474956488734408704"
+              }
+            },
+            {
+              "im": {
+                "lower": "-282288105/2772669694120814859578414184143083703436437075375816575170479580614621307805625623039974406104139578097391210961403571828974157824",
+                "upper": "282288105/2772669694120814859578414184143083703436437075375816575170479580614621307805625623039974406104139578097391210961403571828974157824"
+              },
+              "re": {
+                "lower": "-282288105/2772669694120814859578414184143083703436437075375816575170479580614621307805625623039974406104139578097391210961403571828974157824",
+                "upper": "282288105/2772669694120814859578414184143083703436437075375816575170479580614621307805625623039974406104139578097391210961403571828974157824"
+              }
+            },
+            {
+              "im": {
+                "lower": "-141142749/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912",
+                "upper": "141142749/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912"
+              },
+              "re": {
+                "lower": "-141142749/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912",
+                "upper": "141142749/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912"
+              }
+            },
+            {
+              "im": {
+                "lower": "-282287907/2772669694120814859578414184143083703436437075375816575170479580614621307805625623039974406104139578097391210961403571828974157824",
+                "upper": "282287907/2772669694120814859578414184143083703436437075375816575170479580614621307805625623039974406104139578097391210961403571828974157824"
+              },
+              "re": {
+                "lower": "-282287907/2772669694120814859578414184143083703436437075375816575170479580614621307805625623039974406104139578097391210961403571828974157824",
+                "upper": "282287907/2772669694120814859578414184143083703436437075375816575170479580614621307805625623039974406104139578097391210961403571828974157824"
+              }
+            },
+            {
+              "im": {
+                "lower": "-141143851/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912",
+                "upper": "141143851/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912"
+              },
+              "re": {
+                "lower": "-141143851/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912",
+                "upper": "141143851/1386334847060407429789207092071541851718218537687908287585239790307310653902812811519987203052069789048695605480701785914487078912"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "-341739435/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608",
+                "upper": "341739435/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608"
+              },
+              "re": {
+                "lower": "-341739435/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608",
+                "upper": "341739435/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608"
+              }
+            },
+            {
+              "im": {
+                "lower": "-341739451/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608",
+                "upper": "341739451/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608"
+              },
+              "re": {
+                "lower": "-341739451/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608",
+                "upper": "341739451/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608"
+              }
+            },
+            {
+              "im": {
+                "lower": "-445916273/780437137578998057845399307448291576437149535666242787714789239906342934704941405030076525765872992789956732780351655723861993919822071326572544",
+                "upper": "445916273/780437137578998057845399307448291576437149535666242787714789239906342934704941405030076525765872992789956732780351655723861993919822071326572544"
+              },
+              "re": {
+                "lower": "1479081387437455717620204110885717145/365375409332725729550921208179070754913983135744",
+                "upper": "1479081387437455717620849953915569305/365375409332725729550921208179070754913983135744"
+              }
+            },
+            {
+              "im": {
+                "lower": "-85434859/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152",
+                "upper": "85434859/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152"
+              },
+              "re": {
+                "lower": "-85434859/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152",
+                "upper": "85434859/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152"
+              }
+            },
+            {
+              "im": {
+                "lower": "-170871177/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304",
+                "upper": "170871177/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304"
+              },
+              "re": {
+                "lower": "-170871177/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304",
+                "upper": "170871177/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304"
+              }
+            },
+            {
+              "im": {
+                "lower": "-341742107/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608",
+                "upper": "341742107/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608"
+              },
+              "re": {
+                "lower": "-341742107/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608",
+                "upper": "341742107/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "-302402305/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296",
+                "upper": "302402305/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296"
+              },
+              "re": {
+                "lower": "-302402305/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296",
+                "upper": "302402305/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296"
+              }
+            },
+            {
+              "im": {
+                "lower": "-302402317/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296",
+                "upper": "302402317/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296"
+              },
+              "re": {
+                "lower": "-302402317/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296",
+                "upper": "302402317/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296"
+              }
+            },
+            {
+              "im": {
+                "lower": "-302405097/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296",
+                "upper": "302405097/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296"
+              },
+              "re": {
+                "lower": "-302405097/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296",
+                "upper": "302405097/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296"
+              }
+            },
+            {
+              "im": {
+                "lower": "-197291921/199791907220223502808422222706762643567910281130558153654986045416023791284464999687699590596063486154228923591770023865308670443474450259602571264",
+                "upper": "197291921/199791907220223502808422222706762643567910281130558153654986045416023791284464999687699590596063486154228923591770023865308670443474450259602571264"
+              },
+              "re": {
+                "lower": "10979515633929622876794187023597053460360487/1569275433846670190958947355801916604025588861116008628224",
+                "upper": "10979515633929622876794187766813516656028967/1569275433846670190958947355801916604025588861116008628224"
+              }
+            },
+            {
+              "im": {
+                "lower": "-151202443/5545339388241629719156828368286167406872874150751633150340959161229242615611251246079948812208279156194782421922807143657948315648",
+                "upper": "151202443/5545339388241629719156828368286167406872874150751633150340959161229242615611251246079948812208279156194782421922807143657948315648"
+              },
+              "re": {
+                "lower": "-151202443/5545339388241629719156828368286167406872874150751633150340959161229242615611251246079948812208279156194782421922807143657948315648",
+                "upper": "151202443/5545339388241629719156828368286167406872874150751633150340959161229242615611251246079948812208279156194782421922807143657948315648"
+              }
+            },
+            {
+              "im": {
+                "lower": "-302404667/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296",
+                "upper": "302404667/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296"
+              },
+              "re": {
+                "lower": "-302404667/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296",
+                "upper": "302404667/11090678776483259438313656736572334813745748301503266300681918322458485231222502492159897624416558312389564843845614287315896631296"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "-78940255/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152",
+                "upper": "78940255/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152"
+              },
+              "re": {
+                "lower": "-78940255/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152",
+                "upper": "78940255/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152"
+              }
+            },
+            {
+              "im": {
+                "lower": "-315761035/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608",
+                "upper": "315761035/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608"
+              },
+              "re": {
+                "lower": "-315761035/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608",
+                "upper": "315761035/21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608"
+              }
+            },
+            {
+              "im": {
+                "lower": "-157881969/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304",
+                "upper": "157881969/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304"
+              },
+              "re": {
+                "lower": "-157881969/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304",
+                "upper": "157881969/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304"
+              }
+            },
+            {
+              "im": {
+                "lower": "-78940255/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152",
+                "upper": "78940255/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152"
+              },
+              "re": {
+                "lower": "-78940255/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152",
+                "upper": "78940255/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152"
+              }
+            },
+            {
+              "im": {
+                "lower": "-412018233/780437137578998057845399307448291576437149535666242787714789239906342934704941405030076525765872992789956732780351655723861993919822071326572544",
+                "upper": "412018233/780437137578998057845399307448291576437149535666242787714789239906342934704941405030076525765872992789956732780351655723861993919822071326572544"
+              },
+              "re": {
+                "lower": "2733293956192071352312910129872308531/730750818665451459101842416358141509827966271488",
+                "upper": "2733293956192071352313970714185632051/730750818665451459101842416358141509827966271488"
+              }
+            },
+            {
+              "im": {
+                "lower": "-9867609/676921312041214565326761275425557544784286395355423968547480366360991530225982818124993751490268451683933401113623918903558144",
+                "upper": "9867609/676921312041214565326761275425557544784286395355423968547480366360991530225982818124993751490268451683933401113623918903558144"
+              },
+              "re": {
+                "lower": "-9867609/676921312041214565326761275425557544784286395355423968547480366360991530225982818124993751490268451683933401113623918903558144",
+                "upper": "9867609/676921312041214565326761275425557544784286395355423968547480366360991530225982818124993751490268451683933401113623918903558144"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "-144519231/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304",
+                "upper": "144519231/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304"
+              },
+              "re": {
+                "lower": "-144519231/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304",
+                "upper": "144519231/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304"
+              }
+            },
+            {
+              "im": {
+                "lower": "-72259619/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152",
+                "upper": "72259619/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152"
+              },
+              "re": {
+                "lower": "-72259619/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152",
+                "upper": "72259619/5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152"
+              }
+            },
+            {
+              "im": {
+                "lower": "-144520567/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304",
+                "upper": "144520567/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304"
+              },
+              "re": {
+                "lower": "-144520567/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304",
+                "upper": "144520567/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304"
+              }
+            },
+            {
+              "im": {
+                "lower": "-2258113/169230328010303641331690318856389386196071598838855992136870091590247882556495704531248437872567112920983350278405979725889536",
+                "upper": "2258113/169230328010303641331690318856389386196071598838855992136870091590247882556495704531248437872567112920983350278405979725889536"
+              },
+              "re": {
+                "lower": "-2258113/169230328010303641331690318856389386196071598838855992136870091590247882556495704531248437872567112920983350278405979725889536",
+                "upper": "2258113/169230328010303641331690318856389386196071598838855992136870091590247882556495704531248437872567112920983350278405979725889536"
+              }
+            },
+            {
+              "im": {
+                "lower": "-144520465/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304",
+                "upper": "144520465/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304"
+              },
+              "re": {
+                "lower": "-144520465/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304",
+                "upper": "144520465/10830740992659433045228180406808920716548582325686783496759685861775864483615725089999900023844295226942934417817982702456930304"
+              }
+            },
+            {
+              "im": {
+                "lower": "-94287311/195109284394749514461349826862072894109287383916560696928697309976585733676235351257519131441468248197489183195087913930965498479955517831643136",
+                "upper": "94287311/195109284394749514461349826862072894109287383916560696928697309976585733676235351257519131441468248197489183195087913930965498479955517831643136"
+              },
+              "re": {
+                "lower": "5003965852191244643439844886028882535/1461501637330902918203684832716283019655932542976",
+                "upper": "5003965852191244643441546400824955495/1461501637330902918203684832716283019655932542976"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "source_even": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1156351051760788579/4398046511104",
+                "upper": "-1156351050116395163/4398046511104"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-155801344650317307/549755813888",
+                "upper": "-155801343698596297/549755813888"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1581391905636529/2147483648",
+                "upper": "-1581390408703773/2147483648"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-336000511658056685/1099511627776",
+                "upper": "-336000511108370405/1099511627776"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1705211110177237/2147483648",
+                "upper": "-1705209618744221/2147483648"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1838017010659695/2147483648",
+                "upper": "-1838015539121195/2147483648"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    },
+    "source_exchange": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "column_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "entries": [
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1152921508255381619/2305843009213693952",
+                "upper": "-1152921506615865199/2305843009213693952"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-288230380069859963/576460752303423488",
+                "upper": "-288230378309188967/576460752303423488"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-562951139259439/1125899906842624",
+                "upper": "-562950606374457/1125899906842624"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1152921508804218391/2305843009213693952",
+                "upper": "-1152921506918075035/2305843009213693952"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-281475524557275/562949953421312",
+                "upper": "-35184409796205/70368744177664"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            }
+          ],
+          [
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "0",
+                "upper": "0"
+              }
+            },
+            {
+              "im": {
+                "lower": "0",
+                "upper": "0"
+              },
+              "re": {
+                "lower": "-1125901912774849/2251799813685248",
+                "upper": "-1125901011364253/2251799813685248"
+              }
+            }
+          ]
+        ],
+        "precision_bits": 384,
+        "row_basis": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+        "structure": "GENERAL"
+      }
+    }
+  },
+  "role": "GEN6_CONTROLLER",
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "coefficient_dependency": "Same underlying actual nu in every coefficient; intervals are marginal enclosures of this dependent family",
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "phase_scope": "All six lanes, whole retained cycle",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r2_all_lane_action_coefficients",
+    "question": "Receive actual weighted-Duhamel all-six clock certificates into complete dependent phase-action coefficients and strict uniform delay checks",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ]
+  },
+  "started_utc": "2026-10-15T19:49:14.982985+00:00",
+  "status": "COMPLETED",
+  "task_kind": "gen6_job",
+  "worker_cpu": 4,
+  "worker_pid": 6862
+}

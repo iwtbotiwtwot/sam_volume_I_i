@@ -1,0 +1,153 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "entries": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "row_basis": [
+        "0"
+      ],
+      "structure": "GENERAL"
+    },
+    "right": {
+      "column_basis": [
+        "0"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "11473676827246056293669397542591565399446641319238079407250790381879562430096808284695587478191854340269460779345013/75153362648762663292463379097258784876021841565066235862633311089030688803667470190838367948312598497021919232",
+              "upper": "2868419206811514073417349385647891349861660329809519851812697595469890607524202071173896869547963585067365195006159/18788340662190665823115844774314696219005460391266558965658327772257672200916867547709591987078149624255479808"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "2611862252122224365256398112116762774288479355774546193891498979064082234371861600632362012655647439384582589166917/37576681324381331646231689548629392438010920782533117931316655544515344401833735095419183974156299248510959616",
+              "upper": "5223724504244448730512796224233525548576958711549092387782997958128164468743723201264724025311294878769165178842517/75153362648762663292463379097258784876021841565066235862633311089030688803667470190838367948312598497021919232"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "6169512260572267538390424900521885069024872758301591801803914660382143474732239759733135533158433337827242785040183/1202453802380202612679414065556140558016349465041059773802132977424491020858679523053413887173001575952350707712",
+              "upper": "12339024521144535076780849801043770138049745516603183603607829320764286949464479519466271066316866675654485570638411/2404907604760405225358828131112281116032698930082119547604265954848982041717359046106827774346003151904701415424"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "4678730087044801376370243225703692644703593077028778088395628400706440621218348417018286154458079488968797321729889/37576681324381331646231689548629392438010920782533117931316655544515344401833735095419183974156299248510959616",
+              "upper": "4678730087044801376370243225703692644703593077028778088395628400706440621218348417018286154458079488968797322049679/37576681324381331646231689548629392438010920782533117931316655544515344401833735095419183974156299248510959616"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "22103372880768958140521954248205170463931155575652233065344057905260247812920462750945545147812419174590815634924685/2404907604760405225358828131112281116032698930082119547604265954848982041717359046106827774346003151904701415424",
+              "upper": "22103372880768958140521954248205170463931155575652233065344057905260247812920462750945545147812419174590815635282683/2404907604760405225358828131112281116032698930082119547604265954848982041717359046106827774346003151904701415424"
+            }
+          }
+        ],
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "20126404513946644070342591543516327663235165720334702207547979579496891392307150810939766268072974131302061318469251/4809815209520810450717656262224562232065397860164239095208531909697964083434718092213655548692006303809402830848",
+              "upper": "20126404513946644070342591543516327663235165720334702207547979579496891392307150810939766268072974131302061319562975/4809815209520810450717656262224562232065397860164239095208531909697964083434718092213655548692006303809402830848"
+            }
+          }
+        ]
+      ],
+      "row_basis": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "structure": "GENERAL"
+    }
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "actual_R1_finding": "All four original-placement spectral weights are strictly positive; norm, first moment756 and second moment583952 close in native arithmetic",
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_05/tasks/r2_placement_population_energy/gen6/JOB.json",
+      "sha256": "63169f20c5048fbf6c0cec385e6da6550a882d5b5950ea33aabef6efb0370079"
+    },
+    "coefficients_fitted": false,
+    "coherences": "The pure placement state and all its spectral coherences remain; the weight table is only the diagonal account sufficient for this block-diagonal source energy",
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "consumed_native_receipts": [
+      {
+        "key": "r1_placement_spectral_weights",
+        "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_02/tasks/r1_placement_spectral_weights/RESULT.json",
+        "sha256": "6c787dc8acc5ab187d679514fc21696ac9aa2bfa1206077da32cec7556feba27"
+      }
+    ],
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "original_placement_current_scope": "D00=C00=0 are expectation values, not claims that the currents annihilate the placement ket",
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "population_scope": "For the identical product placement |e0> tensor |e0>: four p_a squared diagonal populations and six2p_a p_b symmetric-pair populations; antisymmetric pair population zero",
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r2_placement_population_energy",
+    "question": "Receive actual R1 placement spectral weights and reconstruct all four diagonal and six symmetric-pair populations, complete reference energy and original-basis calibration variance",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ],
+    "source_receiving": "Actual current-run weights receipt plus authenticated exact original-placement Hpair/D/C and source-root inputs"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "data": {
+    "matrix": {
+      "column_basis": [
+        "0"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "-962446745189168961047726173727226933847009966569235787822516210780911329085257368700884050562879237369684213615473/10086913586276986678343434265636765134100413253239154346994763111486904773503285916522052161250538404046496765518544896",
+              "upper": "-15399147923026703376763618779635630941552159465107772605160259372494581265364117899214144809006067797914947417547883/161390617380431786853494948250188242145606612051826469551916209783790476376052574664352834580008614464743948248296718336"
+            }
+          }
+        ]
+      ],
+      "precision_bits": 384,
+      "row_basis": [
+        "0"
+      ],
+      "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+      "structure": "GENERAL"
+    },
+    "right": {
+      "column_basis": [
+        "0"
+      ],
+      "entries": [
+        [
+          {
+            "im": {
+              "lower": "0",
+              "upper": "0"
+            },
+            "re": {
+              "lower": "-962446745189168961047726173727226933847009966569235787822516210780911329085257368700884050562879237369684213615473/10086913586276986678343434265636765134100413253239154346994763111486904773503285916522052161250538404046496765518544896",
+              "upper": "-15399147923026703376763618779635630941552159465107772605160259372494581265364117899214144809006067797914947417547883/161390617380431786853494948250188242145606612051826469551916209783790476376052574664352834580008614464743948248296718336"
+            }
+          }
+        ]
+      ],
+      "precision_bits": 384,
+      "row_basis": [
+        "0"
+      ],
+      "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+      "structure": "GENERAL"
+    }
+  },
+  "precision_bits": 384,
+  "source_binding": {
+    "both_helicities": true,
+    "campaign": "duck_chapter1_lane1_20261015",
+    "candidate_job": {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/duck_gen6_local/runs/chapter1-lane01-20261015-01/workers/G6_01/tasks/r1_lane01_complete_source/gen6/JOB.json",
+      "sha256": "48ace0909870d506e6d8fc8e69b2efc623a27fa64da4915cece2d21df5b06266"
+    },
+    "coefficients_fitted": false,
+    "construction_author": "Codex; installed GEN6 Duck native execution",
+    "counterrotating": true,
+    "epsilon_chart": "I_s=hbar; t_u=t_SW/lambda_ref; epsilon=1/573049",
+    "law_namespace": "SAM_land",
+    "original_completed_sources_preserved": true,
+    "parent": "H002628 completed six-clock source; chapter-I lane01 successor",
+    "photon_cutoff": false,
+    "preparation": "Separate labelled placement reference, spectral source lanes, and coherent exact hard charge0/1 branches with common soft vacuum",
+    "profile_id": "r1_lane01_complete_source",
+    "question": "Receive exact source roots and construct the chapter lane01 Hamiltonian, even energy, signed currents and both counterterms; distinguish placement calibration from the clock preparation",
+    "source_heads": [
+      "H002628",
+      "H002625",
+      "H002624"
+    ]
+  }
+}
